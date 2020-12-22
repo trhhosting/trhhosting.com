@@ -1,0 +1,504 @@
+<!doctype>
+<html lang="en">
+  
+  <head>
+    <title>SVG Sprite Demo | Orion Icon Library</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    />
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"
+    />
+    <style>
+      html {
+          box-sizing: border-box;
+        }
+        body {
+          margin: 0;
+          padding: 0;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 1.125rem;
+        }
+        ._1bo7bzx{font-family:Menlo, mono;font-size:.85em;}._1oymxsi{color:#ff4d63;}._1tt2u3t{-webkit-box-pack:justify;-ms-flex-pack:justify;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;background-color:#121418;-webkit-justify-content:space-between;justify-content:space-between;height:66px;padding:0 28px;color:white;}._dl5j6p{font-weight:300;max-width:33%;font-size:1em;}._1iurgbx{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}._1l5hckq{padding:1em 3em;}._kp2n83{font-size:.7em;text-align:center;}._o1cg4g{color:#0092FF;text-decoration:none;}._o1cg4g:hover{text-decoration:underline;}._14gdf42{line-height:1.5;}._ovghcs{color:inherit;text-decoration:none;}._ovghcs:hover:after{content:"#";color:#0092FF;margin-left:2px;opacity:.3;-webkit-transition:opacity .3s;-moz-transition:opacity .3s;transition:opacity .3s;}._ovghcs:active:after{opacity:1;}._1dqtju9{color:#007aff;}._fr5wn{padding-left:24px;border-left:1px solid rgba(0,0,0,0.1);margin-left:12px;margin-bottom:48px;}._1bmg5vo{color:#202020;tab-ssize:4px;overflow-x:auto;padding:1.5em;line-height:1.5;background:rgba(0,0,0,0.05);font-size:.9em;}._jro6t0{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;}._53480w{display:none;}._53480w:checked + label span{-webkit-transform:translateX(52px);-ms-transform:translateX(52px);transform:translateX(52px);}._53480w:checked + label:before{color:inherit;}._53480w:checked + label:after{color:#007aff;}._53480w:checked ~ .externalCheckboxHelper:after{content:"External SVG Sprite";}._1uuc6xn{cursor:pointer;width:90px;height:40px;display:block;background-color:#f7f7f7;color:#8c8c8c;border-radius:32px;margin:12px 24px;position:relative;}._1uuc6xn:before{content:"‹a›";position:absolute;right:-webkit-calc(100% + 4px);right:-moz-calc(100% + 4px);right:calc(100% + 4px);top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);color:#007aff;}._1uuc6xn:after{content:"‹b›";position:absolute;left:-webkit-calc(100% + 4px);left:-moz-calc(100% + 4px);left:calc(100% + 4px);top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);}._10r524x{background-color:#4a4a4a;border-radius:50%;height:36px;left:0px;-webkit-transform:translateX(2px);-ms-transform:translateX(2px);transform:translateX(2px);position:absolute;top:2px;-webkit-transition:-webkit-transform .2s ease,transform .2s ease;-moz-transition:transform .2s ease;transition:-ms-transform .2s ease,-webkit-transform .2s ease,transform .2s ease;width:36px;z-index:1;}._qjqtm8:after{content:"Inline SVG Sprite";}._jcgzno{padding:.3em .5em;outline:0px;margin-left:12px;}._jcgzno:disabled{opacity:0.3;}._1r58n10{overflow:auto;padding:40px;margin:0px;list-style:none;padding-bottom:40px;}._fnhcyz{width:100%;float:left;-moz-box-sizing:border-box;box-sizing:border-box;display:block;-webkit-transition:opacity 250ms, box-shadow 250ms;-moz-transition:opacity 250ms, box-shadow 250ms;transition:opacity 250ms, box-shadow 250ms;cursor:pointer;position:relative;}@media (min-width: 767px){._fnhcyz{width:50%;}}@media (min-width: 1023px){._fnhcyz{width:33.333%;}}@media (min-width: 1199px){._fnhcyz{width:20%;}}._fnhcyz:after{content:"";position:absolute;z-index:-1;top:0px;right:0px;bottom:0px;left:0px;opacity:0;box-shadow:0 .5em 3em rgba(0,0,0,.1);-webkit-transition:opacity .3s;-moz-transition:opacity .3s;transition:opacity .3s;}._fnhcyz:hover:after{opacity:1;z-index:1;}._fnhcyz:before{content:"";padding-top:100%;display:block;}._fnhcyz:hover .orion-sprite__id{opacity:1;}._fnhcyz:hover .orion-sprite__code{opacity:1;}._1dclzhk{-webkit-box-direction:normal;-webkit-box-orient:vertical;-webkit-box-pack:justify;-ms-flex-pack:justify;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;-webkit-justify-content:space-between;justify-content:space-between;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;position:absolute;top:0px;right:0px;bottom:0px;left:0px;padding:.5em 1em;}._19wnp26{width:100%;font-size:.7em;text-align:center;opacity:0;color:#777;-webkit-transition:opacity 250ms;-moz-transition:opacity 250ms;transition:opacity 250ms;}._1u0lyeu{width:64px;height:64px;}._190hxbq{width:100%;height:100%;}._1mcpc5v{font-size:.7em;padding:.5em 1em;width:100%;z-index:2;border-radius:2px;opacity:.3;-webkit-transition:opacity .3s;-moz-transition:opacity .3s;transition:opacity .3s;}._1hgbkkp{list-style:none;margin:0px;padding:0px;padding-left:1em;line-height:1.5em;}._19kenml{-webkit-box-align:start;-ms-flex-align:start;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-align-items:flex-start;align-items:flex-start;color:#fff;}._15372er{display:inline-block;vertical-align:middle;width:32px;height:32px;}._ksd372{display:inline-block;vertical-align:middle;width:80px;height:25px;margin-left:10px;}
+    </style>
+  </head>
+  
+  <body>
+    <svg width="0" height="0" class="hidden">
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2.39 3.81" xmlns:xlink="http://www.w3.org/1999/xlink"
+      shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
+      image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+      id="eight-1">
+        <title>eight</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M2.28.96c0 .2-.05.37-.15.51-.1.14-.23.25-.4.32.21.08.37.2.49.36.11.17.17.37.17.6 0 .35-.1.62-.29.79-.2.18-.51.27-.92.27C.39 3.81 0 3.46 0 2.75c0-.24.06-.44.18-.6.11-.16.27-.28.47-.36a.938.938 0 0 1-.39-.32.854.854 0 0 1-.15-.51c0-.31.1-.54.28-.71C.58.08.85 0 1.2 0c.34 0 .61.08.79.25.19.17.29.4.29.71zm-.39 1.79c0-.29-.05-.5-.17-.63-.11-.14-.29-.2-.54-.2-.24 0-.42.06-.52.18-.11.13-.16.35-.16.65 0 .31.05.53.16.65.11.13.28.19.52.19s.42-.07.54-.19c.12-.13.17-.34.17-.65zM1.78.96c0-.25-.05-.44-.15-.56-.1-.12-.25-.18-.45-.18C.99.22.84.28.75.39.66.51.61.7.61.96c0 .25.04.44.14.55.09.11.23.16.43.16.21 0 .36-.05.46-.16.09-.12.14-.3.14-.55z"
+        fill-rule="nonzero" data-name="layer1" fill="#000"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1.28 2.04" xmlns:xlink="http://www.w3.org/1999/xlink"
+      shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
+      image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+      id="zero-1">
+        <title>zero</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M1.28 1.01c0 .69-.21 1.03-.65 1.03-.21 0-.36-.09-.47-.26C.05 1.6 0 1.35 0 1.01 0 .69.05.43.16.26A.54.54 0 0 1 .64 0c.21 0 .37.09.48.26.11.17.16.42.16.75zm-.27 0C1.01.7.98.47.92.33S.76.12.63.12C.5.12.41.18.36.32.3.45.27.68.27 1.01c0 .34.03.57.09.71.05.14.15.2.27.2.13 0 .23-.07.29-.21.06-.14.09-.38.09-.7z"
+        fill-rule="nonzero" data-name="layer1" fill="#000"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0.78 1.28" xmlns:xlink="http://www.w3.org/1999/xlink"
+      shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
+      image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+      id="two-1">
+        <title>two</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M.78 1.28H0v-.14L.18.98C.29.88.37.8.42.74.48.68.52.62.54.55.56.49.57.41.57.33.57.25.55.19.52.14.48.1.42.08.33.08.3.08.27.08.23.09.2.1.16.11.14.13L.1.28H.04V.04C.16.01.25 0 .33 0c.14 0 .25.03.32.09.07.05.1.14.1.24C.75.4.74.47.71.53S.64.66.58.72C.53.78.43.87.3.98c-.05.05-.11.1-.18.16h.66v.14z"
+        fill-rule="nonzero" data-name="layer1" fill="#000"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1.23 2" xmlns:xlink="http://www.w3.org/1999/xlink"
+      shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
+      image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+      id="three-1">
+        <title>three</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M1.23 1.44c0 .17-.06.31-.18.41-.12.1-.29.15-.51.15-.19 0-.36-.02-.52-.06L0 1.53h.1l.06.27c.04.02.09.04.16.05.07.02.14.03.2.03.15 0 .26-.04.33-.11s.11-.18.11-.35c0-.12-.03-.22-.1-.29a.518.518 0 0 0-.31-.11l-.21-.01V.89L.55.88C.66.87.74.84.79.78.85.72.87.62.87.5.87.37.84.27.79.21.73.15.64.12.52.12.46.12.41.13.35.14.3.16.25.18.21.2L.16.44h-.1V.06C.16.04.24.02.31.01.38 0 .45 0 .52 0c.41 0 .62.16.62.48 0 .13-.04.24-.11.32C.95.88.85.93.71.95c.18.02.31.07.39.15.09.08.13.2.13.34z"
+        fill-rule="nonzero" data-name="layer1" fill="#000"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.47 80.97" xmlns:xlink="http://www.w3.org/1999/xlink"
+      shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
+      image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+      id="six-1">
+        <title>six</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M51.47 55.31c0 8.19-2.07 14.52-6.2 18.98-4.14 4.45-10.11 6.68-17.92 6.68-8.85 0-15.64-3.45-20.32-10.36C2.35 63.7 0 53.78 0 40.83c0-8.46 1.22-15.79 3.69-21.93C6.17 12.73 9.64 8.05 14.08 4.84 18.54 1.61 23.7 0 29.54 0c5.73 0 11.43.7 17.11 2.07v13.59h-3.87l-2.07-8.07c-1.29-.7-3.04-1.32-5.24-1.85-2.19-.52-4.18-.8-5.93-.8-5.74 0-10.2 2.79-13.39 8.34-3.2 5.54-4.96 13.65-5.27 24.31 6.39-3.37 12.82-5.06 19.24-5.06 6.95 0 12.23 1.97 15.89 5.87 3.63 3.89 5.46 9.54 5.46 16.91zM27.11 76.32c4.76 0 8.19-1.55 10.3-4.62 2.13-3.08 3.18-8.18 3.18-15.27 0-6.42-1.01-11.08-3.04-13.93-2-2.88-5.22-4.3-9.62-4.3-5.36 0-11.06.98-17.11 2.93 0 11.97 1.35 20.83 4.06 26.57 2.71 5.74 6.79 8.62 12.23 8.62z"
+        fill-rule="nonzero" data-name="layer1" fill="#000"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3.14 5.17" xmlns:xlink="http://www.w3.org/1999/xlink"
+      shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
+      image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+      id="five-1">
+        <title>five</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M1.39 2.12c.59 0 1.03.12 1.31.36.29.24.44.61.44 1.1 0 .51-.16.91-.47 1.18-.31.28-.76.41-1.34.41-.48 0-.91-.05-1.29-.16L0 3.94h.25l.17.71c.11.06.25.11.4.15.16.04.31.06.45.06.4 0 .69-.1.88-.29.19-.18.29-.5.29-.95 0-.32-.05-.55-.13-.71a.742.742 0 0 0-.38-.36c-.18-.07-.42-.11-.72-.11-.23 0-.45.03-.67.09H.17V0h2.59v.58H.51v1.63c.28-.06.57-.09.88-.09z"
+        fill-rule="nonzero" data-name="layer1" fill="#000"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2.49 3.53" xmlns:xlink="http://www.w3.org/1999/xlink"
+      shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
+      image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+      id="four-1">
+        <title>four</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M1.96 2.75v.78h-.45v-.78H0v-.34L1.66 0h.3v2.38h.53v.37h-.53zM1.51.63H1.5L.3 2.38h1.21V.63z"
+        fill-rule="nonzero" data-name="layer1" fill="#000"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1.74 2.74" xmlns:xlink="http://www.w3.org/1999/xlink"
+      shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
+      image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+      id="nine-1">
+        <title>nine</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M0 .84C0 .58.08.37.22.22.37.07.59 0 .86 0c.3 0 .53.11.67.33.14.22.21.56.21 1.03 0 .44-.09.78-.27 1.02-.19.24-.44.36-.77.36-.22 0-.41-.03-.59-.07v-.46h.12l.07.28c.05.02.1.04.18.06.07.01.14.02.21.02.21 0 .38-.09.49-.28.12-.18.18-.46.19-.82-.2.11-.41.17-.61.17-.24 0-.42-.07-.56-.21-.13-.14-.2-.34-.2-.59zM.86.16C.53.16.37.39.37.85c0 .2.04.35.12.45.07.1.2.15.37.15.17 0 .34-.04.51-.11 0-.41-.04-.71-.12-.9C1.17.25 1.04.16.86.16z"
+        fill-rule="nonzero" data-name="layer1" fill="#000"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0.43 0.81" xmlns:xlink="http://www.w3.org/1999/xlink"
+      shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
+      image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+      id="one-1">
+        <title>one</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path fill-rule="nonzero"
+        d="M.27.77l.16.01v.03H0V.78L.17.77V.11L0 .17V.13L.24 0h.03z" data-name="layer1"
+        fill="#000"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6.48 10.47" xmlns:xlink="http://www.w3.org/1999/xlink"
+      shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
+      image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+      id="seven-1">
+        <title>seven</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path fill-rule="nonzero"
+        d="M.51 2.48H0V0h6.48v.6l-4.67 9.87H.8L5.39 1.2H.79z" data-name="layer1"
+        fill="#000"></path>
+      </symbol>
+    </svg>
+    <div class="orion-sprite">
+      <svg width="0" height="0" style="display:block">
+        <defs>
+          <linearGradient id="orion_logo_a" gradientUnits="userSpaceOnUse" x1="13.183"
+          y1="62.808" x2="79.541" y2="62.808">
+            <stop offset="0" stop-color="#FF4581"></stop>
+            <stop offset="1" stop-color="#FF4D63"></stop>
+          </linearGradient>
+          <linearGradient id="orion_logo_b" gradientUnits="userSpaceOnUse" x1="13.177"
+          y1="29.193" x2="79.535" y2="29.193">
+            <stop offset="0" stop-color="#FF4581"></stop>
+            <stop offset="1" stop-color="#FF4D63"></stop>
+          </linearGradient>
+          <linearGradient id="orion_logo_c" gradientUnits="userSpaceOnUse" x1="13.182"
+          y1="33.549" x2="79.533" y2="33.549">
+            <stop offset="0" stop-color="#FF4581"></stop>
+            <stop offset="1" stop-color="#FF4D63"></stop>
+          </linearGradient>
+          <linearGradient id="orion_logo_d" gradientUnits="userSpaceOnUse" x1="13.186"
+          y1="58.453" x2="79.534" y2="58.453">
+            <stop offset="0" stop-color="#FF4581"></stop>
+            <stop offset="1" stop-color="#FF4D63"></stop>
+          </linearGradient>
+          <linearGradient id="orion_logo_e" gradientUnits="userSpaceOnUse" x1="14.32"
+          y1="77.671" x2="79.601" y2="12.39">
+            <stop offset="0" stop-color="#6757FF"></stop>
+            <stop offset="1" stop-color="#0092FF"></stop>
+          </linearGradient>
+          <linearGradient id="orion_logo_f" gradientUnits="userSpaceOnUse" x1="14.33"
+          y1="77.675" x2="79.611" y2="12.394">
+            <stop offset="0" stop-color="#6757FF"></stop>
+            <stop offset="1" stop-color="#0092FF"></stop>
+          </linearGradient>
+          <linearGradient id="orion_logo_g" gradientUnits="userSpaceOnUse" x1="24.694"
+          y1="88.035" x2="89.969" y2="22.76">
+            <stop offset="0" stop-color="#6757FF"></stop>
+            <stop offset="1" stop-color="#0092FF"></stop>
+          </linearGradient>
+          <linearGradient id="orion_logo_h" gradientUnits="userSpaceOnUse" x1="22.838"
+          y1="69.61" x2="69.095" y2="22.453">
+            <stop offset="0" stop-color="#AB2BFF"></stop>
+            <stop offset="1" stop-color="#863CFF"></stop>
+          </linearGradient>
+        </defs>
+      </svg>
+      <header class="_1tt2u3t"><a href="https://orioniconlibrary.com/?utm_source=sprite_demo" class="_19kenml"><svg viewBox="0 0 92 92" class="_15372er"><g><ellipse fill="currentColor" cx="46" cy="46" rx="46" ry="46"></ellipse><path fill="url(#orion_logo_a)" d="M26.2 55.4c-.9 1.5-1.6 3.1-2.2 4.6-2.4 5.7-2.3 9.1-2 10.1.3.1.7.1 1.4.1 3.2 0 7.9-1.4 13.3-4.4-4.7-2.1-8.4-5.8-10.5-10.4z"></path><path fill="url(#orion_logo_b)" d="M65.8 36.6c.8-1.5 1.6-3.1 2.2-4.6 2.4-5.7 2.3-9.1 2-10.1-.3-.1-.7-.1-1.4-.1-3.2 0-7.9 1.4-13.3 4.4 4.6 2.1 8.4 5.8 10.5 10.4z"></path><path fill="url(#orion_logo_c)" d="M55.3 13.1c-3-.8-6.1-1.3-9.3-1.3-18.9 0-34.2 15.3-34.2 34.2 0 3.2.5 6.3 1.3 9.3 3.4-8 9.3-16.7 17.4-24.8 8-8.1 16.8-14 24.8-17.4z"></path><path fill="url(#orion_logo_d)" d="M61.5 61.5c-8 8-16.8 14-24.8 17.4 2.9.8 6.1 1.3 9.3 1.3 18.9 0 34.2-15.3 34.2-34.2 0-3.2-.5-6.3-1.3-9.3-3.4 8-9.3 16.8-17.4 24.8z"></path><path fill="url(#orion_logo_e)" d="M78.9 36.7c4.1-9.8 4.4-18.5-.4-23.2-2.4-2.4-5.8-3.5-9.8-3.5-4 0-8.6 1.1-13.4 3.1 11.4 3.2 20.4 12.2 23.6 23.6z"></path><path fill="url(#orion_logo_f)" d="M13.1 55.3c-4.1 9.8-4.4 18.5.4 23.2 2.4 2.4 5.8 3.5 9.8 3.5 4 0 8.6-1.1 13.4-3.1-11.4-3.2-20.4-12.2-23.6-23.6z"></path><path fill="url(#orion_logo_g)" d="M65.8 36.6c-3 5.6-7.4 11.3-12.7 16.5-5.7 5.7-11.4 9.9-16.5 12.7 2.8 1.4 6 2.1 9.4 2.1 12.1 0 21.9-9.8 21.9-21.9 0-3.4-.7-6.5-2.1-9.4z"></path><path fill="url(#orion_logo_h)" d="M78.9 36.7c-3.2-11.4-12.2-20.4-23.6-23.6-8 3.4-16.7 9.3-24.8 17.4-8 8-14 16.8-17.4 24.8 3.2 11.4 12.2 20.4 23.6 23.6 8-3.4 16.7-9.3 24.8-17.4 8.1-8 14-16.8 17.4-24.8zM46 67.9c-3.4 0-6.5-.8-9.4-2.1-5.4 3-10.1 4.4-13.3 4.4-.7 0-1.1-.1-1.4-.1-.2-1.1-.4-4.4 2-10.1.6-1.5 1.4-3 2.2-4.6-1.4-2.8-2.1-6-2.1-9.4 0-12.1 9.8-21.9 21.9-21.9 3.4 0 6.5.8 9.4 2.1 5.4-3 10.1-4.4 13.3-4.4.7 0 1.1.1 1.4.1.2 1 .4 4.4-2 10.1-.6 1.5-1.4 3-2.2 4.6 1.4 2.8 2.1 6 2.1 9.4 0 12.1-9.8 21.9-21.9 21.9z"></path></g></svg><svg viewBox="0 0 128.4 39.8" class="_ksd372"><g fill="currentColor"><path d="M56 13h6v26h-6zm-42 4.8a8 8 0 1 1-8 8 8 8 0 0 1 8-8m0-6a14 14 0 1 0 14 14 14 14 0 0 0-14-14zm68.5 6a8 8 0 1 1-8 8 8 8 0 0 1 8-8m0-6a14 14 0 1 0 14 14 14 14 0 0 0-14-14zm-31.5.3a14 14 0 0 0-16.9 13.7V39h6V25.8A8 8 0 0 1 51 18.3z"></path><circle cx="59" cy="4" r="4"></circle><path d="M128.4 25.8c0-7.7-5.3-14-13-14s-13 6.3-13 14V39h6V25.8c0-4.4 2.6-8 7-8s7 3.6 7 8V39h6z"></path></g></svg></a>
+        <h1
+        class="_dl5j6p _1iurgbx">opennumbers</h1>
+      </header>
+      <section class="_1l5hckq">
+        <p class="_kp2n83">SVG Icons Sprite generated by <a class="_o1cg4g" href="https://orioniconlibrary.com/?utm_source=sprite_demo">Orion Icon Library</a>
+        </p>
+        <h2 class="">Let&#x27;s use your SVG Sprite!</h2>
+        <p class="_14gdf42">Congratulations, your SVG Sprite from <strong>opennumbers</strong> Collection
+          from <a class="_o1cg4g" href="https://orioniconlibrary.com">Orion Icon Library</a> was
+          created successfully!
+          <br/>In the downloaded folder, you will find the file called <code class="_1bo7bzx _1oymxsi">opennums.svg</code> which
+          contains your SVG Sprite <a class="_o1cg4g" href="opennums.svg" download="opennums.svg">[Open]</a>.
+          Please find below different techniques on how to use your Icons in your
+          Web Project.</p>
+        <br/>
+        <h3 id="inline-sprite" class=""><a class="_ovghcs" href="#inline-sprite"><strong class="_1dqtju9">‹a›</strong> Inline SVG Sprite</a></h3>
+        <div class="_fr5wn">
+          <p class="_14gdf42">The first technique consists in including the content of the <code class="_1bo7bzx _1oymxsi">opennums.svg</code> in
+            your <code class="_1bo7bzx _1oymxsi">HTML</code> like in the example below:</p>
+          <pre
+          class="_1bmg5vo"><code class="_1bo7bzx">&lt;body&gt;
+  &lt;svg width=&quot;0&quot; height=&quot;0&quot; class=&quot;hidden&quot; style=&quot;display:none&quot;&gt;
+    &lt;symbol id=&quot;myIcon-1&quot;&gt;
+      &lt;path d=&quot;...&quot;&gt;&lt;/path&gt;
+      &lt;path d=&quot;...&quot; stroke=&quot;...&quot;&gt;&lt;/path&gt;
+    &lt;/symbol&gt;
+    &lt;symbol id=&quot;myIcon-2&quot;&gt;
+      &lt;circle rx=&quot;...&quot;&gt;&lt;/circle&gt;
+      &lt;path d=&quot;...&quot;&gt;&lt;/path&gt;
+    &lt;/symbol&gt;
+    &lt;symbol&gt;...&lt;/symbol&gt;
+  &lt;/svg&gt;
+  &lt;section&gt;Here we will call the Icons references to show them!&lt;/section&gt;
+&lt;/body&gt;</code>
+            </pre>
+            <p class="_14gdf42">Then you can call whenever you want any of the SVG Icons from the sprite,
+              referencing them with the <code class="_1bo7bzx _1oymxsi">&lt;use&gt;</code> element,
+              like:</p><pre class="_1bmg5vo"><code class="_1bo7bzx">&lt;body&gt;
+  &lt;svg width=&quot;0&quot; height=&quot;0&quot; class=&quot;hidden&quot; style=&quot;display:none&quot;&gt;The SVG Sprite&lt;/svg&gt;
+  &lt;section&gt;
+    &lt;svg&gt;
+      &lt;use xlink:href=&quot;#myIcon-1&quot;&gt;&lt;/use&gt;
+    &lt;/svg&gt;
+    &lt;svg&gt;
+      &lt;use xlink:href=&quot;#myIcon-2&quot;&gt;&lt;/use&gt;
+    &lt;/svg&gt;
+  &lt;/section&gt;
+&lt;/body&gt;</code></pre>
+            <p class="_14gdf42"><strong class="_1dqtju9">Pros:</strong> Easy to implement, cross-browser
+              support, unique HTTP request.
+              <br/><strong class="_1oymxsi">Cons:</strong> Adds extra markup in the HTML document,
+              SVG Sprite cannot be cached.
+              <br/><strong>Tips:</strong> Put the SVG Sprite markup before calling them (
+              <a
+              class="_o1cg4g" href="https://gist.github.com/rhawbert/05c7a758cb22d2a1ed24">bug</a>in Safari).</p>
+        </div>
+        <h3 id="external-sprite" class=""><a class="_ovghcs" href="#external-sprite"><strong class="_1dqtju9">‹b›</strong> SVG Sprite in an external file</a></h3>
+        <div class="_fr5wn">
+          <p class="_14gdf42">The second technique consists in referencing the Icons from the SVG sprite
+            as an external file. This allows to display different parts of the SVG
+            Sprite by specifying the <a class="_o1cg4g" href="https://www.w3.org/TR/SVG/linking.html#LinksIntoSVG">fragment identifier</a> at
+            the end of the URL.</p>
+          <p class="_14gdf42">In the <code class="_1bo7bzx _1oymxsi">HTML</code> markup you include your
+            Icons using <code class="_1bo7bzx _1oymxsi">&lt;use&gt;</code> to reference
+            the <code class="_1bo7bzx _1oymxsi">opennums.svg</code> file with the specific
+            <code
+            class="_1bo7bzx _1oymxsi">#fragment</code>ID of each Icon you need. Below an example:</p><pre class="_1bmg5vo"><code class="_1bo7bzx">&lt;body&gt;
+  &lt;section&gt;
+    &lt;svg&gt;
+      &lt;use xlink:href=&quot;opennums.svg#myIcon-1&quot;&gt;&lt;/use&gt;
+    &lt;/svg&gt;
+    &lt;svg&gt;
+      &lt;use xlink:href=&quot;opennums.svg#myIcon-2&quot;&gt;&lt;/use&gt;
+    &lt;/svg&gt;
+  &lt;/section&gt;
+&lt;/body&gt;</code></pre>
+          <p class="_14gdf42"><strong class="_1dqtju9">Pros:</strong> Less cluttered markup. External
+            file is cachable, which helps with page load speed.
+            <br/><strong class="_1oymxsi">Cons:</strong> The browser support is good except
+            for older Internet Explorer versions (IE&lt;9).
+            <br/><strong>Tips:</strong> In case you need to support IE older versions, you
+            can use the great <a class="_o1cg4g" href="https://jonathantneal.github.io/svg4everybody/">svg4everybody</a> plugin.</p>
+        </div>
+        <h3 id="icons" class=""><a class="_ovghcs" href="#icons"><strong class="_1dqtju9">➜</strong> Icons Reference</a></h3>
+        <p class="_14gdf42">Use one of the techniques described before to call the SVG Sprite.
+          <br/>Then select the Icons you need below to easily copy the <code class="_1bo7bzx _1oymxsi">&lt;use&gt;</code> reference
+          and paste it in your Project.</p>
+        <div class="_fr5wn _jro6t0">
+          <p class="_14gdf42" style="margin-right:48px"><strong class="_1dqtju9">Hint</strong> Select the technique you want to
+            use with the switch button.
+            <br/>The use code reference will update with the correct url below the icons
+            <br/>
+            <input type="checkbox" data-name="opennums.svg" id="externalCheckbox"
+            class="_53480w js-external" />
+            <label class="_1uuc6xn" for="externalCheckbox"><span class="_10r524x"></span>
+            </label><small class="_kp2n83 _1dqtju9 _qjqtm8 externalCheckboxHelper"></small>
+          </p>
+          <p class="_14gdf42"><strong class="_1oymxsi">Plus</strong> You can set a specific size for
+            your Icons instances.
+            <br/>This is useful if you need a fixed size and will not style with <code class="_1bo7bzx _1oymxsi">css</code>.
+            <br/>
+            <label class="_kp2n83" style="cursor:pointer">
+              <input type="checkbox" class="js-sizeSwitch" />Ok, I want to specify the size</label>
+            <input type="number" class="js-size _jcgzno"
+            min="0" max="1024" step="1" disabled="" value="64" />
+          </p>
+        </div>
+        <ul class="_1r58n10 js-list">
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#eight-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#eight-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#eight-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#zero-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#zero-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#zero-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#two-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#two-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#two-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#three-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#three-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#three-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#six-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#six-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#six-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#five-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#five-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#five-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#four-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#four-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#four-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#nine-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#nine-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#nine-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#one-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#one-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#one-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#seven-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#seven-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#seven-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="_1l5hckq">
+        <h3 id="links" class=""><a class="_ovghcs" href="#links"><strong class="_1dqtju9">⊙</strong> Useful links</a></h3>
+        <p class="_14gdf42">You can find a lot of information on the Internet about <code class="_1bo7bzx _1oymxsi">SVG</code>.
+          <br/>We made a little selection for you if you want to learn more.</p>
+        <ul class="_fr5wn _1hgbkkp">
+          <li><a href="https://tympanus.net/codrops/2015/07/16/styling-svg-use-content-css/?utm_source=orioniconlibrary.com&amp;utm_medium=demo"
+            class="_o1cg4g">Styling SVG &lt;use&gt; Content with CSS</a>, by <a href="https://twitter.com/SaraSoueidan"
+            class="_o1cg4g">Sara Soueidan</a>
+          </li>
+          <li><a href="http://codepen.io/AmeliaBR/post/customizable-svg-icons-css-variables?utm_source=orioniconlibrary.com&amp;utm_medium=demo"
+            class="_o1cg4g">Customizable SVG Icons with CSS Variables</a> by <a href="https://twitter.com/AmeliasBrain"
+            class="_o1cg4g">Amelia Bellamy-Royds</a>
+          </li>
+          <li><a href="https://css-tricks.com/a-complete-guide-to-svg-fallbacks/?utm_source=orioniconlibrary.com&amp;utm_medium=demo"
+            class="_o1cg4g">A Complete Guide to SVG Fallbacks</a> by <a href="https://twitter.com/AmeliasBrain"
+            class="_o1cg4g">Amelia Bellamy-Royds</a>
+          </li>
+          <li><a href="https://css-tricks.com/mega-list-svg-information/?utm_source=orioniconlibrary.com&amp;utm_medium=demo"
+            class="_o1cg4g">A Compendium of SVG Information</a> by <a href="https://twitter.com/chriscoyier"
+            class="_o1cg4g">Chris Coyier</a>
+          </li>
+          <li><a href="http://svgpocketguide.com/?utm_source=orioniconlibrary.com&amp;utm_medium=demo"
+            class="_o1cg4g">The Pocket Guide to Writing SVG</a> by <a href="https://twitter.com/jonitrythall"
+            class="_o1cg4g">Joni Trythall</a>
+          </li>
+          <li><a href="https://css-tricks.com/icon-fonts-vs-svg/?utm_source=orioniconlibrary.com&amp;utm_medium=demo"
+            class="_o1cg4g">Inline SVG vs Icon Fonts [CAGEMATCH]</a> by <a href="https://twitter.com/chriscoyier"
+            class="_o1cg4g">Chris Coyier</a>
+          </li>
+          <li><a href="https://sarasoueidan.com/blog/svg-coordinate-systems/?utm_source=orioniconlibrary.com&amp;utm_medium=demo"
+            class="_o1cg4g">Understanding SVG Coordinate Systems and Transformations</a>,
+            the whole serie by <a href="https://twitter.com/SaraSoueidan" class="_o1cg4g">Sara Soueidan</a>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <script>
+      // Text Selection
+      function selectText (element) {
+        var doc = document,
+            text = element,
+            range, 
+            selection;
+        if (doc.body.createTextRange) {
+            range = document.body.createTextRange();
+            range.moveToElementText(text);
+            range.select();
+        } else if (window.getSelection) {
+            selection = window.getSelection();
+            if(selection.toString().length === 0){
+              range = document.createRange();
+              range.selectNodeContents(text);
+              selection.removeAllRanges();
+              selection.addRange(range);
+            }
+        }
+      };
+      
+      var items = document.querySelectorAll('.js-item');
+      [].slice.call(items).forEach(function(elem, i){
+        items[i].addEventListener('click', function(){
+          selectText(this.querySelector('code'))
+        }, false);
+      });
+      
+      var iconsCode = document.querySelectorAll('.js-iconCode');
+      
+      // External file Checkbox
+      var extChbx = document.querySelector('.js-external');
+      var extFilename = extChbx.dataset.name;
+      extChbx.addEventListener('change', function(e) {
+        if (e.target.checked) {
+          [].slice.call(iconsCode).forEach(function(elem, i){
+            iconsCode[i].innerHTML = iconsCode[i].innerHTML.replace('#', extFilename+'#')
+          });
+        } else {
+          [].slice.call(iconsCode).forEach(function(elem, i){
+            iconsCode[i].innerHTML = iconsCode[i].innerHTML.replace(extFilename+'#', '#')
+          });
+        }
+      });
+      
+      // Specific Size
+      var size = document.querySelector('.js-size');
+      var sizeSwitch = document.querySelector('.js-sizeSwitch');
+      
+      sizeSwitch.addEventListener('change', function(e) {
+        if (e.target.checked) {
+          size.disabled = false;
+          size.focus();
+          [].slice.call(iconsCode).forEach(function(elem, i){
+            elem.innerHTML = elem.innerHTML.replace('&lt;svg', '&lt;svg width="'+size.value+'" height="'+size.value+'"')
+          });
+        } else {
+          size.disabled = true;
+          [].slice.call(iconsCode).forEach(function(elem, i){
+            sizeStringHandler(elem)
+          });
+        }
+      }, false);
+      
+      size.addEventListener('input', function(e) {
+        var val = e.target.value;
+        [].slice.call(iconsCode).forEach(function(elem, i){
+          sizeStringHandler(elem, val)
+        });
+      }, false);
+      
+      function sizeStringHandler (elem, value) {
+        var regex = /(\S+)=["']?((?:.(?!["']?\s+(?:\S+)=|[>"']))+.)["']?/g
+        elem.innerHTML = elem.innerHTML.replace(regex, function (match, $1, $2) {
+          if ($1 === 'width' || $1 === 'height') {
+            if (value) {
+              return $1 + '="' + value + '"'
+            } else {
+              return ''
+            }
+          }
+          return match
+        })
+        
+        if (!value) {
+          elem.innerHTML = elem.innerHTML.replace(/  +/g, ' ');
+        }
+      }
+    </script>
+  </body>
+
+</html>

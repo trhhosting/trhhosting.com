@@ -1,0 +1,286 @@
+{
+  "RootMenuSide":{
+    "MenuIcons":[
+      { "id":0,
+        "classFormat":"dropdown-item text-s text-s",
+        "routerLink":"",
+        "routerLinkActive":"'active-route'",
+        "icon":{
+          "href":"",
+          "classFormat":"theme-line-9",
+          "icon":"/static/icons/gcx_sprite/gcx-sprite.svg#read-1",
+          "title":"About Us",
+          "height": 50,
+          "width": 30
+          }
+
+      },
+      { "id":1,
+        "classFormat":"dropdown-item text-s text-s",
+        "routerLink":"",
+        "routerLinkActive":"'active-route'",
+        "icon":{
+          "href":"",
+          "classFormat":"theme-line-9",
+          "icon":"/static/icons/gcx_sprite/gcx-sprite.svg#settings-3",
+          "title":"Add Product",
+          "height": 50,
+          "width": 30
+          }
+
+      },
+      { "id":2,
+        "classFormat":"dropdown-item text-s text-s",
+        "routerLink":"",
+        "routerLinkActive":"'active-route'",
+        "icon":{
+          "href":"",
+          "classFormat":"theme-line-9",
+          "icon":"/static/icons/gcx_sprite/gcx-sprite.svg#write-comment-1",
+          "title":"Blog Post",
+          "height": 50,
+          "width": 30
+          }
+
+      },
+      { "id":3,
+        "classFormat":"dropdown-item text-s text-s",
+        "routerLink":"",
+        "routerLinkActive":"'active-route'",
+        "icon":{
+          "href":"",
+          "classFormat":"theme-line-9",
+          "icon":"/static/icons/gcx_sprite/gcx-sprite.svg#comments-1",
+          "title":"Blog Posts",
+          "height": 50,
+          "width": 30
+          }
+
+      },
+      { "id":4,
+        "classFormat":"dropdown-item text-s text-s",
+        "routerLink":"",
+        "routerLinkActive":"'active-route'",
+        "icon":{
+          "href":"",
+          "classFormat":"theme-line-9",
+          "icon":"/static/icons/gcx_sprite/gcx-sprite.svg#contact-1",
+          "title":"Contact Us",
+          "height": 50,
+          "width": 30
+          }
+
+      },
+      { "id":5,
+        "classFormat":"dropdown-item text-s text-s",
+        "routerLink":"",
+        "routerLinkActive":"'active-route'",
+        "icon":{
+          "href":"discover",
+          "classFormat":"theme-line-9",
+          "icon":"/static/icons/gcx_sprite/gcx-sprite.svg#presentation-1",
+          "title":"Discover",
+          "height": 50,
+          "width": 30
+          }
+
+      },
+      { "id":6,
+        "classFormat":"dropdown-item text-s text-s",
+        "routerLink":"",
+        "routerLinkActive":"'active-route'",
+        "icon":{
+          "href":"",
+          "classFormat":"theme-line-9",
+          "icon":"/static/icons/gcx_sprite/gcx-sprite.svg#shopping-bag-2",
+          "title":"E Commerce",
+          "height": 50,
+          "width": 30
+          }
+
+      },
+      { "id":7,
+        "classFormat":"dropdown-item text-s text-s",
+        "routerLink":"",
+        "routerLinkActive":"'active-route'",
+        "icon":{
+          "href":"",
+          "classFormat":"theme-line-9",
+          "icon":"/static/icons/gcx_sprite/gcx-sprite.svg#property-1",
+          "title":"Home",
+          "height": 50,
+          "width": 30
+          }
+
+      },
+      { "id":8,
+        "classFormat":"dropdown-item text-s text-s",
+        "routerLink":"",
+        "routerLinkActive":"'active-route'",
+        "icon":{
+          "href":"",
+          "classFormat":"theme-line-9",
+          "icon":"/static/icons/gcx_sprite/gcx-sprite.svg#paper-plane-1",
+          "title":"Landing",
+          "height": 50,
+          "width": 30
+          }
+
+      },
+      { "id":9,
+        "classFormat":"dropdown-item text-s text-s",
+        "routerLink":"",
+        "routerLinkActive":"'active-route'",
+        "icon":{
+          "href":"",
+          "classFormat":"theme-line-9",
+          "icon":"/static/icons/gcx_sprite/gcx-sprite.svg#handshake-1",
+          "title":"Licenses",
+          "height": 50,
+          "width": 30
+          }
+
+      },
+      { "id":10,
+        "classFormat":"dropdown-item text-s text-s",
+        "routerLink":"",
+        "routerLinkActive":"'active-route'",
+        "icon":{
+          "href":"",
+          "classFormat":"theme-line-9",
+          "icon":"/static/icons/gcx_sprite/gcx-sprite.svg#keyhole-1",
+          "title":"Login",
+          "height": 50,
+          "width": 30
+          }
+
+      },
+      { "id":11,
+        "classFormat":"dropdown-item text-s text-s",
+        "routerLink":"",
+        "routerLinkActive":"'active-route'",
+        "icon":{
+          "href":"",
+          "classFormat":"theme-line-9",
+          "icon":"/static/icons/gcx_sprite/gcx-sprite.svg#account-error-1",
+          "title":"404",
+          "height": 50,
+          "width": 30
+          }
+
+      },
+      { "id":12,
+        "classFormat":"dropdown-item text-s text-s",
+        "routerLink":"",
+        "routerLinkActive":"'active-route'",
+        "icon":{
+          "href":"",
+          "classFormat":"theme-line-9",
+          "icon":"/static/icons/gcx_sprite/gcx-sprite.svg#shopping-cart-error-1",
+          "title":"422",
+          "height": 50,
+          "width": 30
+          }
+
+      },
+      { "id":13,
+        "classFormat":"dropdown-item text-s text-s",
+        "routerLink":"",
+        "routerLinkActive":"'active-route'",
+        "icon":{
+          "href":"",
+          "classFormat":"theme-line-9",
+          "icon":"/static/icons/gcx_sprite/gcx-sprite.svg#error-cart-1",
+          "title":"500",
+          "height": 50,
+          "width": 30
+          }
+
+      },
+      { "id":15,
+        "classFormat":"dropdown-item text-s text-s",
+        "routerLink":"",
+        "routerLinkActive":"'active-route'",
+        "icon":{
+          "href":"",
+          "classFormat":"theme-line-9",
+          "icon":"/static/icons/gcx_sprite/gcx-sprite.svg#merchandise-bag-1",
+          "title":"Product",
+          "height": 50,
+          "width": 30
+          }
+
+      },
+      { "id":16,
+        "classFormat":"dropdown-item text-s text-s",
+        "routerLink":"",
+        "routerLinkActive":"'active-route'",
+        "icon":{
+          "href":"",
+          "classFormat":"theme-line-9",
+          "icon":"/static/icons/gcx_sprite/gcx-sprite.svg#businessman-2",
+          "title":"Profile",
+          "height": 50,
+          "width": 30
+          }
+
+      },
+      { "id":17,
+        "classFormat":"dropdown-item text-s text-s",
+        "routerLink":"",
+        "routerLinkActive":"'active-route'",
+        "icon":{
+          "href":"",
+          "classFormat":"theme-line-64",
+          "icon":"/static/icons/gcx_sprite/gcx-sprite.svg#edit-4",
+          "title":"Register",
+          "height": 50,
+          "width": 30
+          }
+
+      },
+      { "id":18,
+        "classFormat":"dropdown-item text-s text-s",
+        "routerLink":"",
+        "routerLinkActive":"'active-route'",
+        "icon":{
+          "href":"",
+          "classFormat":"theme-line-9",
+          "icon":"/static/icons/gcx_sprite/gcx-sprite.svg#search-1",
+          "title":"Search Sidebar",
+          "height": 50,
+          "width": 30
+          }
+
+      },
+      { "id":19,
+        "classFormat":"dropdown-item text-s text-s",
+        "routerLink":"",
+        "routerLinkActive":"'active-route'",
+        "icon":{
+          "href":"",
+          "classFormat":"theme-line-9",
+          "icon":"/static/icons/gcx_sprite/gcx-sprite.svg#settings-1",
+          "title":"Settings",
+          "height": 50,
+          "width": 30
+          }
+
+      },
+      { "id":20,
+        "classFormat":"dropdown-item text-s text-s",
+        "routerLink":"",
+        "routerLinkActive":"'active-route'",
+        "icon":{
+          "href":"",
+          "classFormat":"theme-line-9",
+          "icon":"/static/icons/gcx_sprite/gcx-sprite.svg#team-1",
+          "title":"Team Info",
+          "height": 50,
+          "width": 30
+          }
+
+      }
+    ]
+  }
+}

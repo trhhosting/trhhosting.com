@@ -1,0 +1,522 @@
+woff2_compress Roboto-BlackItalic.ttf
+woff2_compress Roboto-BoldItalic.ttf
+woff2_compress Roboto-Bold.ttf
+woff2_compress Roboto-Italic.ttf
+woff2_compress Roboto-LightItalic.ttf
+woff2_compress Roboto-Light.ttf
+woff2_compress Roboto-MediumItalic.ttf
+woff2_compress Roboto-Medium.ttf
+woff2_compress Roboto-Regular.ttf
+woff2_compress Roboto-ThinItalic.ttf
+woff2_compress Roboto-Thin.ttf
+
+mkeot Roboto-BlackItalic.ttf > Roboto-BlackItalic.eot
+mkeot Roboto-BoldItalic.ttf > Roboto-BoldItalic.eot
+mkeot Roboto-Bold.ttf > Roboto-Bold.eot
+mkeot Roboto-Italic.ttf > Roboto-Italic.eot
+mkeot Roboto-LightItalic.ttf > Roboto-LightItalic.eot
+mkeot Roboto-Light.ttf > Roboto-Light.eot
+mkeot Roboto-MediumItalic.ttf > Roboto-MediumItalic.eot
+mkeot Roboto-Medium.ttf > Roboto-Medium.eot
+mkeot Roboto-Regular.ttf > Roboto-Regular.eot
+mkeot Roboto-ThinItalic.ttf > Roboto-ThinItalic.eot
+mkeot Roboto-Thin.ttf > Roboto-Thin.eot
+
+woff2_compress OpenSans-BoldItalic.ttf
+woff2_compress OpenSans-Bold.ttf
+woff2_compress OpenSans-ExtraBoldItalic.ttf
+woff2_compress OpenSans-ExtraBold.ttf
+woff2_compress OpenSans-Italic.ttf
+woff2_compress OpenSans-LightItalic.ttf
+woff2_compress OpenSans-Light.ttf
+woff2_compress OpenSans-Regular.ttf
+woff2_compress OpenSans-SemiBoldItalic.ttf
+woff2_compress OpenSans-SemiBold.ttf
+
+mkeot OpenSans-BoldItalic.ttf > OpenSans-BoldItalic.eot
+mkeot OpenSans-Bold.ttf > OpenSans-Bold.eot
+mkeot OpenSans-ExtraBoldItalic.ttf > OpenSans-ExtraBoldItalic.eot
+mkeot OpenSans-ExtraBold.ttf > OpenSans-ExtraBold.eot
+mkeot OpenSans-Italic.ttf > OpenSans-Italic.eot
+mkeot OpenSans-LightItalic.ttf > OpenSans-LightItalic.eot
+mkeot OpenSans-Light.ttf > OpenSans-Light.eot
+mkeot OpenSans-Regular.ttf > OpenSans-Regular.eot
+mkeot OpenSans-SemiBoldItalic.ttf > OpenSans-SemiBoldItalic.eot
+mkeot OpenSans-SemiBold.ttf > OpenSans-SemiBold.eot
+
+
+# WoW Names
+Airisshane
+Zestia
+Meldin
+Wroognygothor
+Ackmard
+Gametris
+Fhuyraslan
+Zigmal
+Gamud
+Aldarenupdar
+Kressara
+XenilJulthor
+Kaldar
+Gemedes
+Errinaya
+Mehanderyodan
+BreenElthen
+Talberonderik
+Othelenyerpal
+ModricNaphazw
+Ahanna
+Abardonrelban
+Akara
+Senic
+ValtaurGreste
+Irina
+Modumbredin
+Ryiahkeran
+BalbaarRelban
+Thea
+LaenayaUerthe
+Ryiahothelen
+Ayne
+Laenaya
+Luna
+Hecton
+Aldaren
+Casdon
+Urda
+Rahe
+Irina
+Teressa
+Sunetevacon
+Cibrock
+Amerdan
+Helmon
+Sennetta
+Celestine
+Virdo
+Ipdorn
+Karmak
+Omgicrit
+Parthinia
+Teressa
+Gamud
+Agon
+Frodakaozhar
+Narisa
+Awnia
+Pingalaactar
+KassinaTristan
+ElidinPildoordak
+BealxMarkard
+Velpar
+Amarizi
+Akaratesio
+Senira
+Useli
+Qupar
+Vilan
+
+
+<!--Components-->
+
+<!--Action-->
+<!--<teressa></teressa>-->
+
+<!--Header -->
+<!--<errinaya></errinaya>-->
+
+<!--Carousel -->
+<!--<mehanderyodan></mehanderyodan>-->
+
+<!--About -->
+<!--<breen-elthen></breen-elthen>-->
+
+<!--Welcome -->
+<!--<talberonderik></talberonderik>-->
+
+<!--Services -->
+<!--<othelenyerpal></othelenyerpal>-->
+
+<!--Portfolio -->
+<!--<modric-naphazw></modric-naphazw>-->
+
+<!--WorkCounter -->
+<!--<ahanna></ahanna>-->
+
+<!--Team -->
+<!--<abardonrelban></abardonrelban>-->
+
+<!--Testimonial -->
+<!--<akara></akara>-->
+
+<!--Client -->
+<!--<senic></senic>-->
+
+<!--BLog -->
+<!--<valtaur-greste></valtaur-greste>-->
+
+<!--ContactUs -->
+<!--<irina></irina>-->
+
+<!--Action -->
+<!--<teressa></teressa>-->
+
+<!--Accirdion -->
+<!--<accirdion></accirdion>-->
+
+*******
+
+
+
+###########################
+import '../..
+
+import '../../shared/Header/Errinaya/errinaya.dart';
+import '../../shared/Carousel/Mehanderyodan/mehanderyodan.dart';
+import '../../shared/About/BreenElthen/breen_elthen.dart';
+import '../../shared/Welcome/Talberonderik/talberonderik.dart';
+import '../../shared/Services/Othelenyerpal/othelenyerpal.dart';
+import '../../shared/Portfolio/ModricNaphazw/modric_naphazw.dart';
+import '../../shared/WorkCounter/Ahanna/ahanna.dart';
+import '../../shared/Team/Abardonrelban/abardonrelban.dart';
+import '../../shared/Team/Senic/senic.dart';
+import '../../shared/Testimonial/Akara/akara.dart';
+import '../../shared/Client/KassinaTristan/kassina_tristan.dart';
+import '../../shared/BLog/ValtaurGreste/valtaur_greste.dart';
+import '../../shared/ContactUs/Ayne/ayne.dart';
+import '../../shared/Action/Teressa/teressa.dart';
+import '../../shared/Accirdion/Laenaya/laenaya.dart';
+import '../../shared/Alert/Luna/luna.dart';
+import '../../shared/Pricing/Urda/urda.dart';
+import '../../shared/Pricing/Rahe/rahe.dart';
+import '../../shared/Pricing/Irina/irina.dart';
+import '../../shared/Tabs/Useli/useli.dart';
+import '../../shared/Tabs/Qupar/qupar.dart';
+import '../../shared/Tabs/Vilan/vilan.dart';
+
+
+  directives: [
+    coreDirectives,
+    Errinaya,
+    Mehanderyodan,
+    BreenElthen,
+    Talberonderik,
+    Othelenyerpal,
+    ModricNaphazw,
+    Ahanna,
+    Abardonrelban,
+    Senic,
+    Akara,
+    KassinaTristan,
+    ValtaurGreste,
+    Ayne,
+    Teressa,
+    Laenaya,
+    Luna,
+    Urda,
+    Rahe,
+    Irina,
+    Useli,
+    Qupar,
+    Vilan,
+  ],
+
+ngdart generate component Errinaya, --path lib/src/Grand/shared/Header/Errinaya
+ngdart generate component Mehanderyodan, --path lib/src/Grand/shared/Carousel/Mehanderyodan
+ngdart generate component BreenElthen, --path lib/src/Grand/shared/About/BreenElthen
+ngdart generate component Talberonderik, --path lib/src/Grand/shared/Welcome/Talberonderik
+ngdart generate component Othelenyerpal, --path lib/src/Grand/shared/Services/Othelenyerpal
+ngdart generate component ModricNaphazw, --path lib/src/Grand/shared/Portfolio/ModricNaphazw
+ngdart generate component Ahanna, --path lib/src/Grand/shared/WorkCounter/Ahanna
+ngdart generate component Abardonrelban, --path lib/src/Grand/shared/Team/Abardonrelban
+ngdart generate component Senic, --path lib/src/Grand/shared/Team/Senic
+ngdart generate component Akara, --path lib/src/Grand/shared/Testimonial/Akara
+ngdart generate component KassinaTristan, --path lib/src/Grand/shared/Client/KassinaTristan
+ngdart generate component ValtaurGreste, --path lib/src/Grand/shared/BLog/ValtaurGreste
+ngdart generate component Ayne, --path lib/src/Grand/shared/ContactUs/Ayne
+ngdart generate component Teressa, --path lib/src/Grand/shared/Action/Teressa
+ngdart generate component Laenaya, --path lib/src/Grand/shared/Accirdion/Laenaya
+ngdart generate component Luna, --path lib/src/Grand/shared/Alert/Luna
+ngdart generate component Urda, --path lib/src/Grand/shared/Pricing/Urda
+ngdart generate component Rahe, --path lib/src/Grand/shared/Pricing/Rahe
+ngdart generate component Irina, --path lib/src/Grand/shared/Pricing/Irina
+ngdart generate component Useli, --path lib/src/Grand/shared/Tabs/Useli
+ngdart generate component Qupar, --path lib/src/Grand/shared/Tabs/Qupar
+ngdart generate component Vilan, --path lib/src/Grand/shared/Tabs/Vilan
+
+
+
+
+
+
+<!-- Header - Errinaya -->
+<!-- <errinaya></errinaya> -->
+<!-- Carousel - Mehanderyodan -->
+<!-- <mehanderyodan></mehanderyodan> -->
+<!-- About - BreenElthen -->
+<!-- <breen-elthen></breen-elthen> -->
+<!-- Welcome - Talberonderik -->
+<!-- <talberonderik></talberonderik> -->
+<!-- Services - Othelenyerpal -->
+<!-- <othelenyerpal></othelenyerpal> -->
+<!-- Portfolio - ModricNaphazw -->
+<!-- <modric-naphazw></modric-naphazw> -->
+<!-- WorkCounter - Ahanna -->
+<!-- <ahanna></ahanna> -->
+<!-- Team - Abardonrelban -->
+<!-- <abardonrelban></abardonrelban> -->
+<!-- Team - Senic -->
+<!-- <senic></senic> -->
+<!-- Testimonial - Akara -->
+<!-- <akara></akara> -->
+<!-- Client - KassinaTristan -->
+<!-- <kassina-tristan></kassina-tristan> -->
+<!-- BLog - ValtaurGreste -->
+<!-- <valtaur-greste></valtaur-greste> -->
+<!-- ContactUs - Ayne -->
+<!-- <ayne></ayne> -->
+<!-- Action - Teressa -->
+<!-- <teressa></teressa> -->
+<!-- Accirdion - Laenaya -->
+<!-- <laenaya></laenaya> -->
+<!-- Alert - Luna -->
+<!-- <luna></luna> -->
+<!-- Pricing - Urda -->
+<!-- <urda></urda> -->
+<!-- Pricing - Rahe -->
+<!-- <rahe></rahe> -->
+<!-- Pricing - Irina -->
+<!-- <irina></irina> -->
+<!-- Tabs - Useli -->
+<!-- <useli></useli> -->
+<!-- Tabs - Qupar -->
+<!-- <qupar></qupar> -->
+<!-- Tabs - Vilan -->
+<!-- <vilan></vilan> -->
+
+
+### Routes
+ngdart generate component Wroognygothor --path lib/src/Grand/About/Wroognygothor/wroognygothor
+ngdart generate component Ackmard --path lib/src/Grand/Services/Ackmard/ackmard
+ngdart generate component Gametris --path lib/src/Grand/Portfolio/Gametris/gametris
+ngdart generate component Fhuyraslan --path lib/src/Grand/Counter/Fhuyraslan/fhuyraslan
+ngdart generate component Zigmal --path lib/src/Grand/Team/Zigmal/zigmal
+ngdart generate component Gamud --path lib/src/Grand/Testimonial/Gamud/gamud
+ngdart generate component Aldarenupdar --path lib/src/Grand/Client/Aldarenupdar/aldarenupdar
+ngdart generate component Kressara --path lib/src/Grand/Logo/Kressara/kressara
+ngdart generate component Xeniljulthor --path lib/src/Grand/Blog/Xeniljulthor/xeniljulthor
+ngdart generate component Hecton --path lib/src/Grand/Pricing/Hecton/hecton
+ngdart generate component Kaldar --path lib/src/Grand/ContactUs/Kaldar/kaldar
+ngdart generate component Teressa --path lib/src/Grand/p404/Teressa
+ngdart generate component DaigornSabalz --path lib/src/Grand/p422/DaigornSabalz
+ngdart generate component Onathe --path lib/src/Grand/p500/Onathe
+
+import 'Grand/About/Wroognygothor/wroognygothor.template.dart' as about_template;
+import 'Grand/Services/Ackmard/ackmard.template.dart' as services_template;
+import 'Grand/Portfolio/Gametris/gametris.template.dart' as portfolio_template;
+import 'Grand/Counter/Fhuyraslan/fhuyraslan.template.dart' as counter_template;
+import 'Grand/Team/Zigmal/zigmal.template.dart' as team_template;
+import 'Grand/Testimonial/Gamud/gamud.template.dart' as testimonial_template;
+import 'Grand/Client/Aldarenupdar/aldarenupdar.template.dart' as client_template;
+import 'Grand/Logo/Kressara/kressara.template.dart' as logo_template;
+import 'Grand/Blog/Xeniljulthor/xeniljulthor.template.dart' as blog_template;
+import 'Grand/Pricing/Hecton/hecton.template.dart' as pricing_template;
+import 'Grand/ContactUs/Kaldar/kaldar.template.dart' as contact_us_template;
+import 'Grand/p404/Teressa/teressa.template.dart' as teressa_template;
+import 'Grand/p422/DaigornSabalz/daigorn_sabalz.template.dart' as daigorn_sabalz_template;
+import 'Grand/p500/Onathe/onathe.template.dart' as onathe_template;
+
+### Pages
+ngdart generate component aboutUS --path lib/src/Grand/pages/AboutUS
+ngdart generate component addProduct --path lib/src/Grand/pages/AddProduct
+ngdart generate component blogPost --path lib/src/Grand/pages/BlogPost
+ngdart generate component blogPosts --path lib/src/Grand/pages/BlogPosts
+ngdart generate component contactUs --path lib/src/Grand/pages/ContactUs
+ngdart generate component discover --path lib/src/Grand/pages/Discover
+ngdart generate component eCommerce --path lib/src/Grand/pages/ECommerce
+ngdart generate component home --path lib/src/Grand/pages/Home
+ngdart generate component landing --path lib/src/Grand/pages/Landing
+ngdart generate component licenses --path lib/src/Grand/pages/Licenses
+ngdart generate component login --path lib/src/Grand/pages/Login
+ngdart generate component p404 --path lib/src/Grand/pages/P404
+ngdart generate component p422 --path lib/src/Grand/pages/P422
+ngdart generate component p500 --path lib/src/Grand/pages/P500
+ngdart generate component product --path lib/src/Grand/pages/Product
+ngdart generate component profile --path lib/src/Grand/pages/Profile
+ngdart generate component register --path lib/src/Grand/pages/Register
+ngdart generate component searchSidebar --path lib/src/Grand/pages/SearchSidebar
+ngdart generate component settings --path lib/src/Grand/pages/Settings
+ngdart generate component team --path lib/src/Grand/pages/Team
+
+
+
+import 'Grand/pages/About/about.template.dart' as about_template;
+import 'Grand/pages/AddProduct/add_product.template.dart' as add_product_template;
+import 'Grand/pages/BlogPost/blog_post.template.dart' as blog_post_template;
+import 'Grand/pages/BlogPosts/blog_posts.template.dart' as blog_posts_template;
+import 'Grand/pages/ContactUs/contact_us.template.dart' as contact_us_template;
+import 'Grand/pages/Discover/discover.template.dart' as discover_template;
+import 'Grand/pages/Ecommerce/ecommerce.template.dart' as ecommerce_template;
+import 'Grand/pages/Home/home.template.dart' as home_template;
+import 'Grand/pages/Landing/landing.template.dart' as landing_template;
+import 'Grand/pages/Licenses/licenses.template.dart' as licenses_template;
+import 'Grand/pages/Login/login.template.dart' as login_template;
+import 'Grand/pages/P404/p404.template.dart' as p404_template;
+import 'Grand/pages/P422/p422.template.dart' as p422_template;
+import 'Grand/pages/P500/p500.template.dart' as p500_template;
+import 'Grand/pages/Product/product.template.dart' as product_template;
+import 'Grand/pages/Profile/profile.template.dart' as profile_template;
+import 'Grand/pages/Register/register.template.dart' as register_template;
+import 'Grand/pages/SearchSidebar/search_sidebar.template.dart' as search_sidebar_template;
+import 'Grand/pages/Settings/settings.template.dart' as settings_template;
+import 'Grand/pages/TeamInfo/team_info.template.dart' as team_info_template;
+
+
+# import '../../
+
+import '../../shared/CountdownTimer/countdown_timer.dart';
+import '../../shared/Services/services.dart';
+import '../../shared/About/about.dart';
+import '../../shared/CounterSection/counter_section.dart';
+import '../../shared/Schedules/schedules.dart';
+import '../../shared/Team/team.dart';
+import '../../shared/Gallery/gallery.dart';
+import '../../shared/Faq/faq.dart';
+import '../../shared/Sponsors/sponsors.dart';
+import '../../shared/Pricing/pricing.dart';
+import '../../shared/EventSlides/event_slides.dart';
+import '../../shared/Blog/blog.dart';
+import '../../shared/Subscribe/subscribe.dart';
+import '../../shared/MainSlide/main_slide.dart';
+
+# Directives
+  directives: const [
+    coreDirectives,
+    CountdownTimer,
+    Services,
+    About,
+    CounterSection,
+    Schedules,
+    Team,
+    Gallery,
+    Faq,
+    Sponsors,
+    Pricing,
+    EventSlides,
+    Blog,
+    Subscribe,
+    MainSlide,
+
+  ],
+
+
+# Tags
+
+<main-slide></main-slide>
+<countdown-timer></countdown-timer>
+<services></services>
+<about></about>
+<counter-section></counter-section>
+<schedules></schedules>
+<team></team>
+<gallery></gallery>
+<faq></faq>
+<sponsors></sponsors>
+<pricing></pricing>
+<event-slides></event-slides>
+<blog></blog>
+<subscribe></subscribe>
+
+// Class for MainSlide, <main-slide></main-slide> "Carousel Slide"
+// Class for CountdownTimer <countdown-timer></countdown-timer>
+// Class for Services <services></services>
+// Class for About <about></about>
+// Class for CounterSection <counter-section></counter-section>
+// Class for Schedules <schedules></schedules>
+// Class for Team <team></team>
+// Class for Gallery <gallery></gallery>
+// Class for Faq <faq></faq>
+// Class for Sponsors <sponsors></sponsors>
+// Class for Pricing <pricing></pricing>
+// Class for EventSlides <event-slides></event-slides>
+// Class for Blog <blog></blog>
+// Class for Subscribe <subscribe></subscribe>
+
+
+# API files
+touch about_service.dart about_mock.dart
+touch blog_service.dart blog_mock.dart
+touch countdown_timer_service.dart countdown_timer_mock.dart
+touch counter_section_service.dart counter_section_mock.dart
+touch event_slides_service.dart event_slides_mock.dart
+touch faq_service.dart faq_mock.dart
+touch gallery_service.dart gallery_mock.dart
+touch main_slide_service.dart main_slide_mock.dart
+touch pricing_service.dart pricing_mock.dart
+touch schedules_service.dart schedules_mock.dart
+touch services_service.dart services_mock.dart
+touch sponsors_service.dart sponsors_mock.dart
+touch subscribe_service.dart subscribe_mock.dart
+touch team_service.dart team_mock.dart
+
+
+// Work Application Fields
+userhash
+name
+gender
+address
+streetnumber
+streetname
+postofficebox
+towncity
+stateprovince
+postalcode
+countrycode
+phonenumber
+cellphone
+dob
+occupation
+reference
+refname1
+refnumber1
+refemail1
+refrelation1
+refname2
+refnumber2
+refemail2
+refrelation2
+refname3
+refemail
+refnumber3
+refrelation3
+company1
+positiontitle1
+description1
+datesofemployment1
+company2
+positiontitle2
+description2
+datesofemployment2
+company3
+positiontitle3
+description3
+datesofemployment3
+highschool
+college
+email
+website
+twitter
+facebook
+github
+telegram
+interest
+resume
+
+API Endpoints
+/api/static/data/footer/:domain
+/api/static/data/menu/:domain
+/api/static/data/logo/:domain
+
+/api/static/data/pgp/:domain/:page
+/api/static/data/pgc/:domain/:component

@@ -1,0 +1,1850 @@
+<!doctype>
+<html lang="en">
+  
+  <head>
+    <title>SVG Sprite Demo | Orion Icon Library</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    />
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"
+    />
+    <style>
+      html {
+          box-sizing: border-box;
+        }
+        body {
+          margin: 0;
+          padding: 0;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 1.125rem;
+        }
+        ._1bo7bzx{font-family:Menlo, mono;font-size:.85em;}._1oymxsi{color:#ff4d63;}._1tt2u3t{-webkit-box-pack:justify;-ms-flex-pack:justify;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;background-color:#121418;-webkit-justify-content:space-between;justify-content:space-between;height:66px;padding:0 28px;color:white;}._dl5j6p{font-weight:300;max-width:33%;font-size:1em;}._1iurgbx{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}._1l5hckq{padding:1em 3em;}._kp2n83{font-size:.7em;text-align:center;}._o1cg4g{color:#0092FF;text-decoration:none;}._o1cg4g:hover{text-decoration:underline;}._14gdf42{line-height:1.5;}._ovghcs{color:inherit;text-decoration:none;}._ovghcs:hover:after{content:"#";color:#0092FF;margin-left:2px;opacity:.3;-webkit-transition:opacity .3s;-moz-transition:opacity .3s;transition:opacity .3s;}._ovghcs:active:after{opacity:1;}._1dqtju9{color:#007aff;}._fr5wn{padding-left:24px;border-left:1px solid rgba(0,0,0,0.1);margin-left:12px;margin-bottom:48px;}._1bmg5vo{color:#202020;tab-ssize:4px;overflow-x:auto;padding:1.5em;line-height:1.5;background:rgba(0,0,0,0.05);font-size:.9em;}._jro6t0{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;}._53480w{display:none;}._53480w:checked + label span{-webkit-transform:translateX(52px);-ms-transform:translateX(52px);transform:translateX(52px);}._53480w:checked + label:before{color:inherit;}._53480w:checked + label:after{color:#007aff;}._53480w:checked ~ .externalCheckboxHelper:after{content:"External SVG Sprite";}._1uuc6xn{cursor:pointer;width:90px;height:40px;display:block;background-color:#f7f7f7;color:#8c8c8c;border-radius:32px;margin:12px 24px;position:relative;}._1uuc6xn:before{content:"‹a›";position:absolute;right:-webkit-calc(100% + 4px);right:-moz-calc(100% + 4px);right:calc(100% + 4px);top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);color:#007aff;}._1uuc6xn:after{content:"‹b›";position:absolute;left:-webkit-calc(100% + 4px);left:-moz-calc(100% + 4px);left:calc(100% + 4px);top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);}._10r524x{background-color:#4a4a4a;border-radius:50%;height:36px;left:0px;-webkit-transform:translateX(2px);-ms-transform:translateX(2px);transform:translateX(2px);position:absolute;top:2px;-webkit-transition:-webkit-transform .2s ease,transform .2s ease;-moz-transition:transform .2s ease;transition:-ms-transform .2s ease,-webkit-transform .2s ease,transform .2s ease;width:36px;z-index:1;}._qjqtm8:after{content:"Inline SVG Sprite";}._jcgzno{padding:.3em .5em;outline:0px;margin-left:12px;}._jcgzno:disabled{opacity:0.3;}._1r58n10{overflow:auto;padding:40px;margin:0px;list-style:none;padding-bottom:40px;}._fnhcyz{width:100%;float:left;-moz-box-sizing:border-box;box-sizing:border-box;display:block;-webkit-transition:opacity 250ms, box-shadow 250ms;-moz-transition:opacity 250ms, box-shadow 250ms;transition:opacity 250ms, box-shadow 250ms;cursor:pointer;position:relative;}@media (min-width: 767px){._fnhcyz{width:50%;}}@media (min-width: 1023px){._fnhcyz{width:33.333%;}}@media (min-width: 1199px){._fnhcyz{width:20%;}}._fnhcyz:after{content:"";position:absolute;z-index:-1;top:0px;right:0px;bottom:0px;left:0px;opacity:0;box-shadow:0 .5em 3em rgba(0,0,0,.1);-webkit-transition:opacity .3s;-moz-transition:opacity .3s;transition:opacity .3s;}._fnhcyz:hover:after{opacity:1;z-index:1;}._fnhcyz:before{content:"";padding-top:100%;display:block;}._fnhcyz:hover .orion-sprite__id{opacity:1;}._fnhcyz:hover .orion-sprite__code{opacity:1;}._1dclzhk{-webkit-box-direction:normal;-webkit-box-orient:vertical;-webkit-box-pack:justify;-ms-flex-pack:justify;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;-webkit-justify-content:space-between;justify-content:space-between;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;position:absolute;top:0px;right:0px;bottom:0px;left:0px;padding:.5em 1em;}._19wnp26{width:100%;font-size:.7em;text-align:center;opacity:0;color:#777;-webkit-transition:opacity 250ms;-moz-transition:opacity 250ms;transition:opacity 250ms;}._1u0lyeu{width:64px;height:64px;}._190hxbq{width:100%;height:100%;}._1mcpc5v{font-size:.7em;padding:.5em 1em;width:100%;z-index:2;border-radius:2px;opacity:.3;-webkit-transition:opacity .3s;-moz-transition:opacity .3s;transition:opacity .3s;}._duacj0{white-space:pre;display:inline-block;font-size:.7em;line-height:1.5;background:rgba(0,0,0,0.05);tab-ssize:4px;color:#202020;margin-top:1em;width:100%;outline:0px;border-left:4px solid #007aff;}._1hgbkkp{list-style:none;margin:0px;padding:0px;padding-left:1em;line-height:1.5em;}._19kenml{-webkit-box-align:start;-ms-flex-align:start;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-align-items:flex-start;align-items:flex-start;color:#fff;}._15372er{display:inline-block;vertical-align:middle;width:32px;height:32px;}._ksd372{display:inline-block;vertical-align:middle;width:80px;height:25px;margin-left:10px;}
+    </style>
+  </head>
+  
+  <body>
+    <svg width="0" height="0" class="hidden">
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="application-1">
+        <title>application</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <rect fill="#548aff"
+        height="464" rx="16" width="304" x="104" y="24" data-name="layer1" style="fill:var(--layer1, #548aff)"></rect>
+        <path d="M262.29 240.13l-20.01 25.02-6.86 8.58a32.017 32.017 0 0 1-29.51 11.69L168 280v-24h40l16-56z"
+        fill="#62798c" data-name="layer2" style="fill:var(--layer2, #62798c)"></path>
+        <path d="M264.97 128h-32.55a24 24 0 0 0-14.993 5.26l-29.37 23.495a10.806 10.806 0 0 0-4.056 8.439A10.806 10.806 0 0 0 194.806 176a17.154 17.154 0 0 0 9.515-2.881L224 160h40.97z"
+        fill="#ffceb6" data-name="layer3" style="fill:var(--layer3, #ffceb6)"></path>
+        <path d="M304 24l-8 16h-80l-8-16z" fill="#4976f2" data-name="layer4"
+        style="fill:var(--layer4, #4976f2)"></path>
+        <path d="M128 48h24v16h-24zm232 0h24v16h-24z" fill="#7dafff" data-name="layer5"
+        style="fill:var(--layer5, #7dafff)"></path>
+        <path d="M288 172l-24 36-40-8 21.722-65.165A21.696 21.696 0 0 1 266.304 120 21.696 21.696 0 0 1 288 141.696z"
+        fill="#ffb401" data-name="layer6" style="fill:var(--layer6, #ffb401)"></path>
+        <path d="M264 96h32v16a16 16 0 0 1-16 16 16 16 0 0 1-16-16V96z"
+        fill="#ffceb6" data-name="layer3" style="fill:var(--layer3, #ffceb6)"></path>
+        <path d="M264 96V80l13.267-6.633A12.944 12.944 0 0 1 283.056 72 12.944 12.944 0 0 1 296 84.944V96z"
+        fill="#c78640" data-name="layer7" style="fill:var(--layer7, #c78640)"></path>
+        <path d="M328 304l-24 8-16-48-21.82-10.91-24.49-12.25A32 32 0 0 1 224 212.22V200l40 8 25.21 14.4 16.9 9.66a31.986 31.986 0 0 1 15.87 23.82z"
+        fill="#718799" data-name="layer8" style="fill:var(--layer8, #718799)"></path>
+        <path d="M168 256h-16l-16 32 16 8 16-16zm136 56l24-8 16 16v8h-40z"
+        fill="#e0edff" data-name="layer9" style="fill:var(--layer9, #e0edff)"></path>
+        <path d="M242.28 265.15l-6.86 8.58a32.017 32.017 0 0 1-29.51 11.69L168 280v-24h40l2-7zM328 304l-24 8-16-48-21.82-10.91 23.03-30.69 16.9 9.66a31.986 31.986 0 0 1 15.87 23.82z"
+        fill="#ffceb6" data-name="layer3" style="fill:var(--layer3, #ffceb6)"></path>
+        <path d="M208 360v32h-64v64h128v-32h96v-64z" fill="#91c0ff" data-name="layer10"
+        style="fill:var(--layer10, #91c0ff)"></path>
+        <g fill="#7dafff" data-name="layer5" style="fill:var(--layer5, #7dafff)">
+          <path d="M368 352H208a8 8 0 0 0-8 8v24h-56a8 8 0 0 0-8 8v64a8 8 0 0 0 8 8h128a8 8 0 0 0 8-8v-24h88a8 8 0 0 0 8-8v-64a8 8 0 0 0-8-8zm-8 32h-16v-16h16zm-32 0h-80v-16h80zm-32 32H184v-16h112zm-80-48h16v16h-16zm-64 32h16v16h-16zm0 32h80v16h-80zm112 16h-16v-16h16zm48-48h16v16h-16zm48 16h-16v-16h16z"
+          data-name="layer11" fill="#000" style="fill:var(--layer11, #000)"></path>
+          <path d="M296 440h16v16h-16zm32 0h16v16h-16zm-160-80h16v16h-16z"
+          data-name="layer11" style="fill:var(--layer11, #000)"></path>
+        </g>
+        <path d="M276.97 132.97L296 152l27.808-13.904a19.851 19.851 0 0 1 8.878-2.096A11.314 11.314 0 0 1 344 147.314a11.314 11.314 0 0 1-3.314 8l-17.372 17.372A38.627 38.627 0 0 1 296 184a38.627 38.627 0 0 1-27.314-11.314l-15.715-15.715a16.97 16.97 0 0 1-4.971-12A16.97 16.97 0 0 1 264.97 128a16.97 16.97 0 0 1 12 4.97z"
+        fill="#ffceb6" data-name="layer3" style="fill:var(--layer3, #ffceb6)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="bodyweight-1">
+        <title>body-weight</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M16 32h480v32H16z"
+        fill="#8098ab" data-name="layer1" style="fill:var(--layer1, #8098ab)"></path>
+        <path d="M336 344.39A47.615 47.615 0 0 1 288.39 392H192l-16-32 1.87-.29 61.21-9.41L280 344l-24-48v-48h48l20.85 57.35 8.28 22.77a47.088 47.088 0 0 1 2.15 8.01 47.587 47.587 0 0 1 .72 8.26z"
+        fill="#ffbfa1" data-name="layer2" style="fill:var(--layer2, #ffbfa1)"></path>
+        <path d="M280 440l-78-48-.1-.06a54.412 54.412 0 0 1-22.62-64.95l7.87-21.64L208 248h48v48l-24 48 7.08 6.3L286 392l18 16zm72-396v105.88a31.998 31.998 0 0 1-15.54 27.44l-9.17 5.5L312 192l-8 56h-96l-8-56-15.29-9.18-9.17-5.5A31.998 31.998 0 0 1 160 149.88V44a20 20 0 0 1 40 0v92l9.85 4.92L232 152h48l22.16-11.08L312 136V44a20 20 0 0 1 40 0z"
+        fill="#ffceb6" data-name="layer3" style="fill:var(--layer3, #ffceb6)"></path>
+        <path d="M327.29 182.82L312 192l-8 56h-96l-8-56-15.29-9.18 25.14-41.9L232 152h48l22.16-11.08z"
+        fill="#548aff" data-name="layer4" style="fill:var(--layer4, #548aff)"></path>
+        <path d="M324.85 305.35L272 328l-16-32-16 32-52.85-22.65L208 248h96z"
+        fill="#ffb401" data-name="layer5" style="fill:var(--layer5, #ffb401)"></path>
+        <path d="M280 440l24-32 24 16-24 64h-16z" fill="#e0edff" data-name="layer6"
+        style="fill:var(--layer6, #e0edff)"></path>
+        <path d="M232 120h48v24a24 24 0 0 1-24 24 24 24 0 0 1-24-24v-24z"
+        fill="#ffceb6" data-name="layer3" style="fill:var(--layer3, #ffceb6)"></path>
+        <path d="M232 120v-16l19.359-12.906A18.422 18.422 0 0 1 261.578 88 18.422 18.422 0 0 1 280 106.422V120z"
+        fill="#c78640" data-name="layer7" style="fill:var(--layer7, #c78640)"></path>
+        <path d="M176 360h-24v72h16l24-40z" fill="#e0edff" data-name="layer6"
+        style="fill:var(--layer6, #e0edff)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="boxing-1">
+        <title>boxing</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M248 224v56l-32 96-80 64-43.59-26.15L168 352V224z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M136 440v48h-24l-32-64 12.41-10.154z" fill="#e0edff" data-name="layer2"
+        style="fill:var(--layer2, #e0edff)"></path>
+        <path d="M208 56h48v24a24 24 0 0 1-24 24 24 24 0 0 1-24-24V56z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M208 56V40l19.359-12.906A18.422 18.422 0 0 1 237.578 24 18.422 18.422 0 0 1 256 42.422V56z"
+        fill="#c78640" data-name="layer3" style="fill:var(--layer3, #c78640)"></path>
+        <path d="M431.996 120.465C431.746 133.63 420.616 144 407.45 144H400l-16-8-96 12.8-24 3.2-16 56 82.658 82.658a32 32 0 0 1 7.73 12.509L384 440l-40 24-56-128-33.6-22.4-68.59-45.73A39.97 39.97 0 0 1 168 234.59V152a56 56 0 0 1 56-56h184a24.002 24.002 0 0 1 23.996 24.465z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M344 464v24h88v-16l-48-32z" fill="#e0edff" data-name="layer2"
+        style="fill:var(--layer2, #e0edff)"></path>
+        <path d="M248 224v56l-19.13 57.39L168 320v-96z" fill="#ffa100"
+        data-name="layer4" style="fill:var(--layer4, #ffa100)"></path>
+        <path d="M304 264l-49.6 49.6-68.59-45.73A39.97 39.97 0 0 1 168 234.59V208h80z"
+        fill="#ffb401" data-name="layer5" style="fill:var(--layer5, #ffb401)"></path>
+        <path d="M288 96v52.8l-24 3.2-16 56h-80v-56a55.997 55.997 0 0 1 56-56z"
+        fill="#548aff" data-name="layer6" style="fill:var(--layer6, #548aff)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="cardio-1">
+        <title>cardio</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M432 392l-7.27 43.64-159.91-84.95-57.01-30.29a56.051 56.051 0 0 1-23.82-24.41l-11.27-22.54L136 200H96l-8 80 16 16v16H64l-16-16v-88a55.997 55.997 0 0 1 56-56h92.31a31.994 31.994 0 0 1 30.13 21.24l23.53 65.88L256 256l45.85 35.43z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M226.44 173.24A31.994 31.994 0 0 0 196.31 152H120v48h16l36.72 73.45 77.25-34.33z"
+        fill="#548aff" data-name="layer2" style="fill:var(--layer2, #548aff)"></path>
+        <path d="M176 112l16-16h32v32a32 32 0 0 1-32 32 32 32 0 0 1-32-32v-16z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M224 96v-8a24 24 0 0 0-24-24 24 24 0 0 0-14.4 4.8L160 88v24h16l16-16z"
+        fill="#c78640" data-name="layer3" style="fill:var(--layer3, #c78640)"></path>
+        <rect fill="#4f7ff7" height="16" rx="8" width="48" x="136" y="192"
+        data-name="layer4" style="fill:var(--layer4, #4f7ff7)"></rect>
+        <path d="M432 392l40-24 16 8-40 72-23.273-12.364z" fill="#e0edff"
+        data-name="layer5" style="fill:var(--layer5, #e0edff)"></path>
+        <path d="M24 312h112v40H24z" fill="#8098ab" data-name="layer6"
+        style="fill:var(--layer6, #8098ab)"></path>
+        <path d="M64 352h32v40H64z" fill="#62798c" data-name="layer7" style="fill:var(--layer7, #62798c)"></path>
+        <path d="M24 392h104v32H24z" fill="#8098ab" data-name="layer6"
+        style="fill:var(--layer6, #8098ab)"></path>
+        <path d="M24 424l8 24h24l8-24zm64 0l8 24h24l8-24z" fill="#718799"
+        data-name="layer8" style="fill:var(--layer8, #718799)"></path>
+        <path d="M301.85 291.43l-37.03 59.26-57.01-30.29a56.051 56.051 0 0 1-23.82-24.41l-11.27-22.54 77.25-34.33L256 256z"
+        fill="#ffb401" data-name="layer9" style="fill:var(--layer9, #ffb401)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="dumbbellone-1">
+        <title>dumbbell-one</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M488 400h-32v-56h32z"
+        fill="#8098ab" data-name="layer1" style="fill:var(--layer1, #8098ab)"></path>
+        <path d="M376 360h80v24h-80z" fill="#62798c" data-name="layer2"
+        style="fill:var(--layer2, #62798c)"></path>
+        <path d="M344 344h32v56h-32z" fill="#8098ab" data-name="layer1"
+        style="fill:var(--layer1, #8098ab)"></path>
+        <path d="M432 168v88l-60.15 17.19L359 237.2 332 248l-63.87 25.55L192 304 64 352l-25.15-33.54 121.37-78.02 63.54-40.85L347.56 120h23.19a31.996 31.996 0 0 1 22.62 9.37z"
+        fill="#548aff" data-name="layer3" style="fill:var(--layer3, #548aff)"></path>
+        <path d="M268.13 273.55L192 304l-31.78-63.56 63.54-40.85z" fill="#ffb401"
+        data-name="layer4" style="fill:var(--layer4, #ffb401)"></path>
+        <path d="M64 352l-16 48H24v-72l14.85-9.54z" fill="#d1e4ff" data-name="layer5"
+        style="fill:var(--layer5, #d1e4ff)"></path>
+        <path d="M432 120l32 32-17.373 17.373a22.627 22.627 0 0 1-16 6.627A22.627 22.627 0 0 1 408 153.373a22.627 22.627 0 0 1 6.627-16z"
+        fill="#ffceb6" data-name="layer6" style="fill:var(--layer6, #ffceb6)"></path>
+        <path d="M432 120l8-8h32l2.343 2.343A19.314 19.314 0 0 1 480 128a19.314 19.314 0 0 1-5.657 13.657L464 152z"
+        fill="#c78640" data-name="layer7" style="fill:var(--layer7, #c78640)"></path>
+        <path d="M344 304h-32v-56h32z" fill="#8098ab" data-name="layer1"
+        style="fill:var(--layer1, #8098ab)"></path>
+        <path d="M224 264h88v24h-88z" fill="#62798c" data-name="layer2"
+        style="fill:var(--layer2, #62798c)"></path>
+        <path d="M432 256v136h-32v-40l-28.15-78.81z" fill="#ffceb6" data-name="layer6"
+        style="fill:var(--layer6, #ffceb6)"></path>
+        <path d="M328 120h32v56h-32z" fill="#548aff" data-name="layer3"
+        style="fill:var(--layer3, #548aff)"></path>
+        <path d="M328 120h-24a56 56 0 0 0-56 56v120h40v-40l24-80h16z" fill="#ffceb6"
+        data-name="layer6" style="fill:var(--layer6, #ffceb6)"></path>
+        <rect fill="#4f7ff7" height="16" rx="8" transform="rotate(-21.8 372.429 232.172)"
+        width="28.126" x="357.994" y="223.978" data-name="layer8" style="fill:var(--layer8, #4f7ff7)"></rect>
+        <path d="M192 304L64 352l-25.15-33.54 121.37-78.02z" fill="#ffceb6"
+        data-name="layer6" style="fill:var(--layer6, #ffceb6)"></path>
+        <path d="M192 248h32v56h-32z" fill="#8098ab" data-name="layer1"
+        style="fill:var(--layer1, #8098ab)"></path>
+        <path d="M352 176h-24v-16h24a8 8 0 0 1 8 8 8 8 0 0 1-8 8z" fill="#4f7ff7"
+        data-name="layer8" style="fill:var(--layer8, #4f7ff7)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="dumbbelltwo-1">
+        <title>dumbbell-two</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M312 24h32v56h-32zm152 56h-32V24h32z"
+        fill="#8098ab" data-name="layer1" style="fill:var(--layer1, #8098ab)"></path>
+        <path d="M344 40h88v24h-88z" fill="#62798c" data-name="layer2"
+        style="fill:var(--layer2, #62798c)"></path>
+        <path d="M48 24h32v56H48zm152 56h-32V24h32z" fill="#8098ab" data-name="layer1"
+        style="fill:var(--layer1, #8098ab)"></path>
+        <path d="M80 40h88v24H80z" fill="#62798c" data-name="layer2" style="fill:var(--layer2, #62798c)"></path>
+        <path d="M408 72l-28.12 70.29a31.972 31.972 0 0 1-12.75 15.25l-21.85 13.66L312 192v48l13.27 86.24L344 448l-32 24-40.66-127.78L256 296l-15.83 49.77L200 472l-32-24 18.76-121.93L200 240v-48l-33.28-20.8-21.85-13.66a31.972 31.972 0 0 1-12.75-15.25L104 72l8-32h32v40l24 40 17.45 4.36L256 142l70.55-17.64L344 120l24-40V40h32z"
+        fill="#ffceb6" data-name="layer3" style="fill:var(--layer3, #ffceb6)"></path>
+        <path d="M325.27 326.24l-53.93 17.98L256 296l-15.83 49.77-53.41-19.7L200 240h112z"
+        fill="#ffb401" data-name="layer4" style="fill:var(--layer4, #ffb401)"></path>
+        <path d="M168 448l32 24v16h-72v-16zm144 24v16h72v-16l-40-24z" fill="#d1e4ff"
+        data-name="layer5" style="fill:var(--layer5, #d1e4ff)"></path>
+        <path d="M345.28 171.2L312 192v48H200v-48l-33.28-20.8 18.73-46.84L256 142l70.55-17.64z"
+        fill="#548aff" data-name="layer6" style="fill:var(--layer6, #548aff)"></path>
+        <path d="M232 104h48v24a24 24 0 0 1-24 24 24 24 0 0 1-24-24v-24z"
+        fill="#ffceb6" data-name="layer3" style="fill:var(--layer3, #ffceb6)"></path>
+        <path d="M232 104V88l19.359-12.906A18.422 18.422 0 0 1 261.578 72 18.422 18.422 0 0 1 280 90.422V104z"
+        fill="#c78640" data-name="layer7" style="fill:var(--layer7, #c78640)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="jumpingrope-1">
+        <title>jumping-rope</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M256 496c-92.52 0-167.791-75.27-167.791-167.79L88 208.013l16-.028.209 120.21C104.209 411.907 172.302 480 256 480s151.791-68.093 151.791-151.79V208h16v120.21C423.791 420.73 348.521 496 256 496z"
+        fill="#8098ab" data-name="layer1" style="fill:var(--layer1, #8098ab)"></path>
+        <path d="M432 199.79A16.218 16.218 0 0 1 415.79 216a25.553 25.553 0 0 1-22.85-14.12L392 200l-84.19-42.1-.38-.19a28.424 28.424 0 0 1-4.79 5.72A28.798 28.798 0 0 1 296 168v32h-80v-32a28.88 28.88 0 0 1-11.43-10.29l-.56.28L120 200l-.94 1.88A25.575 25.575 0 0 1 96.21 216a16.213 16.213 0 0 1-10.13-28.87l105.15-84.12A32.15 32.15 0 0 1 211.22 96h89.56a32.15 32.15 0 0 1 19.99 7.01l105.15 84.12a16.24 16.24 0 0 1 6.08 12.66z"
+        fill="#ffceb6" data-name="layer2" style="fill:var(--layer2, #ffceb6)"></path>
+        <path d="M312 142.11a28.975 28.975 0 0 1-4.32 15.22l.13.57-.38-.19a28.424 28.424 0 0 1-4.79 5.72A28.798 28.798 0 0 1 296 168v32h-80v-32a28.88 28.88 0 0 1-11.43-10.29l-.56.28.31-.66a28.975 28.975 0 0 1-4.32-15.22V98.04A31.89 31.89 0 0 1 211.22 96h89.56A31.89 31.89 0 0 1 312 98.04z"
+        fill="#ef5e3b" data-name="layer3" style="fill:var(--layer3, #ef5e3b)"></path>
+        <path d="M183.529 319.529L168 328l8 56h16l16-40z" fill="#e0edff"
+        data-name="layer4" style="fill:var(--layer4, #e0edff)"></path>
+        <path d="M218.323 300.551l-34.794 18.978L208 344l9.006-2.771z"
+        fill="#ffbfa1" data-name="layer5" style="fill:var(--layer5, #ffbfa1)"></path>
+        <path d="M312 252.84v29.62a40 40 0 0 1-28.24 38.23L256 329.23V200h40a95.328 95.328 0 0 1 16 52.84zM256 200v192h-40l-10.67-112-2.6-27.29A81.2 81.2 0 0 1 216 200z"
+        fill="#ffceb6" data-name="layer2" style="fill:var(--layer2, #ffceb6)"></path>
+        <path d="M272 40l11.03-11.03a16.97 16.97 0 0 1 12-4.97A16.97 16.97 0 0 1 312 40.97v18.186A53.896 53.896 0 0 0 336 104h-24a32 32 0 0 1-32-32l-8-16z"
+        fill="#b1712c" data-name="layer6" style="fill:var(--layer6, #b1712c)"></path>
+        <path d="M280 64l-.204 21.808C280 93.255 269.255 104 256 104a24 24 0 0 1-24-24V64z"
+        fill="#ffceb6" data-name="layer2" style="fill:var(--layer2, #ffceb6)"></path>
+        <path d="M280 64v-8a24 24 0 0 0-24-24 24 24 0 0 0-24 24v8z" fill="#c78640"
+        data-name="layer7" style="fill:var(--layer7, #c78640)"></path>
+        <path d="M256 328a8 8 0 0 1-8-8v-40h16v40a8 8 0 0 1-8 8z" fill="#ffbfa1"
+        data-name="layer5" style="fill:var(--layer5, #ffbfa1)"></path>
+        <path d="M216 392l-8 16 32 48h16v-64z" fill="#e0edff" data-name="layer4"
+        style="fill:var(--layer4, #e0edff)"></path>
+        <path d="M307.91 225.24A94.987 94.987 0 0 0 296 200h-80a81.2 81.2 0 0 0-13.27 52.71l2.6 27.29H312v-27.16a95.088 95.088 0 0 0-4.09-27.6z"
+        fill="#ffb401" data-name="layer8" style="fill:var(--layer8, #ffb401)"></path>
+        <path d="M248 240h16v40h-16z" fill="#ffa100" data-name="layer9"
+        style="fill:var(--layer9, #ffa100)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="kettlebell-1">
+        <title>kettlebell</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M384 448l-40 24-58.23-127.05L256 280l-29.77 64.95L168 472l-40-24 35.8-129.8L196.41 200h119.18l32.61 118.2z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M348.2 318.2l-62.43 26.75L256 280l-29.77 64.95-62.43-26.75L196.41 200h119.18z"
+        fill="#ffb401" data-name="layer2" style="fill:var(--layer2, #ffb401)"></path>
+        <path d="M352 139.78a51.54 51.54 0 0 1-5.47 23.15L336 184l-32 64v8h-96v-8l-32-64-10.53-21.07A51.764 51.764 0 0 1 211.78 88h88.44A51.776 51.776 0 0 1 352 139.78z"
+        fill="#548aff" data-name="layer3" style="fill:var(--layer3, #548aff)"></path>
+        <path d="M232 56h48v24a24 24 0 0 1-24 24 24 24 0 0 1-24-24V56z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M232 56V40l19.359-12.906A18.422 18.422 0 0 1 261.578 24 18.422 18.422 0 0 1 280 42.422V56z"
+        fill="#b1712c" data-name="layer4" style="fill:var(--layer4, #b1712c)"></path>
+        <path d="M168 472v16H88v-16l40-24zm216-24l40 24v16h-80v-16z" fill="#e0edff"
+        data-name="layer5" style="fill:var(--layer5, #e0edff)"></path>
+        <rect fill="#4f7ff7" height="35.652" rx="8" transform="rotate(-22.63 206.608 152.285)"
+        width="16" x="198.855" y="134.629" data-name="layer6" style="fill:var(--layer6, #4f7ff7)"></rect>
+        <rect fill="#4f7ff7" height="16" rx="8" transform="rotate(-67.36 305.288 152.413)"
+        width="35.652" x="287.319" y="144.455" data-name="layer6" style="fill:var(--layer6, #4f7ff7)"></rect>
+        <path d="M284.8 318.4l-9.6-12.8 8.925-6.694a22.499 22.499 0 0 0 5.22-30.468l-2.96-4.438h-60.77l-2.96 4.438a22.498 22.498 0 0 0 5.22 30.467l8.925 6.696-9.6 12.798-8.926-6.694a38.503 38.503 0 0 1-8.93-52.142l5.333-8a8 8 0 0 1 6.657-3.563h69.333a8 8 0 0 1 6.656 3.563l5.334 8a38.504 38.504 0 0 1-8.932 52.143z"
+        fill="#d14521" data-name="layer7" style="fill:var(--layer7, #d14521)"></path>
+        <path d="M240 232v24a16 16 0 1 1-32 0v-8l-32-64 37.71-15.09zm96-48l-32 64v8a16 16 0 0 1-32 0v-24l26.29-63.09z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <circle cx="256" cy="328" fill="#ef5e3b" r="32" data-name="layer8"
+        style="fill:var(--layer8, #ef5e3b)"></circle>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="lunges-1">
+        <title>lunges</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M280 296v40l-32 56-19.05 33.33a39.992 39.992 0 0 1-38.91 19.94L64 432l-8-40h120l10.29-30.86L208 296z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M280 296v40l-32 56-61.71-30.86L208 296z" fill="#ffa100"
+        data-name="layer2" style="fill:var(--layer2, #ffa100)"></path>
+        <path d="M64 432l-24 40H24v-80h32z" fill="#e0edff" data-name="layer3"
+        style="fill:var(--layer3, #e0edff)"></path>
+        <path d="M448 432l-40 24-24-120H248a40.002 40.002 0 0 1-40-40v-48h80l64 14.22 51.91 11.54a39.996 39.996 0 0 1 31.1 34.86z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M352 262.22V336H248a40.002 40.002 0 0 1-40-40v-48h80z"
+        fill="#ffb401" data-name="layer4" style="fill:var(--layer4, #ffb401)"></path>
+        <path d="M256 120l39.515 39.515A28.97 28.97 0 0 1 304 180a28.97 28.97 0 0 1-8.485 20.485L288 208v40h-80v-64a80 80 0 0 1 32-64z"
+        fill="#ef5e3b" data-name="layer5" style="fill:var(--layer5, #ef5e3b)"></path>
+        <path d="M232 60l-20.135-10.071A18.257 18.257 0 0 0 203.698 48h-.272a19.432 19.432 0 0 0-19.437 19.441l.007 18.608A81.926 81.926 0 0 1 160 144h24a40 40 0 0 0 40-40V88z"
+        fill="#b1712c" data-name="layer6" style="fill:var(--layer6, #b1712c)"></path>
+        <path d="M240 88l16-16h32v32a32 32 0 0 1-32 32 32 32 0 0 1-32-32V88z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M288 72a32 32 0 0 0-32-32 32 32 0 0 0-32 32v16h16l16-16z"
+        fill="#c78640" data-name="layer7" style="fill:var(--layer7, #c78640)"></path>
+        <path d="M275.486 174.32L240 224l24 48 24 8 8 8-8 16h-48l-36-48a60 60 0 0 1-12-36 60 60 0 0 1 12-36l26.54-35.387A31.532 31.532 0 0 1 255.766 136 24.234 24.234 0 0 1 280 160.234a24.234 24.234 0 0 1-4.514 14.086z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M408 456l40-24 40 24v16h-80z" fill="#e0edff" data-name="layer3"
+        style="fill:var(--layer3, #e0edff)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="plank-1">
+        <title>plank</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M280 192v80h-40l-39.62 9.01L64 312l-24 48H24v-80l16.59-7.02 135.31-57.25 50.12-21.2a32.022 32.022 0 0 1 12.47-2.53z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M280 192h104a32 32 0 0 1 32 32v16a32 32 0 0 1-32 32H280z"
+        fill="#ef5e3b" data-name="layer2" style="fill:var(--layer2, #ef5e3b)"></path>
+        <path d="M472 216l11.03-11.03a16.97 16.97 0 0 0 4.97-12A16.97 16.97 0 0 0 471.03 176h-34.186A53.896 53.896 0 0 1 392 152v15.208a40 40 0 0 0 32.155 39.223L432 208z"
+        fill="#b1712c" data-name="layer3" style="fill:var(--layer3, #b1712c)"></path>
+        <path d="M440.001 216L456 232v24h-24a24 24 0 0 1-24-24 24 24 0 0 1 24-24h8z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M456 256a24 24 0 0 0 24-24 24 24 0 0 0-24-24h-16l.001 8L456 232z"
+        fill="#c78640" data-name="layer4" style="fill:var(--layer4, #c78640)"></path>
+        <path d="M416 320l59.47 13.216A16 16 0 0 1 488 348.835V360h-85.766a32 32 0 0 1-31.379-25.724l-11.958-59.79A28.831 28.831 0 0 1 387.17 240 28.831 28.831 0 0 1 416 268.831z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M64 312l-24 48H24v-80l16.59-7.02z" fill="#e0edff" data-name="layer5"
+        style="fill:var(--layer5, #e0edff)"></path>
+        <path d="M280 192v80h-40l-39.62 9.01-24.48-65.28 50.12-21.2a32.022 32.022 0 0 1 12.47-2.53z"
+        fill="#ffb401" data-name="layer6" style="fill:var(--layer6, #ffb401)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="pullupbar-1">
+        <title>pull-up-bar</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M40 160h456v32H40z"
+        fill="#8098ab" data-name="layer1" style="fill:var(--layer1, #8098ab)"></path>
+        <path d="M448 352l24-40h16v88h-24z" fill="#e0edff" data-name="layer2"
+        style="fill:var(--layer2, #e0edff)"></path>
+        <path d="M310.4 283.2L280 344l-79.88-24.31L96 288a40.002 40.002 0 0 1-40-40v-56h72l102.67 51.33z"
+        fill="#548aff" data-name="layer3" style="fill:var(--layer3, #548aff)"></path>
+        <path d="M32 200l32-32 17.373 17.373a22.627 22.627 0 0 1 6.627 16A22.627 22.627 0 0 1 65.373 224a22.627 22.627 0 0 1-16-6.627z"
+        fill="#ffceb6" data-name="layer4" style="fill:var(--layer4, #ffceb6)"></path>
+        <path d="M32 200l-8-8v-32l2.343-2.343A19.314 19.314 0 0 1 40 152a19.314 19.314 0 0 1 13.657 5.657L64 168z"
+        fill="#c78640" data-name="layer5" style="fill:var(--layer5, #c78640)"></path>
+        <path d="M128 232h24l38.94-84.371A33.788 33.788 0 0 1 221.62 128a33.788 33.788 0 0 1 32.78 25.593L256 160h-24l-38.267 102.045A40 40 0 0 1 156.28 288H128z"
+        fill="#ffceb6" data-name="layer4" style="fill:var(--layer4, #ffceb6)"></path>
+        <path d="M128 248h-16a8 8 0 0 1-8-8 8 8 0 0 1 8-8h16z" fill="#4f7ff7"
+        data-name="layer6" style="fill:var(--layer6, #4f7ff7)"></path>
+        <path d="M310.4 283.2L280 344l-79.88-24.31 30.55-76.36z" fill="#ffb401"
+        data-name="layer7" style="fill:var(--layer7, #ffb401)"></path>
+        <path d="M464 400l-184-56 30.4-60.8L448 352z" fill="#ffceb6" data-name="layer4"
+        style="fill:var(--layer4, #ffceb6)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="rowingmachine-1">
+        <title>rowing-machine</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M372 306l-30.91 52.54-20.36-10.18L328 312l24-16z"
+        fill="#e0edff" data-name="layer1" style="fill:var(--layer1, #e0edff)"></path>
+        <path d="M248.715 240.58l7.936-13.887 131.227 74.987-7.935 13.887z"
+        fill="#ffc431" data-name="layer2" style="fill:var(--layer2, #ffc431)"></path>
+        <path d="M64 360l-24 48H24v-64h40z" fill="#62798c" data-name="layer3"
+        style="fill:var(--layer3, #62798c)"></path>
+        <path d="M96 280l-10.55-73.85L160 224v48z" fill="#ef5e3b" data-name="layer4"
+        style="fill:var(--layer4, #ef5e3b)"></path>
+        <path d="M88 152h32v48H88z" fill="#ffbfa1" data-name="layer5" style="fill:var(--layer5, #ffbfa1)"></path>
+        <path d="M96 120l-11.03-11.03a16.97 16.97 0 0 0-12-4.97A16.97 16.97 0 0 0 56 120.97v34.186A53.896 53.896 0 0 1 32 200h15.208a40 40 0 0 0 39.223-32.155L88 160z"
+        fill="#b1712c" data-name="layer6" style="fill:var(--layer6, #b1712c)"></path>
+        <path d="M96 151.999L112 136h24v24a24 24 0 0 1-24 24 24 24 0 0 1-24-24v-8z"
+        fill="#ffceb6" data-name="layer7" style="fill:var(--layer7, #ffceb6)"></path>
+        <path d="M136 136a24 24 0 0 0-24-24 24 24 0 0 0-24 24v16l8-.001L112 136z"
+        fill="#c78640" data-name="layer8" style="fill:var(--layer8, #c78640)"></path>
+        <path d="M312 408L24 352v-40l320 58.947V408z" fill="#718799" data-name="layer9"
+        style="fill:var(--layer9, #718799)"></path>
+        <path d="M488 368v40H312l29.09-49.46L368.47 312l3.53-6 5.87-9.98L392 272a96.008 96.008 0 0 1 96 96z"
+        fill="#8098ab" data-name="layer10" style="fill:var(--layer10, #8098ab)"></path>
+        <path d="M462.24 366.41l-15.68 3.18A72.186 72.186 0 0 0 376 312h-7.53l3.53-6 5.87-9.98a88.246 88.246 0 0 1 84.37 70.39z"
+        fill="#718799" data-name="layer9" style="fill:var(--layer9, #718799)"></path>
+        <path d="M80 206.971a20.772 20.772 0 0 1 14.203-19.705 30.98 30.98 0 0 1 19.594 0L224 224l24-8 16 8-8 24-16 8-143.302-28.66A20.772 20.772 0 0 1 80 206.97z"
+        fill="#ffceb6" data-name="layer7" style="fill:var(--layer7, #ffceb6)"></path>
+        <path d="M199.61 312.64l-76.38 20.37a25.722 25.722 0 0 1-31.85-29.9L96 280l64-8 30.71-6.14z"
+        fill="#ffb401" data-name="layer11" style="fill:var(--layer11, #ffb401)"></path>
+        <path d="M328 312l-7.27 36.36L232 304l-32.39 8.64-8.9-46.78 36.681-7.338a32 32 0 0 1 23.457 4.381z"
+        fill="#ffceb6" data-name="layer7" style="fill:var(--layer7, #ffceb6)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="runner-1">
+        <title>runner</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M304 384l-32 16-32-88-52.59-52.59 25.46-67.31 47.09 67.27 16.65 23.78a32.194 32.194 0 0 1 4.83 10.59z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M259.96 259.37l-39.6 32.99-32.95-32.95 25.46-67.31z" fill="#ffa100"
+        data-name="layer2" style="fill:var(--layer2, #ffa100)"></path>
+        <path d="M272 400l32-16 32 24v16h-64z" fill="#e0edff" data-name="layer3"
+        style="fill:var(--layer3, #e0edff)"></path>
+        <path d="M160 208l-14.16-14.16a33.595 33.595 0 0 1-9.84-23.756 33.595 33.595 0 0 1 15.096-28.042l34.478-22.745z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M240 163.43l-17.22 44.27-31.18 80.17-11.94 30.71a32.004 32.004 0 0 1-12.07 15.03L104 376l-32-16 64-64 5.81-24.73 18.58-79.17L176 125.61 224 88z"
+        fill="#548aff" data-name="layer4" style="fill:var(--layer4, #548aff)"></path>
+        <path d="M216 87.999L232 72h24v24a24 24 0 0 1-24 24 24 24 0 0 1-24-24v-8z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M256 72a24 24 0 0 0-24-24 24 24 0 0 0-24 24v16l8-.001L232 72z"
+        fill="#c78640" data-name="layer5" style="fill:var(--layer5, #c78640)"></path>
+        <path d="M214.489 112.111L240 144l32-16 5.654-8.481a15.29 15.29 0 0 1 23.534-2.33 15.29 15.29 0 0 1 0 21.623l-33.874 33.874A38.627 38.627 0 0 1 240 184a38.627 38.627 0 0 1-27.314-11.314l-29.34-29.34A25.078 25.078 0 0 1 176 125.612 21.612 21.612 0 0 1 197.612 104a21.612 21.612 0 0 1 16.877 8.111z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M222.78 207.7l-31.18 80.17-49.79-16.6 18.58-79.17z" fill="#ffb401"
+        data-name="layer6" style="fill:var(--layer6, #ffb401)"></path>
+        <path d="M191.6 287.87l-11.94 30.71a32.004 32.004 0 0 1-12.07 15.03L104 376l-32-16 64-64 5.81-24.73z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M368 464H24l24-40h320z" fill="#718799" data-name="layer7"
+        style="fill:var(--layer7, #718799)"></path>
+        <path d="M368 408h120v56H368z" fill="#8098ab" data-name="layer8"
+        style="fill:var(--layer8, #8098ab)"></path>
+        <path d="M440 216h48v192h-48zm0 0H312l16-32h112z" fill="#718799"
+        data-name="layer7" style="fill:var(--layer7, #718799)"></path>
+        <path d="M408 216l40-64h40v64z" fill="#8098ab" data-name="layer8"
+        style="fill:var(--layer8, #8098ab)"></path>
+        <path d="M104 376v40l-8 8-40-48 16-16z" fill="#e0edff" data-name="layer3"
+        style="fill:var(--layer3, #e0edff)"></path>
+        <path d="M384 408l16-32h40v32z" fill="#62798c" data-name="layer9"
+        style="fill:var(--layer9, #62798c)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="situp-1">
+        <title>sit-up</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M386.575 327.233L336.8 393.6A56 56 0 0 1 292 416h-46.816l97.065-128z"
+        fill="#ffa100" data-name="layer1" style="fill:var(--layer1, #ffa100)"></path>
+        <path d="M450.532 388.659l-21.387-106.935A32 32 0 0 0 397.766 256h-53.074l81.46 142.466z"
+        fill="#ffbfa1" data-name="layer2" style="fill:var(--layer2, #ffbfa1)"></path>
+        <path d="M248 256v-94.11A41.888 41.888 0 0 0 206.11 120a95.706 95.706 0 0 0-13.96 1.02 96.994 96.994 0 0 0-13.67 3.03L112 144l-16 24-24 8-35.24 41.12a53.002 53.002 0 0 0 21.21 83.95l29.87 11.49L128 328l62.61 57.39L275 301zm-56-17.94L136 264l-64-16 24-40 32-32 72-8-4.57 40z"
+        fill="#ffceb6" data-name="layer3" style="fill:var(--layer3, #ffceb6)"></path>
+        <path d="M275 301l-84.39 84.39L128 328l-40.16-15.44L104 256l32 8 56-25.94 3.43-30.06H248v48z"
+        fill="#548aff" data-name="layer4" style="fill:var(--layer4, #548aff)"></path>
+        <path d="M136 232v-16l24-24 22.059 22.059a33.941 33.941 0 0 1 9.941 24A33.941 33.941 0 0 1 158.059 272a33.941 33.941 0 0 1-24-9.941L120 248z"
+        fill="#ffceb6" data-name="layer3" style="fill:var(--layer3, #ffceb6)"></path>
+        <path d="M160 192l-5.578-5.578a26.053 26.053 0 0 0-36.844 0 26.053 26.053 0 0 0-7.125 13.313L104 232l16 16 16-16v-16z"
+        fill="#c78640" data-name="layer5" style="fill:var(--layer5, #c78640)"></path>
+        <rect fill="#ffbfa1" height="28.844" rx="8" transform="rotate(-33.7 103.958 179.9)"
+        width="16" x="96" y="165.578" data-name="layer2" style="fill:var(--layer2, #ffbfa1)"></rect>
+        <path d="M432 368l-32 32-56-80-10.24 13.76-45.41 60.98a54.466 54.466 0 0 1-79.97 6.95l-17.77-16.3L288 288l14.54-14.54a59.608 59.608 0 0 1 96.94 18.67z"
+        fill="#ffceb6" data-name="layer3" style="fill:var(--layer3, #ffceb6)"></path>
+        <path d="M333.76 333.76l-45.41 60.98a54.466 54.466 0 0 1-79.97 6.95l-17.77-16.3L288 288z"
+        fill="#ffb401" data-name="layer6" style="fill:var(--layer6, #ffb401)"></path>
+        <path d="M400 400v16h88v-16l-56-32z" fill="#e0edff" data-name="layer7"
+        style="fill:var(--layer7, #e0edff)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="squat-1">
+        <title>squat</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M176 96v40h48V96zm176.65 227.62L288 440l-82.15 20.54L280 304l-73-9.73-47-6.27v-48.8l69.92 3.5 80.02 4a51.817 51.817 0 0 1 42.71 76.92z"
+        fill="#ffbfa1" data-name="layer1" style="fill:var(--layer1, #ffbfa1)"></path>
+        <path d="M229.92 242.7L207 294.27 160 288v-48.8z" fill="#ffa100"
+        data-name="layer2" style="fill:var(--layer2, #ffa100)"></path>
+        <path d="M344 128h96v16l-32 24h-64z" fill="#ffbfa1" data-name="layer1"
+        style="fill:var(--layer1, #ffbfa1)"></path>
+        <path d="M224 456l64-16 56 32v16H224z" fill="#c5dafa" data-name="layer3"
+        style="fill:var(--layer3, #c5dafa)"></path>
+        <path d="M392 128v16l-32 24h-40l-80 21.33L200 200l-32 48 33.11 5.52 76.74 12.79a40.873 40.873 0 0 1 26.24 64.48L224 440l-64 16 72-128h-86.85a73.142 73.142 0 0 1-69.82-94.96 72.335 72.335 0 0 1 3.63-9.33 73.628 73.628 0 0 1 6.05-10.5l49.45-71.42A31.979 31.979 0 0 1 160.77 128z"
+        fill="#ffceb6" data-name="layer4" style="fill:var(--layer4, #ffceb6)"></path>
+        <path d="M192 80l16-16h32v32a32 32 0 0 1-32 32 32 32 0 0 1-32-32V80z"
+        fill="#ffceb6" data-name="layer4" style="fill:var(--layer4, #ffceb6)"></path>
+        <path d="M240 64V48a24 24 0 0 0-24-24 24 24 0 0 0-14.4 4.8L176 48v32h16l16-16z"
+        fill="#c78640" data-name="layer5" style="fill:var(--layer5, #c78640)"></path>
+        <path d="M240 128v61.33L200 200l-32 48-89.04-24.29a73.628 73.628 0 0 1 6.05-10.5l49.45-71.42A31.979 31.979 0 0 1 160.77 128z"
+        fill="#548aff" data-name="layer6" style="fill:var(--layer6, #548aff)"></path>
+        <path d="M160 456l64-16 56 32v16H160z" fill="#e0edff" data-name="layer7"
+        style="fill:var(--layer7, #e0edff)"></path>
+        <path d="M201.11 253.52L168 328h-22.85a73.142 73.142 0 0 1-69.82-94.96 72.335 72.335 0 0 1 3.63-9.33L168 248z"
+        fill="#ffb401" data-name="layer8" style="fill:var(--layer8, #ffb401)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="video-1">
+        <title>video</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <rect fill="#548aff"
+        height="416" rx="16" width="464" x="24" y="48" data-name="layer1" style="fill:var(--layer1, #548aff)"></rect>
+        <path d="M427.03 171.31l-102.9 97.92L296 296v64H158.91V253.19A133.179 133.179 0 0 1 292.09 120h42.82a16.002 16.002 0 0 1 16 16v16l-24 8 3.35 6.7a10.395 10.395 0 0 1-16.65 12l-18.7-18.7a50.23 50.23 0 0 0-45.54 28.99l-6.03 12.91-9.48 20.3 38.91 23.93 16.2-12.07L366.91 176l13.6-34a9.539 9.539 0 0 1 18.4 3.54V152l16-16 12.4 12.4a16.009 16.009 0 0 1-.28 22.91z"
+        fill="#ffceb6" data-name="layer2" style="fill:var(--layer2, #ffceb6)"></path>
+        <path d="M324.13 269.23L296 296v64H158.91V253.19a133.108 133.108 0 0 1 24.49-76.98l59.94 25.69-9.48 20.3 38.91 23.93 16.2-12.07z"
+        fill="#ffa100" data-name="layer3" style="fill:var(--layer3, #ffa100)"></path>
+        <path d="M294.91 214.63a22.658 22.658 0 0 1-6.63 16l-9.37 9.37-9.38 9.37a22.627 22.627 0 0 1-32-32l18.75-18.74a22.153 22.153 0 0 1 6.63-4.59c.23-.12.47-.22.71-.32a22.636 22.636 0 0 1 31.29 20.91z"
+        fill="#ffceb6" data-name="layer2" style="fill:var(--layer2, #ffceb6)"></path>
+        <path d="M294.91 214.63a22.658 22.658 0 0 1-6.63 16l-9.37 9.37a54.6 54.6 0 0 1-16-38.63v-7.33c.23-.12.47-.22.71-.32a22.636 22.636 0 0 1 31.29 20.91z"
+        fill="#c78640" data-name="layer4" style="fill:var(--layer4, #c78640)"></path>
+        <path d="M48 408h16v32H48zm24 0h16v32H72z" fill="#91c0ff" data-name="layer5"
+        style="fill:var(--layer5, #91c0ff)"></path>
+        <path d="M104 416h136v16H104z" fill="#4976f2" data-name="layer6"
+        style="fill:var(--layer6, #4976f2)"></path>
+        <circle cx="256" cy="424" fill="#7dafff" r="16" data-name="layer7"
+        style="fill:var(--layer7, #7dafff)"></circle>
+        <path d="M256 448a24 24 0 1 1 24-24 24.027 24.027 0 0 1-24 24zm0-32a8 8 0 1 0 8 8 8.01 8.01 0 0 0-8-8z"
+        fill="#91c0ff" data-name="layer5" style="fill:var(--layer5, #91c0ff)"></path>
+        <path d="M304 416h144v16H304z" fill="#4976f2" data-name="layer6"
+        style="fill:var(--layer6, #4976f2)"></path>
+        <g fill="#91c0ff" data-name="layer5" style="fill:var(--layer5, #91c0ff)">
+          <circle cx="56" cy="80" r="8" data-name="layer8" fill="#000" style="fill:var(--layer8, #000)"></circle>
+          <circle cx="80" cy="80" r="8" data-name="layer8" style="fill:var(--layer8, #000)"></circle>
+          <circle cx="104" cy="80" r="8" data-name="layer8" style="fill:var(--layer8, #000)"></circle>
+        </g>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="virtualrealityglasses-1">
+        <title>virtual-reality-glasses</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M456 160v8l-47.7 89.43A57.721 57.721 0 0 1 357.36 288a56.848 56.848 0 0 1-37.43-14.06L296 253v115H120v-28.74l-14.44 10.7A51.136 51.136 0 0 1 24 308.87a79.679 79.679 0 0 1 10.23-39.06l21.38-38.01 31.21-55.49a32.017 32.017 0 0 1 27.9-16.31h176.03a31.996 31.996 0 0 1 22.62 9.37L360 216l40-56v-32h24a32.004 32.004 0 0 1 32 32z"
+        fill="#548aff" data-name="layer1" style="fill:var(--layer1, #548aff)"></path>
+        <path d="M200 264v16l-80 59.26-14.44 10.7A51.136 51.136 0 0 1 24 308.87a79.679 79.679 0 0 1 10.23-39.06l21.38-38.01 67.3 33.65L132 260l12-28h24a32.004 32.004 0 0 1 32 32zM168 56v76a44 44 0 0 0 44 44 44 44 0 0 0 44-44V56z"
+        fill="#ffceb6" data-name="layer2" style="fill:var(--layer2, #ffceb6)"></path>
+        <path d="M264 56h-64l-16 32h-16V56a32 32 0 0 1 32-32h40z" fill="#b1712c"
+        data-name="layer3" style="fill:var(--layer3, #b1712c)"></path>
+        <path d="M248 88h-88v16l24 16h64z" fill="#62798c" data-name="layer4"
+        style="fill:var(--layer4, #62798c)"></path>
+        <path d="M352 100a28.005 28.005 0 0 1-28 28h-72a28 28 0 0 1 0-56h72a27.996 27.996 0 0 1 28 28z"
+        fill="#4976f2" data-name="layer5" style="fill:var(--layer5, #4976f2)"></path>
+        <path d="M352 100a28.005 28.005 0 0 1-28 28h-24a28 28 0 1 1 0-56h24a27.996 27.996 0 0 1 28 28z"
+        fill="#548aff" data-name="layer1" style="fill:var(--layer1, #548aff)"></path>
+        <path d="M256 72l-8.706-26.12A32 32 0 0 0 216.936 24h32a32 32 0 0 1 30.358 21.88L288 72z"
+        fill="#62798c" data-name="layer4" style="fill:var(--layer4, #62798c)"></path>
+        <rect fill="#ffbfa1" height="16.001" rx="8" transform="rotate(-30.95 97.576 280.997)"
+        width="59.37" x="67.77" y="272.727" data-name="layer6" style="fill:var(--layer6, #ffbfa1)"></rect>
+        <path d="M144 200v32h24a32 32 0 0 1 32 32v16h32v-80zM400 96v32h24a32 32 0 0 1 32 32v8h32V96z"
+        fill="#ffc431" data-name="layer7" style="fill:var(--layer7, #ffc431)"></path>
+        <path d="M120 368h176v128H120z" fill="#8098ab" data-name="layer8"
+        style="fill:var(--layer8, #8098ab)"></path>
+        <path d="M216 496h-16v-56a8 8 0 0 1 8-8 8 8 0 0 1 8 8z" fill="#718799"
+        data-name="layer9" style="fill:var(--layer9, #718799)"></path>
+        <circle cx="208" cy="224" fill="#ffe28f" r="8" data-name="layer10"
+        style="fill:var(--layer10, #ffe28f)"></circle>
+        <circle cx="464" cy="120" fill="#ffe28f" r="8" data-name="layer10"
+        style="fill:var(--layer10, #ffe28f)"></circle>
+        <rect fill="#4f7ff7" height="31.89" rx="8" transform="rotate(-48.8 283.857 242.355)"
+        width="15.999" x="276" y="226.555" data-name="layer11" style="fill:var(--layer11, #4f7ff7)"></rect>
+        <path d="M456 160v8l-47.7 89.43A57.721 57.721 0 0 1 357.36 288a56.848 56.848 0 0 1-37.43-14.06L296 253l48-53 16 16 40-56v-32h24a32.004 32.004 0 0 1 32 32z"
+        fill="#ffceb6" data-name="layer2" style="fill:var(--layer2, #ffceb6)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="workout-1">
+        <title>workout</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M352 256l32 32-17.373 17.373a22.627 22.627 0 0 1-16 6.627A22.627 22.627 0 0 1 328 289.373a22.627 22.627 0 0 1 6.627-16z"
+        fill="#ffbfa1" data-name="layer1" style="fill:var(--layer1, #ffbfa1)"></path>
+        <path d="M352 256l8-8h32l2.343 2.343A19.314 19.314 0 0 1 400 264a19.314 19.314 0 0 1-5.657 13.657L384 288z"
+        fill="#c78640" data-name="layer2" style="fill:var(--layer2, #c78640)"></path>
+        <path d="M488 256v16l-65.23 38.37a300.671 300.671 0 0 1-31.72 16.21A301.303 301.303 0 0 1 269.89 352c-4.63 0-9.27-.11-13.89-.33a299.046 299.046 0 0 1-46.73-5.83 301.897 301.897 0 0 1-40.7-11.37q-8.82-3.15-17.46-6.85l-36.87-15.8a40.013 40.013 0 0 1-23.05-27.07L72 208l33.52-25.14L136 256l96 32h118.63l11.87-4.25L440 256l8-24h16v16l16-8z"
+        fill="#ffceb6" data-name="layer3" style="fill:var(--layer3, #ffceb6)"></path>
+        <path d="M256 288v63.67a299.046 299.046 0 0 1-46.73-5.83 301.897 301.897 0 0 1-40.7-11.37l22.54-60.1L232 288z"
+        fill="#ffb401" data-name="layer4" style="fill:var(--layer4, #ffb401)"></path>
+        <path d="M391.05 326.58A301.303 301.303 0 0 1 269.89 352c-4.63 0-9.27-.11-13.89-.33V288h94.63l11.87-4.25z"
+        fill="#548aff" data-name="layer5" style="fill:var(--layer5, #548aff)"></path>
+        <path d="M72 208l33.524-25.143L96 160l-72 8v16z" fill="#e0edff"
+        data-name="layer6" style="fill:var(--layer6, #e0edff)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="workouteight-1">
+        <title>workout-eight</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M248 417.73a24.587 24.587 0 0 1-12.39 21.35L192 464h-40l48-40-47.19-9.44-1.54-.31a38.906 38.906 0 0 1-27.16-55.55l.01.01 93.02 31 14.04 4.68A24.596 24.596 0 0 1 248 417.73z"
+        fill="#ffbfa1" data-name="layer1" style="fill:var(--layer1, #ffbfa1)"></path>
+        <path d="M217.14 389.71L200 424l-47.19-9.44-1.54-.31a38.906 38.906 0 0 1-27.16-55.55l.01.01z"
+        fill="#ffb401" data-name="layer2" style="fill:var(--layer2, #ffb401)"></path>
+        <path d="M124.113 358.704a38.886 38.886 0 0 1 7.28-10.097A124.985 124.985 0 0 1 219.77 312H224l16 16-40.932 55.69z"
+        fill="#ef5e3b" data-name="layer3" style="fill:var(--layer3, #ef5e3b)"></path>
+        <path d="M192 464l16 16v8h-56v-24z" fill="#e0edff" data-name="layer4"
+        style="fill:var(--layer4, #e0edff)"></path>
+        <path d="M257.941 271.431v-15.598a16.97 16.97 0 0 0-4.97-12 16.97 16.97 0 0 0-24 0l-24.173 24.173a53.896 53.896 0 0 1-48.68 14.74l10.753 10.753a40 40 0 0 0 50.473 4.998l6.656-4.438z"
+        fill="#b1712c" data-name="layer5" style="fill:var(--layer5, #b1712c)"></path>
+        <path d="M384 120l-.204 21.808C384 149.255 373.255 160 360 160a24 24 0 0 1-24-24v-16z"
+        fill="#ffbfa1" data-name="layer1" style="fill:var(--layer1, #ffbfa1)"></path>
+        <path d="M384 120v-8a24 24 0 0 0-24-24 24 24 0 0 0-24 24v8zm-64-8l-11.03-11.03a16.97 16.97 0 0 0-12-4.97A16.97 16.97 0 0 0 280 112.97v34.186A53.896 53.896 0 0 1 256 192h4.919A63.632 63.632 0 0 0 320 152z"
+        fill="#c78640" data-name="layer6" style="fill:var(--layer6, #c78640)"></path>
+        <path d="M312 264v-76.686A27.314 27.314 0 0 1 320 168h40l21.5 16.124a26.252 26.252 0 0 1 10.5 21.002 26.252 26.252 0 0 1-7.689 18.563L376 232v32z"
+        fill="#ef5e3b" data-name="layer3" style="fill:var(--layer3, #ef5e3b)"></path>
+        <path d="M312 464l40-16 32 24v16h-72z" fill="#e0edff" data-name="layer4"
+        style="fill:var(--layer4, #e0edff)"></path>
+        <path d="M376 264v24l-24 160-40 16V264z" fill="#ffceb6" data-name="layer7"
+        style="fill:var(--layer7, #ffceb6)"></path>
+        <path d="M376 264v24l-6 40h-58v-64z" fill="#ffb401" data-name="layer2"
+        style="fill:var(--layer2, #ffb401)"></path>
+        <path d="M320 180a20 20 0 0 0 20 20 20 20 0 0 0 20-20V40a16 16 0 0 0-16-16h-16v24l-16-8-8 8 16 24zm-94.454 187.745L192 408l24 48 24 8 8 8-8 16h-40l-36.624-48.833A56.878 56.878 0 0 1 152 405.042a56.878 56.878 0 0 1 13.693-37.016l27.746-32.37A21.919 21.919 0 0 1 210.081 328 21.919 21.919 0 0 1 232 349.919a27.845 27.845 0 0 1-6.454 17.826zm9.768-73.687h22.627l16.97 16.971L257.942 328A24 24 0 0 1 224 328a24 24 0 0 1 0-33.941l5.657-5.657z"
+        fill="#ffceb6" data-name="layer7" style="fill:var(--layer7, #ffceb6)"></path>
+        <path d="M274.912 311.03a24 24 0 0 0 0-33.942 24 24 0 0 0-33.941 0l-11.314 11.314 5.657 5.656h22.627z"
+        fill="#c78640" data-name="layer6" style="fill:var(--layer6, #c78640)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="workouteleven-1">
+        <title>workout-eleven</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M176 152l-32-8-16 40 .002 8.474A15.522 15.522 0 0 1 112.48 208h-.688A15.69 15.69 0 0 1 96 192.338v-.343a57.102 57.102 0 0 1 2.198-15.687l11.41-39.935a33.605 33.605 0 0 1 8.55-14.53A33.605 33.605 0 0 1 141.92 112H192z"
+        fill="#ffbfa1" data-name="layer1" style="fill:var(--layer1, #ffbfa1)"></path>
+        <path d="M176 124v92l56-8v-84a28 28 0 0 0-28-28 28 28 0 0 0-28 28z"
+        fill="#ef5e3b" data-name="layer2" style="fill:var(--layer2, #ef5e3b)"></path>
+        <path d="M192 40l-11.03-11.03a16.97 16.97 0 0 0-12-4.97A16.97 16.97 0 0 0 152 40.97v26.186A53.896 53.896 0 0 1 128 112h24a32 32 0 0 0 32-32z"
+        fill="#b1712c" data-name="layer3" style="fill:var(--layer3, #b1712c)"></path>
+        <path d="M192 71.999L208 56h24v24a24 24 0 0 1-24 24 24 24 0 0 1-24-24v-8z"
+        fill="#ffceb6" data-name="layer4" style="fill:var(--layer4, #ffceb6)"></path>
+        <path d="M232 56a24 24 0 0 0-24-24 24 24 0 0 0-24 24v16l8-.001L208 56z"
+        fill="#c78640" data-name="layer5" style="fill:var(--layer5, #c78640)"></path>
+        <path d="M214.49 112.111L240 144l32-16 5.655-8.481a15.29 15.29 0 0 1 23.534-2.33 15.29 15.29 0 0 1 0 21.623l-33.875 33.874A38.627 38.627 0 0 1 240 184a38.627 38.627 0 0 1-27.313-11.314l-29.342-29.34A25.078 25.078 0 0 1 176 125.612 21.612 21.612 0 0 1 197.613 104a21.612 21.612 0 0 1 16.876 8.111zM384 304l-32 16-40-88-37.24 14.9L232 264l-3.27 24L208 440h-32V216l56-8 24-8 42.13-14.04a38.117 38.117 0 0 1 47.46 22.01z"
+        fill="#ffceb6" data-name="layer4" style="fill:var(--layer4, #ffceb6)"></path>
+        <path d="M352 320v16l56 16 8-16-32-32z" fill="#e0edff" data-name="layer6"
+        style="fill:var(--layer6, #e0edff)"></path>
+        <path d="M274.76 246.9L232 264l-3.27 24H176v-72l56-8 24-8z" fill="#ffb401"
+        data-name="layer7" style="fill:var(--layer7, #ffb401)"></path>
+        <path d="M176 440h32l8 48h-16l-32-32z" fill="#e0edff" data-name="layer6"
+        style="fill:var(--layer6, #e0edff)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="workoutfifthteen-1">
+        <title>workout-fifthteen</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M256 360l-24 96h-16v-96z"
+        fill="#bed3f7" data-name="layer1" style="fill:var(--layer1, #bed3f7)"></path>
+        <path d="M216 280h272v80H216z" fill="#e0edff" data-name="layer2"
+        style="fill:var(--layer2, #e0edff)"></path>
+        <g fill="#bed3f7" data-name="layer1" style="fill:var(--layer1, #bed3f7)">
+          <circle cx="424" cy="320" r="8" data-name="layer3" fill="#000" style="fill:var(--layer3, #000)"></circle>
+          <circle cx="280" cy="320" r="8" data-name="layer3" style="fill:var(--layer3, #000)"></circle>
+          <path d="M448 360l24 96h16v-96z" data-name="layer3" style="fill:var(--layer3, #000)"></path>
+        </g>
+        <path d="M344 280h16v80h-16z" fill="#d1e4ff" data-name="layer4" style="fill:var(--layer4, #d1e4ff)"></path>
+        <path d="M216 64h272v176H216z" fill="#548aff" data-name="layer5"
+        style="fill:var(--layer5, #548aff)"></path>
+        <path d="M112 72l-11.03-11.03a16.97 16.97 0 0 0-12-4.97A16.97 16.97 0 0 0 72 72.97v34.186A53.896 53.896 0 0 1 48 152h15.208a40 40 0 0 0 39.223-32.155L104 112z"
+        fill="#b1712c" data-name="layer6" style="fill:var(--layer6, #b1712c)"></path>
+        <path d="M112 103.999L128 88h24v24a24 24 0 0 1-24 24 24 24 0 0 1-24-24v-8z"
+        fill="#ffceb6" data-name="layer7" style="fill:var(--layer7, #ffceb6)"></path>
+        <path d="M152 88a24 24 0 0 0-24-24 24 24 0 0 0-24 24v16l8-.001L128 88z"
+        fill="#c78640" data-name="layer8" style="fill:var(--layer8, #c78640)"></path>
+        <path d="M144 232v-24l1.69-.845A25.889 25.889 0 0 0 160 184v-48h-48a24 24 0 0 0-24 24v72z"
+        fill="#ef5e3b" data-name="layer9" style="fill:var(--layer9, #ef5e3b)"></path>
+        <path d="M232 424l-32 16-24-112-32.05-23.32-42.77-31.1A31.997 31.997 0 0 1 88 247.7V232h56l38.45 34.18 22.3 19.82a40.061 40.061 0 0 1 13.12 24.94zm-86.465-243.928L224 168l16 8h4a20 20 0 0 0 20-20 20 20 0 0 0-20-20H142.165A22.165 22.165 0 0 0 120 158.165a22.165 22.165 0 0 0 25.535 21.907z"
+        fill="#ffceb6" data-name="layer7" style="fill:var(--layer7, #ffceb6)"></path>
+        <path d="M30.857 399.429L24 408l24 48h16v-40z" fill="#e0edff" data-name="layer2"
+        style="fill:var(--layer2, #e0edff)"></path>
+        <path d="M144 248l-10.66 64-3.44 20.62a40.035 40.035 0 0 1-9.56 20L64 416l-33.14-16.57L88 328v-80z"
+        fill="#ffceb6" data-name="layer7" style="fill:var(--layer7, #ffceb6)"></path>
+        <path d="M200 440l32-16 32 16v16h-64z" fill="#e0edff" data-name="layer2"
+        style="fill:var(--layer2, #e0edff)"></path>
+        <path d="M144 248l-10.66 64H88v-64z" fill="#ffa100" data-name="layer10"
+        style="fill:var(--layer10, #ffa100)"></path>
+        <path d="M182.45 266.18l-38.5 38.5-42.77-31.1A31.997 31.997 0 0 1 88 247.7V232h56z"
+        fill="#ffb401" data-name="layer11" style="fill:var(--layer11, #ffb401)"></path>
+        <path d="M248 240v40h16l16-40zm208 0v40h-16l-16-40z" fill="#718799"
+        data-name="layer12" style="fill:var(--layer12, #718799)"></path>
+        <path d="M336 120v64l40-32z" fill="#91c0ff" data-name="layer13"
+        style="fill:var(--layer13, #91c0ff)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="workoutfive-1">
+        <title>workout-five</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M384 240l40-40h24l-16 80-22.036 3.273z"
+        fill="#e0edff" data-name="layer1" style="fill:var(--layer1, #e0edff)"></path>
+        <path d="M409.964 283.273l-185.118 27.5V240H384z" fill="#ffbfa1"
+        data-name="layer2" style="fill:var(--layer2, #ffbfa1)"></path>
+        <path d="M272 287.15a47.074 47.074 0 0 1-3.21 17.09L216 440l-56 24 40-152h-68a60.01 60.01 0 0 1-58.79-72h151.64A47.15 47.15 0 0 1 272 287.15z"
+        fill="#ffceb6" data-name="layer3" style="fill:var(--layer3, #ffceb6)"></path>
+        <path d="M160 240l16-48a53.666 53.666 0 0 0 24-24v-24h-88l-35.385 84.923A59.999 59.999 0 0 0 73.212 240z"
+        fill="#ef5e3b" data-name="layer4" style="fill:var(--layer4, #ef5e3b)"></path>
+        <path d="M136 44l-19.9-9.95a19.416 19.416 0 0 0-8.684-2.05A19.416 19.416 0 0 0 88 51.416V70.06A81.941 81.941 0 0 1 64 128h24a40 40 0 0 0 40-40V72z"
+        fill="#b1712c" data-name="layer5" style="fill:var(--layer5, #b1712c)"></path>
+        <path d="M144 72l16-16h32v32a32 32 0 0 1-32 32 32 32 0 0 1-32-32V72z"
+        fill="#ffceb6" data-name="layer3" style="fill:var(--layer3, #ffceb6)"></path>
+        <path d="M128 72V56a32 32 0 0 1 32-32 32 32 0 0 1 32 32h-32l-16 16z"
+        fill="#c78640" data-name="layer6" style="fill:var(--layer6, #c78640)"></path>
+        <path d="M136 120h128l24-24h8v24h40v16l-24 8v8a16 16 0 0 1-16 16H136a24 24 0 0 1-24-24 24 24 0 0 1 24-24z"
+        fill="#ffceb6" data-name="layer3" style="fill:var(--layer3, #ffceb6)"></path>
+        <path d="M176 240v72h-44a60.01 60.01 0 0 1-58.79-72z" fill="#ffa100"
+        data-name="layer7" style="fill:var(--layer7, #ffa100)"></path>
+        <path d="M160 464l56-24 40 24v24h-96z" fill="#e0edff" data-name="layer1"
+        style="fill:var(--layer1, #e0edff)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="workoutfour-1">
+        <title>workout-four</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M440 360v16h-48l-11.43-120-1.61-16.91-68.49 21.07-79.91 24.59L64 336l-16-48 151.33-73.5 77.76-37.77 19.99-9.71A149.269 149.269 0 0 1 362.37 152 91.438 91.438 0 0 1 416 169.37l8 6.63v168z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M424 176v80h-43.43l-1.61-16.91-68.49 21.07-33.38-83.43 19.99-9.71A149.269 149.269 0 0 1 362.37 152 91.438 91.438 0 0 1 416 169.37z"
+        fill="#548aff" data-name="layer2" style="fill:var(--layer2, #548aff)"></path>
+        <path d="M310.47 260.16l-79.91 24.59-31.23-70.25 77.76-37.77z"
+        fill="#ffb401" data-name="layer3" style="fill:var(--layer3, #ffb401)"></path>
+        <path d="M48 288H24v88h16l24-40z" fill="#e0edff" data-name="layer4"
+        style="fill:var(--layer4, #e0edff)"></path>
+        <path d="M375.852 207.826a7.996 7.996 0 0 1 8.72 7.2l1.447 15.154a7.996 7.996 0 0 1-7.2 8.72 7.996 7.996 0 0 1-8.72-7.2l-1.447-15.154a7.996 7.996 0 0 1 7.2-8.72z"
+        fill="#4f7ff7" data-name="layer5" style="fill:var(--layer5, #4f7ff7)"></path>
+        <path d="M472 176l-32-32-17.373 17.373a22.627 22.627 0 0 0-6.627 16A22.627 22.627 0 0 0 438.627 200a22.627 22.627 0 0 0 16-6.627z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M472 176l12.686-12.686a16 16 0 0 0 0-22.628A16 16 0 0 0 473.373 136H448l-8 8z"
+        fill="#c78640" data-name="layer6" style="fill:var(--layer6, #c78640)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="workoutfourteen-1">
+        <title>workout-fourteen</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M464 376H296v-64h40l48 10.29L448 336z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M384 322.29V376h-88v-64h40z" fill="#ffa100" data-name="layer2"
+        style="fill:var(--layer2, #ffa100)"></path>
+        <path d="M200 368H72l-24 16-8-8 8-16H24v-16a16 16 0 0 1 16-16h160z"
+        fill="#ffbfa1" data-name="layer3" style="fill:var(--layer3, #ffbfa1)"></path>
+        <path d="M144 368v-48h24a24 24 0 0 1 24 24 24 24 0 0 1-24 24h-24z"
+        fill="#ffd9c7" data-name="layer4" style="fill:var(--layer4, #ffd9c7)"></path>
+        <path d="M144 368h-16l-12.906-19.359A18.422 18.422 0 0 1 112 338.422 18.422 18.422 0 0 1 130.422 320H144z"
+        fill="#c78640" data-name="layer5" style="fill:var(--layer5, #c78640)"></path>
+        <path d="M416 208l-80 40v96a32.004 32.004 0 0 1-32 32h-24V231.06a31.984 31.984 0 0 1 21.88-30.35L400 168z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M280 376h-72a24 24 0 0 1-24-24v-72h40v24h56z" fill="#548aff"
+        data-name="layer6" style="fill:var(--layer6, #548aff)"></path>
+        <path d="M184 280h40v-88a16 16 0 0 0-16-16h-16v24l-16-8-8 8 16 24z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M336 280v64a32.004 32.004 0 0 1-32 32h-24v-96z" fill="#ffb401"
+        data-name="layer7" style="fill:var(--layer7, #ffb401)"></path>
+        <path d="M464 376l-16-40 24-40h16v80zm-64-208l16 40h24v-80h-16z"
+        fill="#e0edff" data-name="layer8" style="fill:var(--layer8, #e0edff)"></path>
+        <path d="M232 328a8 8 0 0 1-8-8v-16h16v16a8 8 0 0 1-8 8z" fill="#4f7ff7"
+        data-name="layer9" style="fill:var(--layer9, #4f7ff7)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="workoutmachine-1">
+        <title>workout-machine</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <circle cx="384" cy="392"
+        fill="#62798c" r="72" data-name="layer1" style="fill:var(--layer1, #62798c)"></circle>
+        <path d="M296.73 309.84l-25.35 21.23L221.33 256H160v-48h68.92a40.019 40.019 0 0 1 37.14 25.14z"
+        fill="#ffbfa1" data-name="layer2" style="fill:var(--layer2, #ffbfa1)"></path>
+        <path d="M288.306 384v-32a32 32 0 0 1 32-32H368v-32h-56a56 56 0 0 0-56 56v40z"
+        fill="#62798c" data-name="layer1" style="fill:var(--layer1, #62798c)"></path>
+        <path d="M350.054 160L424 464h-32l-73.946-304z" fill="#718799"
+        data-name="layer3" style="fill:var(--layer3, #718799)"></path>
+        <path d="M160 208h56v48h-56z" fill="#ffa100" data-name="layer4"
+        style="fill:var(--layer4, #ffa100)"></path>
+        <path d="M312 144h48l28.686-28.686a11.314 11.314 0 0 1 8-3.314A11.314 11.314 0 0 1 408 123.314a11.314 11.314 0 0 1-3.314 8l-24.97 24.97A40 40 0 0 1 351.43 168H312z"
+        fill="#8098ab" data-name="layer5" style="fill:var(--layer5, #8098ab)"></path>
+        <path d="M288 464v-32h-40l16 32zm-184 0l16-32v-16H80v48z" fill="#718799"
+        data-name="layer3" style="fill:var(--layer3, #718799)"></path>
+        <path d="M120 280h32v64h-32z" fill="#62798c" data-name="layer1"
+        style="fill:var(--layer1, #62798c)"></path>
+        <path d="M288.306 367.108L288 432H108.98A52.98 52.98 0 0 1 56 379.02a52.98 52.98 0 0 1 65.21-51.55zM88 248h112v32H88z"
+        fill="#8098ab" data-name="layer5" style="fill:var(--layer5, #8098ab)"></path>
+        <path d="M248 285.66a44.291 44.291 0 0 1-12.97 31.31L184 368l-40-8 56-72-35.37-20.63-36.54-21.32a48.56 48.56 0 0 1-9.87-76.27L140 148l68-68h16v80l-48 48 27 21 27.9 21.7a44.28 44.28 0 0 1 17.1 34.96z"
+        fill="#ffceb6" data-name="layer6" style="fill:var(--layer6, #ffceb6)"></path>
+        <path d="M224 80v80l-36 36-48-48 68-68z" fill="#ef5e3b" data-name="layer7"
+        style="fill:var(--layer7, #ef5e3b)"></path>
+        <path d="M216 40l-7.495-7.495A29.038 29.038 0 0 0 187.972 24a32.315 32.315 0 0 0-28.904 17.864A32.315 32.315 0 0 1 136.502 59.1L112 64l26.547 9.955A53.385 53.385 0 0 0 200 56h16z"
+        fill="#b1712c" data-name="layer8" style="fill:var(--layer8, #b1712c)"></path>
+        <path d="M208 71.999L224 56h24v24a24 24 0 0 1-24 24 24 24 0 0 1-24-24v-8z"
+        fill="#ffceb6" data-name="layer6" style="fill:var(--layer6, #ffceb6)"></path>
+        <path d="M248 56a24 24 0 0 0-24-24 24 24 0 0 0-24 24v16l8-.001L224 56z"
+        fill="#c78640" data-name="layer9" style="fill:var(--layer9, #c78640)"></path>
+        <path d="M242.894 184a45.615 45.615 0 0 0 10.085-1.129l63.338-14.36a16.569 16.569 0 0 0 12.905-16.158 18.767 18.767 0 0 0-18.767-18.767 18.767 18.767 0 0 0-9.71 2.708L288 144h-40l-41.373-41.373a22.627 22.627 0 0 0-16-6.627A22.627 22.627 0 0 0 168 118.627a22.627 22.627 0 0 0 6.627 16l36.013 36.013A45.614 45.614 0 0 0 242.894 184z"
+        fill="#ffceb6" data-name="layer6" style="fill:var(--layer6, #ffceb6)"></path>
+        <path d="M144 360l40 8 8 40-16 16-40-56z" fill="#e0edff" data-name="layer10"
+        style="fill:var(--layer10, #e0edff)"></path>
+        <path d="M56 464h368v24H56z" fill="#8098ab" data-name="layer5"
+        style="fill:var(--layer5, #8098ab)"></path>
+        <path d="M203 229l-38.37 38.37-36.54-21.32a48.56 48.56 0 0 1-9.87-76.27L140 148l48 48-12 12z"
+        fill="#ffb401" data-name="layer11" style="fill:var(--layer11, #ffb401)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="workoutnine-1">
+        <title>workout-nine</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M384 272v42.72l-81.1 43.75L224 376l-32-40 128-32-64-16v-56h88a40.002 40.002 0 0 1 40 40z"
+        fill="#ffbfa1" data-name="layer1" style="fill:var(--layer1, #ffbfa1)"></path>
+        <path d="M320 232v72l-64-16v-56z" fill="#ffa100" data-name="layer2"
+        style="fill:var(--layer2, #ffa100)"></path>
+        <path d="M256 164.84V240H146.67l-5.97-7.67a60.28 60.28 0 0 1-1.47-72.05l1.67-2.34 13.15-18.41A46.644 46.644 0 0 1 192 120h40a53.904 53.904 0 0 1 24 44.84z"
+        fill="#548aff" data-name="layer3" style="fill:var(--layer3, #548aff)"></path>
+        <rect fill="#4f7ff7" height="16" rx="8" transform="rotate(-59 200.737 180.463)"
+        width="28.877" x="186.133" y="172.381" data-name="layer4" style="fill:var(--layer4, #4f7ff7)"></rect>
+        <path d="M384 314.72a54.705 54.705 0 0 1-14.38 36.97L296 432l-32-40 64-72H208a55.997 55.997 0 0 1-56-56v-17.14l-5.33-6.86H256l40 10 46.56 11.64A54.724 54.724 0 0 1 384 314.72z"
+        fill="#ffceb6" data-name="layer5" style="fill:var(--layer5, #ffceb6)"></path>
+        <path d="M296 250v70h-88a55.997 55.997 0 0 1-56-56v-17.14l-5.33-6.86H256z"
+        fill="#ffb401" data-name="layer6" style="fill:var(--layer6, #ffb401)"></path>
+        <path d="M248 64v32a32 32 0 0 1-32 32 32 32 0 0 1-32-32V64z" fill="#ffceb6"
+        data-name="layer5" style="fill:var(--layer5, #ffceb6)"></path>
+        <path d="M184 64V48l25.6-19.2A24 24 0 0 1 224 24a24 24 0 0 1 24 24v16z"
+        fill="#c78640" data-name="layer7" style="fill:var(--layer7, #c78640)"></path>
+        <path d="M264 392l32 40-8 56h-16l-32-88zm-72-56l32 40-32 56h-16v-96z"
+        fill="#e0edff" data-name="layer8" style="fill:var(--layer8, #e0edff)"></path>
+        <path d="M240 272l-8 16h-48l-37.33-48-5.97-7.67a60.28 60.28 0 0 1-1.47-72.05l1.67-2.34 52.24 34.82L184 208l24 48 24 8z"
+        fill="#ffceb6" data-name="layer5" style="fill:var(--layer5, #ffceb6)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="workoutone-1">
+        <title>workout-one</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M408 256v96l-24 88-40 24V296l-56.52 47.48L144 464l-32-32 128.93-135.07L280 256z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M408 160h48v-24a32 32 0 0 0-32-32H280a32 32 0 0 0-32 32v24h32v96h128z"
+        fill="#548aff" data-name="layer2" style="fill:var(--layer2, #548aff)"></path>
+        <path d="M384 64v32a32 32 0 0 1-32 32 32 32 0 0 1-32-32V64z" fill="#ffceb6"
+        data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M320 64V48l25.6-19.2A24 24 0 0 1 360 24a24 24 0 0 1 24 24v16z"
+        fill="#b1712c" data-name="layer3" style="fill:var(--layer3, #b1712c)"></path>
+        <path d="M296 160h-16v-16a8 8 0 0 1 8-8 8 8 0 0 1 8 8zm128 0h-16v-16a8 8 0 0 1 8-8 8 8 0 0 1 8 8z"
+        fill="#4f7ff7" data-name="layer4" style="fill:var(--layer4, #4f7ff7)"></path>
+        <path d="M344 464l40-24 40 32v16h-80zm-200 0l-32-32-56 40v16h88z"
+        fill="#e0edff" data-name="layer5" style="fill:var(--layer5, #e0edff)"></path>
+        <path d="M408 256v72h-64v-32l-56.52 47.48-46.55-46.55L280 256z"
+        fill="#ffb401" data-name="layer6" style="fill:var(--layer6, #ffb401)"></path>
+        <path d="M456 160v33.64a38.36 38.36 0 0 1-67.48 24.97l-25.51-29.76L352 176v-24h32l24 24v-16z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M398.07 166.07A28.179 28.179 0 0 1 371.85 184h-4.59l-4.25 4.85L352 176v-24h32z"
+        fill="#ffbfa1" data-name="layer7" style="fill:var(--layer7, #ffbfa1)"></path>
+        <path d="M296 160h-48v33.48A38.52 38.52 0 0 0 286.52 232a38.52 38.52 0 0 0 28.99-13.155L360 168h11.851A12.149 12.149 0 0 0 384 155.851a25.425 25.425 0 0 0-19.259-24.666 25.425 25.425 0 0 0-22.713 5.362L296 176z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="workoutseven-1">
+        <title>workout-seven</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M368 123.24a50.174 50.174 0 0 1-14.68 35.44L320 192l-16 56 13.77 86.08L336 448l-32 24-34.78-121.74L256 304l-13.22 46.26L208 472l-32-24 18.23-113.92L208 248l-16-56-33.32-33.32a50.141 50.141 0 0 1-1.81-68.98L216 24l24 16-8 16 8 16-8 8h-16l-24 40 40 40h48l40-40-24-40h-16l-8-8 8-16-8-16 24-16 59.13 65.7A50.115 50.115 0 0 1 368 123.24z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M208 472v16h-72v-16l40-24zm128-24l40 24v16h-72v-16z" fill="#e0edff"
+        data-name="layer2" style="fill:var(--layer2, #e0edff)"></path>
+        <path d="M317.77 334.08l-48.55 16.18L256 304l-13.22 46.26-48.55-16.18L208 248h96z"
+        fill="#ffb401" data-name="layer3" style="fill:var(--layer3, #ffb401)"></path>
+        <path d="M344 168l-24 24-16 56h-96l-16-56-24-24 36-36 28 28h48l28-28z"
+        fill="#548aff" data-name="layer4" style="fill:var(--layer4, #548aff)"></path>
+        <path d="M232 136h48v24a24 24 0 0 1-24 24 24 24 0 0 1-24-24v-24z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M232 136v-16l19.359-12.906A18.422 18.422 0 0 1 261.578 104 18.422 18.422 0 0 1 280 122.422V136z"
+        fill="#c78640" data-name="layer5" style="fill:var(--layer5, #c78640)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="workoutseventeen-1">
+        <title>workout-seventeen</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M200 386.95a45.79 45.79 0 0 1-15.98 34.75L144 456l-48 8 56-72-34.99-34.99a44.418 44.418 0 0 1 4.93-67.07l64.66 64.66a45.71 45.71 0 0 1 13.4 32.35z"
+        fill="#ffbfa1" data-name="layer1" style="fill:var(--layer1, #ffbfa1)"></path>
+        <path d="M144 456l32 24v8H96v-24z" fill="#d1e4ff" data-name="layer2"
+        style="fill:var(--layer2, #d1e4ff)"></path>
+        <path d="M184 352l-40 32-26.99-26.99a44.418 44.418 0 0 1 4.93-67.07z"
+        fill="#ffa100" data-name="layer3" style="fill:var(--layer3, #ffa100)"></path>
+        <path d="M224 224l32 32-17.373 17.373a22.627 22.627 0 0 1-16 6.627A22.627 22.627 0 0 1 200 257.373a22.627 22.627 0 0 1 6.627-16z"
+        fill="#ffceb6" data-name="layer4" style="fill:var(--layer4, #ffceb6)"></path>
+        <path d="M224 224l8-8h32l2.343 2.343A19.314 19.314 0 0 1 272 232a19.314 19.314 0 0 1-5.657 13.657L256 256z"
+        fill="#c78640" data-name="layer5" style="fill:var(--layer5, #c78640)"></path>
+        <g fill="#ffceb6" data-name="layer4" style="fill:var(--layer4, #ffceb6)">
+          <path d="M288 400v16h-24l-16-8-8 8h-8v-32l-27.83-50.09L192 312l-58.67 29.33-51.39-51.39a44.38 44.38 0 0 1 9.39-5.33l55.84-23.26a69.493 69.493 0 0 1 92.67 42.18l3.59 10.76L264 376zM456 24v96a32.004 32.004 0 0 1-32 32h-40v72l-13.54 88L352 432h-40V136a32.004 32.004 0 0 1 32-32h72l8-48-8-16 8-16z"
+          data-name="layer6" fill="#000" style="fill:var(--layer6, #000)"></path>
+          <path d="M328 56h48v24a24 24 0 0 1-24 24 24 24 0 0 1-24-24V56z"
+          data-name="layer6" style="fill:var(--layer6, #000)"></path>
+        </g>
+        <path d="M328 56V40l19.359-12.906A18.422 18.422 0 0 1 357.578 24 18.422 18.422 0 0 1 376 42.422V56z"
+        fill="#c78640" data-name="layer5" style="fill:var(--layer5, #c78640)"></path>
+        <path d="M312 432h40l8 48-8 8-48-40z" fill="#e0edff" data-name="layer7"
+        style="fill:var(--layer7, #e0edff)"></path>
+        <path d="M392 104v48h-8v72h-72v-88a32.004 32.004 0 0 1 32-32z"
+        fill="#548aff" data-name="layer8" style="fill:var(--layer8, #548aff)"></path>
+        <path d="M384 224l-13.54 88H312v-88z" fill="#ffb401" data-name="layer9"
+        style="fill:var(--layer9, #ffb401)"></path>
+        <path d="M160 386.95a45.79 45.79 0 0 1-15.98 34.75L104 456l-48 8 56-72-34.99-34.99a44.418 44.418 0 0 1 4.93-67.07l64.66 64.66a45.71 45.71 0 0 1 13.4 32.35z"
+        fill="#ffceb6" data-name="layer4" style="fill:var(--layer4, #ffceb6)"></path>
+        <path d="M104 456l32 24v8H56v-24z" fill="#e0edff" data-name="layer7"
+        style="fill:var(--layer7, #e0edff)"></path>
+        <path d="M144 352l-40 32-26.99-26.99a44.418 44.418 0 0 1 4.93-67.07z"
+        fill="#ffb401" data-name="layer9" style="fill:var(--layer9, #ffb401)"></path>
+        <path d="M243.43 314.29l-39.26 19.62L192 312l-58.67 29.33-51.39-51.39a44.38 44.38 0 0 1 9.39-5.33l55.84-23.26a69.493 69.493 0 0 1 92.67 42.18z"
+        fill="#548aff" data-name="layer8" style="fill:var(--layer8, #548aff)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="workoutsix-1">
+        <title>workout-six</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M248 200v60.19l-50.95 24.26L72 344l-24-32 110.57-73.71L216 200z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M248 200v60.19l-50.95 24.26-38.48-46.16L216 200z" fill="#ffa100"
+        data-name="layer2" style="fill:var(--layer2, #ffa100)"></path>
+        <path d="M304 240h56l.845 1.69A25.889 25.889 0 0 0 384 256h48v-99.368l-182.59 28.83z"
+        fill="#ef5e3b" data-name="layer3" style="fill:var(--layer3, #ef5e3b)"></path>
+        <path d="M320 274.94a49.808 49.808 0 0 1-35.5 47.71L240 336l-32-24 56-32-9.33-6.67-31.99-22.84a35.06 35.06 0 0 1 14.91-63.16l18.74-2.96 41.08 46.22 10.01 11.26A49.796 49.796 0 0 1 320 274.94z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M445.373 144v-1.373A22.627 22.627 0 0 0 422.745 120a22.627 22.627 0 0 0-16 6.627L381.373 152h-32l23.514 23.515A28.97 28.97 0 0 0 393.373 184a28.97 28.97 0 0 0 20.485-8.485L429.373 160z"
+        fill="#b1712c" data-name="layer4" style="fill:var(--layer4, #b1712c)"></path>
+        <path d="M477.373 176l-16-16h-16l-8-8-9.373 9.373a22.627 22.627 0 0 0-6.627 16A22.627 22.627 0 0 0 444 200a22.627 22.627 0 0 0 16-6.627zm-91.203 56.947L400 392h48v-16l-16-16V230.958A22.958 22.958 0 0 0 409.042 208a22.958 22.958 0 0 0-22.873 24.947z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M477.373 176l4-4a22.627 22.627 0 0 0 0-32 22.627 22.627 0 0 0-32 0L440 149.373 437.373 152l8 8h16z"
+        fill="#c78640" data-name="layer5" style="fill:var(--layer5, #c78640)"></path>
+        <path d="M208 312l32 24-32 56h-16v-72z" fill="#e0edff" data-name="layer6"
+        style="fill:var(--layer6, #e0edff)"></path>
+        <path d="M297.41 230.59l-42.74 42.74-31.99-22.84a35.06 35.06 0 0 1 14.91-63.16l18.74-2.96z"
+        fill="#ffb401" data-name="layer7" style="fill:var(--layer7, #ffb401)"></path>
+        <path d="M72 344l-32 48H24v-80h24z" fill="#e0edff" data-name="layer6"
+        style="fill:var(--layer6, #e0edff)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="workoutsixteen-1">
+        <title>workout-sixteen</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M256 248v88a32.004 32.004 0 0 1-32 32h-96l16-32 64-16-24-72z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M256 248v48h-56l-16-48z" fill="#ffa100" data-name="layer2"
+        style="fill:var(--layer2, #ffa100)"></path>
+        <path d="M144 336l-16-16-56 40v8h56z" fill="#e0edff" data-name="layer3"
+        style="fill:var(--layer3, #e0edff)"></path>
+        <path d="M384 200h104v16l-16 8-8 16h-8l-8-8h-64z" fill="#ffceb6"
+        data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M360 200a32 32 0 0 1-32-32v-24a53.896 53.896 0 0 0 44.844 24h26.185A16.97 16.97 0 0 1 416 184.97a16.97 16.97 0 0 1-4.97 12L400 208z"
+        fill="#b1712c" data-name="layer4" style="fill:var(--layer4, #b1712c)"></path>
+        <path d="M344 208v8a55.993 55.993 0 0 1-56 56 38.634 38.634 0 0 1-27.31-11.31L256 256l-16-1.39-72-6.26L72 240v-40h252.69a27.318 27.318 0 0 1 19.31 8z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M344 208v8a55.993 55.993 0 0 1-56 56 38.634 38.634 0 0 1-27.31-11.31L256 256l-16-1.39V200h84.69a27.318 27.318 0 0 1 19.31 8z"
+        fill="#ef5e3b" data-name="layer5" style="fill:var(--layer5, #ef5e3b)"></path>
+        <path d="M240 200v54.61l-72-6.26V200z" fill="#ffb401" data-name="layer6"
+        style="fill:var(--layer6, #ffb401)"></path>
+        <path d="M368.001 208L384 224v24h-24a24 24 0 0 1-24-24 24 24 0 0 1 24-24h8z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M384 248a24 24 0 0 0 24-24 24 24 0 0 0-24-24h-16l.001 8L384 224z"
+        fill="#c78640" data-name="layer7" style="fill:var(--layer7, #c78640)"></path>
+        <path d="M336 246.67V344l16 16v8h-48l-13.203-118.826A22.67 22.67 0 0 1 313.33 224 22.67 22.67 0 0 1 336 246.67z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M72 240v-40l-24-8-24 64 8 8z" fill="#e0edff" data-name="layer3"
+        style="fill:var(--layer3, #e0edff)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="workoutthree-1">
+        <title>workout-three</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M432 352v16h-40l-46.6-46.6a59.4 59.4 0 0 1-9.92-70.86l9.82-17.68 4.92-8.86H264l-54.2 28.19L64 328l-16-40 137.78-91.85 64.11-42.74a55.961 55.961 0 0 1 31.07-9.41h117.15A28.926 28.926 0 0 1 424 160v32a57.832 57.832 0 0 1-8.23 29.72l-24.91 41.52L376 288l32 48z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M48 288l16 40-24 40H24v-80z" fill="#e0edff" data-name="layer2"
+        style="fill:var(--layer2, #e0edff)"></path>
+        <path d="M424 160v32a57.832 57.832 0 0 1-8.23 29.72l-24.91 41.52-45.56-30.38 4.92-8.86H288v-80h110.11A28.926 28.926 0 0 1 424 160z"
+        fill="#548aff" data-name="layer3" style="fill:var(--layer3, #548aff)"></path>
+        <path d="M288 144v80h-24l-54.2 28.19-24.02-56.04 64.11-42.74a55.961 55.961 0 0 1 31.07-9.41z"
+        fill="#ffb401" data-name="layer4" style="fill:var(--layer4, #ffb401)"></path>
+        <path d="M448.001 160L464 176v24h-24a24 24 0 0 1-24-24 24 24 0 0 1 24-24h8z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M464 200a24 24 0 0 0 24-24 24 24 0 0 0-24-24h-16l.001 8L464 176z"
+        fill="#c78640" data-name="layer5" style="fill:var(--layer5, #c78640)"></path>
+        <rect fill="#4f7ff7" height="16" rx="8" transform="rotate(-60.92 359.262 207.984)"
+        width="36.607" x="340.808" y="200" data-name="layer6" style="fill:var(--layer6, #4f7ff7)"></rect>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="workoutthriteen-1">
+        <title>workout-thriteen</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <rect fill="#f78e00"
+        height="168" rx="84" width="216" x="48" y="320" data-name="layer1" style="fill:var(--layer1, #f78e00)"></rect>
+        <path d="M440 300v132l-40 24-24-136H169.94A81.935 81.935 0 0 1 112 296l16-24 24-192-16-24 8-16 16 8 8-24h16a15.996 15.996 0 0 1 16 16v176a44.793 44.793 0 0 1 37.31 19.97L240 240h140a59.996 59.996 0 0 1 60 60z"
+        fill="#ffceb6" data-name="layer2" style="fill:var(--layer2, #ffceb6)"></path>
+        <path d="M264 240v80h-94.06A81.935 81.935 0 0 1 112 296l16-24 11-88h61v32a44.793 44.793 0 0 1 37.31 19.97L240 240z"
+        fill="#ef5e3b" data-name="layer3" style="fill:var(--layer3, #ef5e3b)"></path>
+        <path d="M56 288l-13.95 27.9a19.417 19.417 0 0 0-2.05 8.684A19.416 19.416 0 0 0 59.416 344H78.06A81.941 81.941 0 0 1 136 368v-32a32 32 0 0 0-32-32h-8z"
+        fill="#b1712c" data-name="layer4" style="fill:var(--layer4, #b1712c)"></path>
+        <path d="M80 288l-16-16v-32h32a32 32 0 0 1 32 32 32 32 0 0 1-32 32H80z"
+        fill="#ffceb6" data-name="layer2" style="fill:var(--layer2, #ffceb6)"></path>
+        <path d="M216 218.95V248a8 8 0 0 1-16 0v-32a44.698 44.698 0 0 1 16 2.95z"
+        fill="#e04f2b" data-name="layer5" style="fill:var(--layer5, #e04f2b)"></path>
+        <path d="M400 456l40-24 48 24v24h-88z" fill="#e0edff" data-name="layer6"
+        style="fill:var(--layer6, #e0edff)"></path>
+        <path d="M264 240h88v80h-88z" fill="#ffc431" data-name="layer7"
+        style="fill:var(--layer7, #ffc431)"></path>
+        <path d="M80 304H64a32 32 0 0 1-32-32 32 32 0 0 1 32-32v32l16 16z"
+        fill="#c78640" data-name="layer8" style="fill:var(--layer8, #c78640)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="workouttwelve-1">
+        <title>workout-twelve</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M488 296v16h-80v-24l-72-104-18.16 12.97-65.08 46.49L156.8 312H104v-48l11.58-28.95a38.308 38.308 0 0 1 44.86-22.94L176 216l39.78-24.31 68.42-41.81 21.36-13.06a60.142 60.142 0 0 1 86.31 26.89L440 272z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M252.76 243.46L156.8 312H104v-48l11.58-28.95a38.308 38.308 0 0 1 44.86-22.94L176 216l39.78-24.31z"
+        fill="#548aff" data-name="layer2" style="fill:var(--layer2, #548aff)"></path>
+        <path d="M44.882 310.236L34.05 331.9a19.417 19.417 0 0 0-2.05 8.684A19.416 19.416 0 0 0 51.416 360H70.06A81.941 81.941 0 0 1 128 384v-32a32 32 0 0 0-32-32h-8z"
+        fill="#b1712c" data-name="layer3" style="fill:var(--layer3, #b1712c)"></path>
+        <path d="M152 264h112l24-16 8 8-8 16h24v24a16 16 0 0 1-16 16H152a24 24 0 0 1-24-24 24 24 0 0 1 24-24zm-80 40l-16-16v-32h32a32 32 0 0 1 32 32 32 32 0 0 1-32 32H72z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M72 320H56a32 32 0 0 1-32-32 32 32 0 0 1 32-32v32l16 16z"
+        fill="#c78640" data-name="layer4" style="fill:var(--layer4, #c78640)"></path>
+        <path d="M317.84 196.97l-65.08 46.49-36.98-51.77 68.42-41.81z"
+        fill="#ffb401" data-name="layer5" style="fill:var(--layer5, #ffb401)"></path>
+        <path d="M440 272l-32 16v24h80v-16z" fill="#e0edff" data-name="layer6"
+        style="fill:var(--layer6, #e0edff)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="workouttwo-1">
+        <title>workout-two</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M72 200l-3.03-3.03a16.97 16.97 0 0 0-12-4.97A16.97 16.97 0 0 0 40 208.97v26.186A95.267 95.267 0 0 1 24 288a56 56 0 0 0 56-56v-24z"
+        fill="#b1712c" data-name="layer1" style="fill:var(--layer1, #b1712c)"></path>
+        <path d="M440 296l-13.76 37.83-5.47 15.04L408 384l-135.33-49.62-66.81-24.5L168 296l-19.33 64.42a40.006 40.006 0 0 1-18.88 23.48L72 416H24v-40h24v-16h8l16 16 32-32v-54.81a32.04 32.04 0 0 1 4.87-16.98l4.61-7.36 10.42-16.64 28.04-56.1L160 176l16-32-64-8-16 16H80v-16l-24-8V96h120a47.987 47.987 0 0 1 48 48v64l16.47 6.71 70.16 28.58z"
+        fill="#ffceb6" data-name="layer2" style="fill:var(--layer2, #ffceb6)"></path>
+        <path d="M240.47 214.71l-34.61 95.17L168 296l-54.52-31.15 10.42-16.64 28.04-56.1L160 176l64 32z"
+        fill="#ef5e3b" data-name="layer3" style="fill:var(--layer3, #ef5e3b)"></path>
+        <path d="M310.63 243.29L294.08 283l-6.16 14.78-15.25 36.6-66.81-24.5 34.61-95.17z"
+        fill="#ffb401" data-name="layer4" style="fill:var(--layer4, #ffb401)"></path>
+        <path d="M128 168l22.059 22.059a33.941 33.941 0 0 1 9.941 24A33.941 33.941 0 0 1 126.059 248a33.941 33.941 0 0 1-24-9.941L80 216z"
+        fill="#ffceb6" data-name="layer2" style="fill:var(--layer2, #ffceb6)"></path>
+        <path d="M80 216a33.941 33.941 0 0 1 0-48 33.941 33.941 0 0 1 48 0z"
+        fill="#c78640" data-name="layer5" style="fill:var(--layer5, #c78640)"></path>
+        <path d="M488 296l-18.19 54.58-5.07 15.2L448 416l-24-8-16-24 12.77-35.13 5.47-15.04L440 296l24-8z"
+        fill="#e0edff" data-name="layer6" style="fill:var(--layer6, #e0edff)"></path>
+        <path d="M469.81 350.58l-5.07 15.2-43.97-16.91 5.47-15.04z" fill="#d1e4ff"
+        data-name="layer7" style="fill:var(--layer7, #d1e4ff)"></path>
+        <path d="M426.24 333.83l-5.47 15.04-132.85-51.09 6.16-14.78z" fill="#ffbfa1"
+        data-name="layer8" style="fill:var(--layer8, #ffbfa1)"></path>
+        <path d="M294.08 283l-6.16 14.78-19.326-7.437a8.003 8.003 0 0 1-4.596-10.339 8.003 8.003 0 0 1 10.344-4.599z"
+        fill="#ffa100" data-name="layer9" style="fill:var(--layer9, #ffa100)"></path>
+      </symbol>
+      <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="wrkoutten-1">
+        <title>wrkout-ten</title>
+        <desc>A color styled icon from Orion Icon Library.</desc>
+        <path d="M192 44l-19.9-9.95a19.417 19.417 0 0 0-8.684-2.05A19.416 19.416 0 0 0 144 51.416V70.06A81.941 81.941 0 0 1 120 128h8a56 56 0 0 0 56-56z"
+        fill="#b1712c" data-name="layer1" style="fill:var(--layer1, #b1712c)"></path>
+        <path d="M200 72l16-16h32v32a32 32 0 0 1-32 32 32 32 0 0 1-32-32V72z"
+        fill="#ffceb6" data-name="layer2" style="fill:var(--layer2, #ffceb6)"></path>
+        <path d="M248 56a32 32 0 0 0-32-32 32 32 0 0 0-32 32v16h16l16-16z"
+        fill="#c78640" data-name="layer3" style="fill:var(--layer3, #c78640)"></path>
+        <path d="M288 341.09a54.566 54.566 0 0 1-4.2 20.98L248 448l-48 16 24-120s-17.21-12.91-37.06-27.78c-9.18-6.88-18.91-14.18-27.78-20.83A77.885 77.885 0 0 1 128 233.01v-.7a74.438 74.438 0 0 1 6.85-31.18v-.01l30.42-65.88A40.002 40.002 0 0 1 201.59 112H256v48a29.92 29.92 0 0 1-13.31 24.88L232 192l-24 40 34.48 37.93 31.33 34.46a54.559 54.559 0 0 1 14.19 36.7z"
+        fill="#ffceb6" data-name="layer2" style="fill:var(--layer2, #ffceb6)"></path>
+        <path d="M200 464v24h80v-16l-32-24z" fill="#e0edff" data-name="layer4"
+        style="fill:var(--layer4, #e0edff)"></path>
+        <path d="M256 112v48a29.92 29.92 0 0 1-13.31 24.88L232 192l-24 40-73.15-30.87v-.01l30.42-65.88A40.002 40.002 0 0 1 201.59 112z"
+        fill="#ef5e3b" data-name="layer5" style="fill:var(--layer5, #ef5e3b)"></path>
+        <path d="M242.48 269.93l-55.54 46.29c-9.18-6.88-18.91-14.18-27.78-20.83A77.885 77.885 0 0 1 128 233.01v-.7a74.438 74.438 0 0 1 6.85-31.18L208 232z"
+        fill="#ffa100" data-name="layer6" style="fill:var(--layer6, #ffa100)"></path>
+        <path d="M224 112h112l24-24h8v24h24v32l-24 16H224a24 24 0 0 1-24-24 24 24 0 0 1 24-24z"
+        fill="#ffceb6" data-name="layer2" style="fill:var(--layer2, #ffceb6)"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49.34 29.5" xmlns:xlink="http://www.w3.org/1999/xlink"
+      shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
+      image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+      id="logofemale-1">
+        <title>logo-female</title>
+        <desc>A line styled icon from Orion Icon Library.</desc>
+        <path d="M16.28 18.82v5.08h-2.54l-2.52.58-8.67 1.97-1.53 3.05H.01v-5.09l1.05-.44 8.6-3.64 3.19-1.35c.25-.11.52-.16.79-.16h2.64z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M16.28 18.82h6.61c1.13 0 2.04.91 2.04 2.03v1.02c0 1.12-.91 2.03-2.04 2.03h-6.61v-5.08z"
+        fill="#c78640" data-name="layer2" style="fill:var(--layer2, #c78640)"></path>
+        <path d="M28.49 20.34l.7-.7c.2-.2.32-.47.32-.76 0-.6-.49-1.08-1.08-1.08h-2.18a3.44 3.44 0 0 1-2.85-1.52v.96c0 1.21.86 2.26 2.05 2.5l.5.1 2.54.5z"
+        fill="#e0edff" data-name="layer3" style="fill:var(--layer3, #e0edff)"></path>
+        <path d="M26.45 20.34l1.02 1.02v1.53h-1.52c-.85 0-1.53-.69-1.53-1.53 0-.84.68-1.52 1.53-1.52h.5v.5z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M27.47 22.89c.84 0 1.53-.69 1.53-1.53 0-.84-.69-1.52-1.53-1.52h-1.02v.5l1.02 1.02v1.53z"
+        fill="#548aff" data-name="layer4" style="fill:var(--layer4, #548aff)"></path>
+        <path d="M24.93 26.96l3.78.84c.46.1.8.51.8.99v.71h-5.46c-.97 0-1.8-.69-1.99-1.64l-.76-3.8c-.03-.12-.04-.24-.04-.36 0-1.01.82-1.83 1.84-1.83 1.01 0 1.83.82 1.83 1.83v3.26z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path fill="#ffb401" d="M2.55 26.45L1.02 29.5H.01v-5.09l1.05-.44z"
+        data-name="layer5" style="fill:var(--layer5, #ffb401)"></path>
+        <path d="M16.28 18.82v5.08h-2.54l-2.52.58-1.56-4.15 3.19-1.35c.25-.11.52-.16.79-.16h2.64z"
+        fill="#ffbfa1" data-name="layer6" style="fill:var(--layer6, #ffbfa1)"></path>
+        <path d="M44.76 5.59l-.7-.7c-.2-.2-.47-.31-.76-.31-.6 0-1.08.48-1.08 1.08v2.17c0 1.14-.57 2.22-1.52 2.85h.31c1.65 0 3.14-1.01 3.75-2.54V5.59z"
+        fill="#548aff" data-name="layer4" style="fill:var(--layer4, #548aff)"></path>
+        <path d="M48.83 6.1l-.01 1.39c.01.47-.67 1.16-1.51 1.16-.85 0-1.53-.69-1.53-1.53V6.1h3.05z"
+        fill="#d1e4ff" data-name="layer7" style="fill:var(--layer7, #d1e4ff)"></path>
+        <path d="M48.83 6.1v-.51c0-.84-.68-1.52-1.52-1.52-.85 0-1.53.68-1.53 1.52v.51h3.05z"
+        fill="#548aff" data-name="layer4" style="fill:var(--layer4, #548aff)"></path>
+        <path d="M44.26 15.26v-4.88c0-.46.18-.9.5-1.23h2.55l1.36 1.03a1.667 1.667 0 0 1 .18 2.52l-.53.52v2.04h-4.06z"
+        fill="#c78640" data-name="layer2" style="fill:var(--layer2, #c78640)"></path>
+        <path fill="#ffb401" d="M44.26 27.97l2.54-1.01 2.03 1.52v1.02h-4.57z"
+        data-name="layer5" style="fill:var(--layer5, #ffb401)"></path>
+        <path fill="#ffceb6" d="M48.32 15.26v1.52L46.8 26.96l-2.54 1.01V15.26z"
+        data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path fill="#ffbfa1" d="M48.32 15.26v1.52l-.38 2.55h-3.68v-4.07z"
+        data-name="layer6" style="fill:var(--layer6, #ffbfa1)"></path>
+        <path d="M44.76 9.92c0 .7.57 1.27 1.28 1.27.7 0 1.27-.57 1.27-1.27v-8.9c0-.56-.46-1.02-1.02-1.02h-1.02v1.53l-1.01-.51-.51.51 1.01 1.52v6.87z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M40.36 23.11c0 .56-.3 1.08-.79 1.36l-2.77 1.58h-2.55l3.05-2.54-3-.6-.09-.02a2.474 2.474 0 0 1-1.73-3.53l5.91 1.97.9.3c.64.21 1.07.81 1.07 1.48z"
+        fill="#d1e4ff" data-name="layer7" style="fill:var(--layer7, #d1e4ff)"></path>
+        <path d="M38.39 21.33l-1.09 2.18-3-.6-.09-.02a2.474 2.474 0 0 1-1.73-3.53l5.91 1.97z"
+        fill="#ffbfa1" data-name="layer6" style="fill:var(--layer6, #ffbfa1)"></path>
+        <path d="M32.48 19.36c.12-.24.28-.46.46-.64a7.948 7.948 0 0 1 5.62-2.33h.27l1.02 1.02-2.6 3.54-4.77-1.59z"
+        fill="#c78640" data-name="layer2" style="fill:var(--layer2, #c78640)"></path>
+        <path fill="#ffb401" d="M36.8 26.05l1.01 1.02v.51h-3.56v-1.53z"
+        data-name="layer5" style="fill:var(--layer5, #ffb401)"></path>
+        <path d="M40.99 13.81v-.99c0-.29-.12-.56-.32-.77-.2-.2-.47-.31-.76-.31-.29 0-.56.11-.76.31l-1.54 1.54c-.64.64-1.51 1-2.42 1-.23 0-.45-.02-.67-.06l.68.68a2.535 2.535 0 0 0 3.21.32l.42-.28 2.16-1.44z"
+        fill="#e0edff" data-name="layer3" style="fill:var(--layer3, #e0edff)"></path>
+        <path d="M38.93 19.93l-2.13 2.56 1.52 3.05 1.53.51.51.51-.51 1.02H37.3l-2.32-3.11a3.59 3.59 0 0 1-.73-2.17c0-.86.31-1.69.87-2.35l1.77-2.06c.26-.31.65-.48 1.06-.48.77 0 1.39.62 1.39 1.39 0 .41-.15.81-.41 1.13zm.62-4.68h1.44l1.08 1.08-1.08 1.08c-.29.28-.68.44-1.08.44s-.79-.16-1.08-.44a1.53 1.53 0 0 1-.45-1.08c0-.41.16-.8.45-1.08l.36-.36.36.36z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M42.07 16.33c.28-.29.44-.68.44-1.08 0-.41-.16-.8-.44-1.08a1.53 1.53 0 0 0-1.08-.45c-.41 0-.79.16-1.08.45l-.72.72.36.36h1.44l1.08 1.08z"
+        fill="#548aff" data-name="layer4" style="fill:var(--layer4, #548aff)"></path>
+        <path d="M1.98 13.04l.59 2.07 3.11-.9.39 1.34-3.11.9 1.16 4.05-1.58.45L0 12.09l5.84-1.68.4 1.4-4.26 1.23zm6.31-3.48c.24-.07.47-.04.69.08.22.12.37.3.44.55.07.24.04.47-.08.69a.84.84 0 0 1-.55.44c-.24.07-.47.04-.69-.08a.87.87 0 0 1-.44-.55.878.878 0 0 1 .08-.69c.12-.22.31-.37.55-.44zm1.8 9.23l-1.51-5.25-.83.24-.35-1.24 2.37-.68 1.86 6.49-1.54.44zm2.01-6.28l-.75.21-.35-1.21.75-.22-.37-1.32 1.35-.99.54 1.88 1.78-.52.35 1.22-1.78.51.81 2.85c.14.46.3.77.5.92.21.15.49.17.85.07.37-.11.68-.31.94-.6l.4 1.4c-.32.22-.8.42-1.45.61-.65.19-1.2.15-1.65-.12-.46-.26-.78-.73-.97-1.41l-.95-3.28zm10.38 2.72l-1.08-3.75c-.16-.55-.38-.92-.67-1.12-.28-.19-.66-.22-1.14-.08-.22.06-.44.19-.66.39-.21.2-.37.41-.45.64l1.34 4.68-1.51.44-1.86-6.49 1.09-.31.45.53c.27-.61.81-1.03 1.61-1.26.77-.22 1.44-.16 2.02.18.58.33.99.91 1.23 1.74l1.14 3.98-1.51.43zm8.14-5.34l-4.63 1.33c.17.51.47.86.88 1.05.4.2.89.21 1.44.05.69-.19 1.17-.52 1.42-.98l.92.98c-.41.59-1.14 1.03-2.2 1.33-.99.29-1.85.22-2.59-.19-.74-.42-1.26-1.15-1.56-2.18-.3-1.03-.22-1.95.23-2.76.45-.82 1.12-1.35 2-1.6.94-.27 1.78-.21 2.51.19.73.4 1.22 1.03 1.47 1.9.05.19.09.48.11.88zm-4.9.17l3.18-.91c-.38-.92-1.04-1.25-1.98-.98-.86.25-1.26.88-1.2 1.89zm6.52 1.92l.19-1.36c.56.23 1.12.27 1.69.1.59-.16.82-.46.7-.88a.81.81 0 0 0-.44-.53c-.22-.11-.62-.2-1.19-.26-1.26-.15-2-.64-2.24-1.47-.16-.57-.07-1.06.26-1.5.34-.43.84-.75 1.51-.94a4.36 4.36 0 0 1 2.03-.09l-.1 1.29c-.41-.18-.91-.19-1.5-.02-.53.15-.73.44-.61.86.05.16.18.29.39.37.21.08.63.16 1.26.22.64.06 1.13.22 1.47.46.34.25.58.6.7 1.05.18.61.09 1.14-.26 1.62-.34.47-.9.82-1.67 1.04-.43.12-.78.18-1.06.19-.28 0-.66-.05-1.13-.15zm5.34-1.53l.19-1.36c.56.23 1.12.27 1.69.1.59-.17.82-.46.7-.88a.788.788 0 0 0-.44-.53c-.22-.11-.62-.2-1.19-.26-1.26-.15-2-.64-2.24-1.48-.16-.56-.07-1.06.26-1.49.34-.44.84-.75 1.51-.94.67-.19 1.35-.23 2.03-.09l-.1 1.29c-.41-.18-.91-.19-1.5-.02-.53.15-.73.43-.61.85.05.17.18.3.39.38.21.08.63.16 1.27.22.63.06 1.12.21 1.46.46.34.25.58.6.7 1.05.18.6.09 1.14-.26 1.61-.34.48-.9.82-1.66 1.04-.44.13-.79.19-1.07.2-.28 0-.66-.05-1.13-.15z"
+        fill="#ffa100" fill-rule="nonzero" data-name="layer8" style="fill:var(--layer8, #ffa100)"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 26.56" xmlns:xlink="http://www.w3.org/1999/xlink"
+      shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
+      image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+      id="logomale-1">
+        <title>logo-male</title>
+        <desc>A line styled icon from Orion Icon Library.</desc>
+        <path d="M50 0v5.39c0 .99-.8 1.79-1.8 1.79h-2.24v4.05l-.76 4.93-1.04 6.74h-2.24V6.29c0-1 .8-1.8 1.79-1.8h4.04l.45-2.69-.45-.9.45-.9H50z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M42.82 1.8h2.69v1.34a1.344 1.344 0 1 1-2.69 0V1.8z" fill="#ffceb6"
+        data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M42.82 1.8V.9L43.9.17c.17-.11.37-.17.58-.17.57 0 1.03.46 1.03 1.03v.77h-2.69z"
+        fill="#c78640" data-name="layer2" style="fill:var(--layer2, #c78640)"></path>
+        <path fill="#e0edff" d="M41.92 22.9h2.24l.45 2.69-.45.45-2.69-2.24z"
+        data-name="layer3" style="fill:var(--layer3, #e0edff)"></path>
+        <path d="M46.41 4.49v2.69h-.45v4.05h-4.04V6.29c0-1 .8-1.8 1.79-1.8h2.7z"
+        fill="#548aff" data-name="layer4" style="fill:var(--layer4, #548aff)"></path>
+        <path fill="#ffb401" d="M45.96 11.23l-.76 4.93h-3.28v-4.93z" data-name="layer5"
+        style="fill:var(--layer5, #ffb401)"></path>
+        <path d="M39.75 19.47v.9H38.4l-.9-.45-.44.45h-.45v-1.79l-1.57-2.81-.68-1.23-3.29 1.64-2.89-2.88c.17-.12.34-.22.53-.3l3.14-1.31c.47-.19.98-.3 1.5-.3 1.68 0 3.17 1.08 3.7 2.67l.2.6 1.15 3.47 1.35 1.34z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M34.81 18.74c0 .75-.33 1.46-.9 1.95l-2.24 1.93-2.7.45 3.15-4.04-1.97-1.97c-.46-.47-.73-1.1-.73-1.76 0-.79.38-1.53 1.01-2l3.63 3.63c.48.48.75 1.13.75 1.81z"
+        fill="#ffbfa1" data-name="layer6" style="fill:var(--layer6, #ffbfa1)"></path>
+        <path fill="#d1e4ff" d="M31.67 22.62l1.79 1.34v.45h-4.49v-1.34z"
+        data-name="layer7" style="fill:var(--layer7, #d1e4ff)"></path>
+        <path d="M33.91 16.78l-2.24 1.8-1.52-1.52c-.46-.47-.73-1.1-.73-1.76 0-.79.38-1.53 1.01-2l3.48 3.48z"
+        fill="#ffa100" fill-rule="nonzero" data-name="layer8" style="fill:var(--layer8, #ffa100)"></path>
+        <path d="M36.16 9.6l1.79 1.79-.97.98a1.272 1.272 0 0 1-2.17-.9c0-.34.13-.66.37-.9l.98-.97z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M36.16 9.6l.45-.45h1.79l.13.13c.21.2.32.48.32.77 0 .28-.11.56-.32.76l-.58.58-1.79-1.79z"
+        fill="#c78640" data-name="layer2" style="fill:var(--layer2, #c78640)"></path>
+        <path d="M32.57 18.74c0 .75-.33 1.46-.9 1.95l-2.25 1.93-2.69.45 3.14-4.04-1.96-1.97a2.491 2.491 0 0 1 .27-3.76l3.63 3.63c.48.48.76 1.13.76 1.81z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path fill="#e0edff" d="M29.42 22.62l1.8 1.34v.45h-4.49v-1.34z"
+        data-name="layer3" style="fill:var(--layer3, #e0edff)"></path>
+        <path d="M31.67 16.78l-2.25 1.8-1.51-1.52a2.491 2.491 0 0 1 .27-3.76l3.49 3.48z"
+        fill="#ffb401" data-name="layer5" style="fill:var(--layer5, #ffb401)"></path>
+        <path d="M37.25 14.66l-2.21 1.11-.68-1.23-3.29 1.64-2.89-2.88c.17-.12.34-.22.53-.3l3.14-1.31c.47-.19.98-.3 1.5-.3 1.68 0 3.17 1.08 3.7 2.67l.2.6z"
+        fill="#548aff" data-name="layer4" style="fill:var(--layer4, #548aff)"></path>
+        <path d="M22.9 25.67v.89h-2.25l-2.61-2.61c-.63-.63-.98-1.48-.98-2.36 0-.57.15-1.12.42-1.62l.55-.99.28-.5h-4.84l-3.04 1.58-8.18 4.26-.9-2.25 7.73-5.15 3.6-2.4c.51-.34 1.12-.53 1.74-.53H21c.61 0 1.18.35 1.45.9v1.8c0 .58-.16 1.16-.46 1.66l-1.4 2.33-.83 1.39 1.79 2.7 1.35.9z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path fill="#e0edff" d="M1.35 22.07l.9 2.25L.9 26.56H0v-4.49z"
+        data-name="layer3" style="fill:var(--layer3, #e0edff)"></path>
+        <path d="M22.45 14.89v1.8c0 .58-.16 1.16-.46 1.66l-1.4 2.33-2.56-1.7.28-.5h-3.49v-4.49H21c.61 0 1.18.35 1.45.9z"
+        fill="#548aff" data-name="layer4" style="fill:var(--layer4, #548aff)"></path>
+        <path d="M14.82 13.99v4.49h-1.35l-3.04 1.58-1.35-3.14 3.6-2.4c.51-.34 1.12-.53 1.74-.53h.4z"
+        fill="#ffb401" data-name="layer5" style="fill:var(--layer5, #ffb401)"></path>
+        <path d="M23.8 14.89l.9.9v1.34h-1.35a1.344 1.344 0 1 1 0-2.69h.45v.45z"
+        fill="#ffceb6" data-name="layer1" style="fill:var(--layer1, #ffceb6)"></path>
+        <path d="M24.7 17.13c.74 0 1.34-.6 1.34-1.34 0-.75-.6-1.35-1.34-1.35h-.9v.45l.9.9v1.34z"
+        fill="#c78640" data-name="layer2" style="fill:var(--layer2, #c78640)"></path>
+        <path d="M18.14 17.88l.56-1.01a.45.45 0 1 1 .79.43l-.56 1.01c-.13.22-.4.3-.62.18a.455.455 0 0 1-.17-.61z"
+        fill="#4f7ff7" data-name="layer9" style="fill:var(--layer9, #4f7ff7)"></path>
+        <path fill-rule="nonzero" d="M2.08 8.44l.42 2.13 3.22-.62.27 1.38-3.22.62.81 4.19-1.63.31L.17 7.31 6.2 6.13l.29 1.45zm6.66-2.93c.25-.05.48-.01.69.14.21.14.34.33.39.58a.92.92 0 0 1-.73 1.09.93.93 0 0 1-.69-.14.85.85 0 0 1-.39-.59.848.848 0 0 1 .14-.69.83.83 0 0 1 .59-.39zm1 9.43L8.69 9.53l-.86.17-.25-1.28 2.44-.47 1.3 6.68-1.58.31zm2.58-6.14l-.77.15-.25-1.25.77-.15-.26-1.36 1.45-.88.38 1.93 1.83-.36.25 1.25-1.84.36.57 2.93c.09.47.23.8.42.97.19.16.47.21.84.14.38-.07.71-.24.99-.51l.28 1.43c-.34.2-.84.36-1.51.49s-1.21.04-1.65-.26c-.43-.31-.71-.81-.85-1.5l-.65-3.38zm10.19 3.65l-.75-3.86c-.11-.57-.31-.96-.57-1.18-.27-.22-.65-.28-1.15-.19-.23.05-.46.16-.69.34-.24.18-.41.38-.52.6l.94 4.82-1.56.31-1.3-6.69 1.12-.21.41.56c.33-.57.91-.94 1.74-1.1.79-.16 1.46-.04 2.01.34.56.39.92 1.01 1.08 1.86l.8 4.09-1.56.31zm8.66-4.66l-4.79.93c.14.52.4.9.8 1.13.39.23.87.29 1.44.18.72-.14 1.22-.43 1.52-.87l.84 1.07c-.46.55-1.24.93-2.33 1.14-1.02.2-1.89.06-2.6-.42-.7-.48-1.16-1.25-1.37-2.32-.21-1.05-.05-1.96.48-2.74.52-.78 1.24-1.26 2.15-1.44.97-.18 1.81-.05 2.51.41.7.47 1.13 1.14 1.31 2.04.03.19.05.48.04.89zm-4.96-.26l3.3-.64c-.3-.95-.94-1.33-1.92-1.14-.89.18-1.35.77-1.38 1.78zm6.4 2.5l.31-1.35c.54.28 1.1.36 1.69.25.61-.12.87-.4.78-.83a.833.833 0 0 0-.39-.57c-.22-.12-.61-.24-1.18-.36-1.25-.25-1.96-.81-2.12-1.67-.12-.58.02-1.07.4-1.48.38-.41.91-.68 1.6-.81.7-.14 1.38-.11 2.05.08l-.21 1.3c-.4-.22-.9-.28-1.51-.16-.55.11-.78.37-.7.81.04.17.16.3.36.41.21.1.63.21 1.26.32.63.12 1.11.32 1.43.59.33.28.53.65.62 1.12.12.62-.01 1.15-.4 1.59-.4.45-.99.75-1.78.9-.45.09-.81.12-1.09.1-.29-.02-.66-.1-1.12-.24zm5.5-1.08l.32-1.35c.53.28 1.1.37 1.69.25.6-.11.86-.39.78-.82a.816.816 0 0 0-.4-.57c-.21-.13-.6-.25-1.18-.37-1.24-.25-1.95-.8-2.12-1.66-.11-.58.02-1.07.4-1.48.38-.41.92-.68 1.61-.81.69-.14 1.38-.11 2.05.08l-.21 1.3c-.4-.23-.91-.28-1.51-.16-.55.1-.78.37-.7.8.03.17.15.31.36.41.21.11.63.21 1.26.33.63.12 1.11.31 1.43.59.32.28.53.65.62 1.11.12.62-.02 1.16-.41 1.6-.39.44-.98.74-1.77.9-.45.09-.81.12-1.1.1-.28-.02-.65-.11-1.12-.25z"
+        data-name="layer10" fill="#000" style="fill:var(--layer10, #000)"></path>
+      </symbol>
+    </svg>
+    <div class="orion-sprite">
+      <svg width="0" height="0" style="display:block">
+        <defs>
+          <linearGradient id="orion_logo_a" gradientUnits="userSpaceOnUse" x1="13.183"
+          y1="62.808" x2="79.541" y2="62.808">
+            <stop offset="0" stop-color="#FF4581"></stop>
+            <stop offset="1" stop-color="#FF4D63"></stop>
+          </linearGradient>
+          <linearGradient id="orion_logo_b" gradientUnits="userSpaceOnUse" x1="13.177"
+          y1="29.193" x2="79.535" y2="29.193">
+            <stop offset="0" stop-color="#FF4581"></stop>
+            <stop offset="1" stop-color="#FF4D63"></stop>
+          </linearGradient>
+          <linearGradient id="orion_logo_c" gradientUnits="userSpaceOnUse" x1="13.182"
+          y1="33.549" x2="79.533" y2="33.549">
+            <stop offset="0" stop-color="#FF4581"></stop>
+            <stop offset="1" stop-color="#FF4D63"></stop>
+          </linearGradient>
+          <linearGradient id="orion_logo_d" gradientUnits="userSpaceOnUse" x1="13.186"
+          y1="58.453" x2="79.534" y2="58.453">
+            <stop offset="0" stop-color="#FF4581"></stop>
+            <stop offset="1" stop-color="#FF4D63"></stop>
+          </linearGradient>
+          <linearGradient id="orion_logo_e" gradientUnits="userSpaceOnUse" x1="14.32"
+          y1="77.671" x2="79.601" y2="12.39">
+            <stop offset="0" stop-color="#6757FF"></stop>
+            <stop offset="1" stop-color="#0092FF"></stop>
+          </linearGradient>
+          <linearGradient id="orion_logo_f" gradientUnits="userSpaceOnUse" x1="14.33"
+          y1="77.675" x2="79.611" y2="12.394">
+            <stop offset="0" stop-color="#6757FF"></stop>
+            <stop offset="1" stop-color="#0092FF"></stop>
+          </linearGradient>
+          <linearGradient id="orion_logo_g" gradientUnits="userSpaceOnUse" x1="24.694"
+          y1="88.035" x2="89.969" y2="22.76">
+            <stop offset="0" stop-color="#6757FF"></stop>
+            <stop offset="1" stop-color="#0092FF"></stop>
+          </linearGradient>
+          <linearGradient id="orion_logo_h" gradientUnits="userSpaceOnUse" x1="22.838"
+          y1="69.61" x2="69.095" y2="22.453">
+            <stop offset="0" stop-color="#AB2BFF"></stop>
+            <stop offset="1" stop-color="#863CFF"></stop>
+          </linearGradient>
+        </defs>
+      </svg>
+      <header class="_1tt2u3t"><a href="https://orioniconlibrary.com/?utm_source=sprite_demo" class="_19kenml"><svg viewBox="0 0 92 92" class="_15372er"><g><ellipse fill="currentColor" cx="46" cy="46" rx="46" ry="46"></ellipse><path fill="url(#orion_logo_a)" d="M26.2 55.4c-.9 1.5-1.6 3.1-2.2 4.6-2.4 5.7-2.3 9.1-2 10.1.3.1.7.1 1.4.1 3.2 0 7.9-1.4 13.3-4.4-4.7-2.1-8.4-5.8-10.5-10.4z"></path><path fill="url(#orion_logo_b)" d="M65.8 36.6c.8-1.5 1.6-3.1 2.2-4.6 2.4-5.7 2.3-9.1 2-10.1-.3-.1-.7-.1-1.4-.1-3.2 0-7.9 1.4-13.3 4.4 4.6 2.1 8.4 5.8 10.5 10.4z"></path><path fill="url(#orion_logo_c)" d="M55.3 13.1c-3-.8-6.1-1.3-9.3-1.3-18.9 0-34.2 15.3-34.2 34.2 0 3.2.5 6.3 1.3 9.3 3.4-8 9.3-16.7 17.4-24.8 8-8.1 16.8-14 24.8-17.4z"></path><path fill="url(#orion_logo_d)" d="M61.5 61.5c-8 8-16.8 14-24.8 17.4 2.9.8 6.1 1.3 9.3 1.3 18.9 0 34.2-15.3 34.2-34.2 0-3.2-.5-6.3-1.3-9.3-3.4 8-9.3 16.8-17.4 24.8z"></path><path fill="url(#orion_logo_e)" d="M78.9 36.7c4.1-9.8 4.4-18.5-.4-23.2-2.4-2.4-5.8-3.5-9.8-3.5-4 0-8.6 1.1-13.4 3.1 11.4 3.2 20.4 12.2 23.6 23.6z"></path><path fill="url(#orion_logo_f)" d="M13.1 55.3c-4.1 9.8-4.4 18.5.4 23.2 2.4 2.4 5.8 3.5 9.8 3.5 4 0 8.6-1.1 13.4-3.1-11.4-3.2-20.4-12.2-23.6-23.6z"></path><path fill="url(#orion_logo_g)" d="M65.8 36.6c-3 5.6-7.4 11.3-12.7 16.5-5.7 5.7-11.4 9.9-16.5 12.7 2.8 1.4 6 2.1 9.4 2.1 12.1 0 21.9-9.8 21.9-21.9 0-3.4-.7-6.5-2.1-9.4z"></path><path fill="url(#orion_logo_h)" d="M78.9 36.7c-3.2-11.4-12.2-20.4-23.6-23.6-8 3.4-16.7 9.3-24.8 17.4-8 8-14 16.8-17.4 24.8 3.2 11.4 12.2 20.4 23.6 23.6 8-3.4 16.7-9.3 24.8-17.4 8.1-8 14-16.8 17.4-24.8zM46 67.9c-3.4 0-6.5-.8-9.4-2.1-5.4 3-10.1 4.4-13.3 4.4-.7 0-1.1-.1-1.4-.1-.2-1.1-.4-4.4 2-10.1.6-1.5 1.4-3 2.2-4.6-1.4-2.8-2.1-6-2.1-9.4 0-12.1 9.8-21.9 21.9-21.9 3.4 0 6.5.8 9.4 2.1 5.4-3 10.1-4.4 13.3-4.4.7 0 1.1.1 1.4.1.2 1 .4 4.4-2 10.1-.6 1.5-1.4 3-2.2 4.6 1.4 2.8 2.1 6 2.1 9.4 0 12.1-9.8 21.9-21.9 21.9z"></path></g></svg><svg viewBox="0 0 128.4 39.8" class="_ksd372"><g fill="currentColor"><path d="M56 13h6v26h-6zm-42 4.8a8 8 0 1 1-8 8 8 8 0 0 1 8-8m0-6a14 14 0 1 0 14 14 14 14 0 0 0-14-14zm68.5 6a8 8 0 1 1-8 8 8 8 0 0 1 8-8m0-6a14 14 0 1 0 14 14 14 14 0 0 0-14-14zm-31.5.3a14 14 0 0 0-16.9 13.7V39h6V25.8A8 8 0 0 1 51 18.3z"></path><circle cx="59" cy="4" r="4"></circle><path d="M128.4 25.8c0-7.7-5.3-14-13-14s-13 6.3-13 14V39h6V25.8c0-4.4 2.6-8 7-8s7 3.6 7 8V39h6z"></path></g></svg></a>
+        <h1
+        class="_dl5j6p _1iurgbx">fitness</h1>
+      </header>
+      <section class="_1l5hckq">
+        <p class="_kp2n83">SVG Icons Sprite generated by <a class="_o1cg4g" href="https://orioniconlibrary.com/?utm_source=sprite_demo">Orion Icon Library</a>
+        </p>
+        <h2 class="">Let&#x27;s use your SVG Sprite!</h2>
+        <p class="_14gdf42">Congratulations, your SVG Sprite from <strong>fitness</strong> Collection
+          from <a class="_o1cg4g" href="https://orioniconlibrary.com">Orion Icon Library</a> was
+          created successfully!
+          <br/>In the downloaded folder, you will find the file called <code class="_1bo7bzx _1oymxsi">fitness-svg-sprite.svg</code> which
+          contains your SVG Sprite <a class="_o1cg4g" href="fitness-svg-sprite.svg"
+          download="fitness-svg-sprite.svg">[Open]</a>. Please find below different
+          techniques on how to use your Icons in your Web Project.</p>
+        <br/>
+        <h3 id="inline-sprite" class=""><a class="_ovghcs" href="#inline-sprite"><strong class="_1dqtju9">‹a›</strong> Inline SVG Sprite</a></h3>
+        <div class="_fr5wn">
+          <p class="_14gdf42">The first technique consists in including the content of the <code class="_1bo7bzx _1oymxsi">fitness-svg-sprite.svg</code> in
+            your <code class="_1bo7bzx _1oymxsi">HTML</code> like in the example below:</p>
+          <pre
+          class="_1bmg5vo"><code class="_1bo7bzx">&lt;body&gt;
+  &lt;svg width=&quot;0&quot; height=&quot;0&quot; class=&quot;hidden&quot; style=&quot;display:none&quot;&gt;
+    &lt;symbol id=&quot;myIcon-1&quot;&gt;
+      &lt;path d=&quot;...&quot;&gt;&lt;/path&gt;
+      &lt;path d=&quot;...&quot; stroke=&quot;...&quot;&gt;&lt;/path&gt;
+    &lt;/symbol&gt;
+    &lt;symbol id=&quot;myIcon-2&quot;&gt;
+      &lt;circle rx=&quot;...&quot;&gt;&lt;/circle&gt;
+      &lt;path d=&quot;...&quot;&gt;&lt;/path&gt;
+    &lt;/symbol&gt;
+    &lt;symbol&gt;...&lt;/symbol&gt;
+  &lt;/svg&gt;
+  &lt;section&gt;Here we will call the Icons references to show them!&lt;/section&gt;
+&lt;/body&gt;</code>
+            </pre>
+            <p class="_14gdf42">Then you can call whenever you want any of the SVG Icons from the sprite,
+              referencing them with the <code class="_1bo7bzx _1oymxsi">&lt;use&gt;</code> element,
+              like:</p><pre class="_1bmg5vo"><code class="_1bo7bzx">&lt;body&gt;
+  &lt;svg width=&quot;0&quot; height=&quot;0&quot; class=&quot;hidden&quot; style=&quot;display:none&quot;&gt;The SVG Sprite&lt;/svg&gt;
+  &lt;section&gt;
+    &lt;svg&gt;
+      &lt;use xlink:href=&quot;#myIcon-1&quot;&gt;&lt;/use&gt;
+    &lt;/svg&gt;
+    &lt;svg&gt;
+      &lt;use xlink:href=&quot;#myIcon-2&quot;&gt;&lt;/use&gt;
+    &lt;/svg&gt;
+  &lt;/section&gt;
+&lt;/body&gt;</code></pre>
+            <p class="_14gdf42"><strong class="_1dqtju9">Pros:</strong> Easy to implement, cross-browser
+              support, unique HTTP request.
+              <br/><strong class="_1oymxsi">Cons:</strong> Adds extra markup in the HTML document,
+              SVG Sprite cannot be cached.
+              <br/><strong>Tips:</strong> Put the SVG Sprite markup before calling them (
+              <a
+              class="_o1cg4g" href="https://gist.github.com/rhawbert/05c7a758cb22d2a1ed24">bug</a>in Safari).</p>
+        </div>
+        <h3 id="external-sprite" class=""><a class="_ovghcs" href="#external-sprite"><strong class="_1dqtju9">‹b›</strong> SVG Sprite in an external file</a></h3>
+        <div class="_fr5wn">
+          <p class="_14gdf42">The second technique consists in referencing the Icons from the SVG sprite
+            as an external file. This allows to display different parts of the SVG
+            Sprite by specifying the <a class="_o1cg4g" href="https://www.w3.org/TR/SVG/linking.html#LinksIntoSVG">fragment identifier</a> at
+            the end of the URL.</p>
+          <p class="_14gdf42">In the <code class="_1bo7bzx _1oymxsi">HTML</code> markup you include your
+            Icons using <code class="_1bo7bzx _1oymxsi">&lt;use&gt;</code> to reference
+            the <code class="_1bo7bzx _1oymxsi">fitness-svg-sprite.svg</code> file with
+            the specific <code class="_1bo7bzx _1oymxsi">#fragment</code> ID of each
+            Icon you need. Below an example:</p><pre class="_1bmg5vo"><code class="_1bo7bzx">&lt;body&gt;
+  &lt;section&gt;
+    &lt;svg&gt;
+      &lt;use xlink:href=&quot;fitness-svg-sprite.svg#myIcon-1&quot;&gt;&lt;/use&gt;
+    &lt;/svg&gt;
+    &lt;svg&gt;
+      &lt;use xlink:href=&quot;fitness-svg-sprite.svg#myIcon-2&quot;&gt;&lt;/use&gt;
+    &lt;/svg&gt;
+  &lt;/section&gt;
+&lt;/body&gt;</code></pre>
+          <p class="_14gdf42"><strong class="_1dqtju9">Pros:</strong> Less cluttered markup. External
+            file is cachable, which helps with page load speed.
+            <br/><strong class="_1oymxsi">Cons:</strong> The browser support is good except
+            for older Internet Explorer versions (IE&lt;9).
+            <br/><strong>Tips:</strong> In case you need to support IE older versions, you
+            can use the great <a class="_o1cg4g" href="https://jonathantneal.github.io/svg4everybody/">svg4everybody</a> plugin.</p>
+        </div>
+        <h3 id="icons" class=""><a class="_ovghcs" href="#icons"><strong class="_1dqtju9">➜</strong> Icons Reference</a></h3>
+        <p class="_14gdf42">Use one of the techniques described before to call the SVG Sprite.
+          <br/>Then select the Icons you need below to easily copy the <code class="_1bo7bzx _1oymxsi">&lt;use&gt;</code> reference
+          and paste it in your Project.</p>
+        <div class="_fr5wn _jro6t0">
+          <p class="_14gdf42" style="margin-right:48px"><strong class="_1dqtju9">Hint</strong> Select the technique you want to
+            use with the switch button.
+            <br/>The use code reference will update with the correct url below the icons
+            <br/>
+            <input type="checkbox" data-name="fitness-svg-sprite.svg" id="externalCheckbox"
+            class="_53480w js-external" />
+            <label class="_1uuc6xn" for="externalCheckbox"><span class="_10r524x"></span>
+            </label><small class="_kp2n83 _1dqtju9 _qjqtm8 externalCheckboxHelper"></small>
+          </p>
+          <p class="_14gdf42"><strong class="_1oymxsi">Plus</strong> You can set a specific size for
+            your Icons instances.
+            <br/>This is useful if you need a fixed size and will not style with <code class="_1bo7bzx _1oymxsi">css</code>.
+            <br/>
+            <label class="_kp2n83" style="cursor:pointer">
+              <input type="checkbox" class="js-sizeSwitch" />Ok, I want to specify the size</label>
+            <input type="number" class="js-size _jcgzno"
+            min="0" max="1024" step="1" disabled="" value="64" />
+          </p>
+        </div>
+        <ul class="_1r58n10 js-list">
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#application-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-0">
+                  <use xlink:href="#application-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-0&quot;&gt;&lt;use xlink:href=&quot;#application-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#bodyweight-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-1">
+                  <use xlink:href="#bodyweight-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-1&quot;&gt;&lt;use xlink:href=&quot;#bodyweight-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#boxing-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-2">
+                  <use xlink:href="#boxing-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-2&quot;&gt;&lt;use xlink:href=&quot;#boxing-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#cardio-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-3">
+                  <use xlink:href="#cardio-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-3&quot;&gt;&lt;use xlink:href=&quot;#cardio-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#dumbbellone-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-4">
+                  <use xlink:href="#dumbbellone-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-4&quot;&gt;&lt;use xlink:href=&quot;#dumbbellone-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#dumbbelltwo-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-5">
+                  <use xlink:href="#dumbbelltwo-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-5&quot;&gt;&lt;use xlink:href=&quot;#dumbbelltwo-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#jumpingrope-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-6">
+                  <use xlink:href="#jumpingrope-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-6&quot;&gt;&lt;use xlink:href=&quot;#jumpingrope-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#kettlebell-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-7">
+                  <use xlink:href="#kettlebell-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-7&quot;&gt;&lt;use xlink:href=&quot;#kettlebell-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#lunges-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-8">
+                  <use xlink:href="#lunges-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-8&quot;&gt;&lt;use xlink:href=&quot;#lunges-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#plank-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-9">
+                  <use xlink:href="#plank-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-9&quot;&gt;&lt;use xlink:href=&quot;#plank-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#pullupbar-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-10">
+                  <use xlink:href="#pullupbar-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-10&quot;&gt;&lt;use xlink:href=&quot;#pullupbar-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#rowingmachine-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-11">
+                  <use xlink:href="#rowingmachine-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-11&quot;&gt;&lt;use xlink:href=&quot;#rowingmachine-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#runner-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-12">
+                  <use xlink:href="#runner-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-12&quot;&gt;&lt;use xlink:href=&quot;#runner-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#situp-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-13">
+                  <use xlink:href="#situp-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-13&quot;&gt;&lt;use xlink:href=&quot;#situp-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#squat-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-14">
+                  <use xlink:href="#squat-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-14&quot;&gt;&lt;use xlink:href=&quot;#squat-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#video-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-15">
+                  <use xlink:href="#video-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-15&quot;&gt;&lt;use xlink:href=&quot;#video-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#virtualrealityglasses-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-16">
+                  <use xlink:href="#virtualrealityglasses-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-16&quot;&gt;&lt;use xlink:href=&quot;#virtualrealityglasses-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#workout-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-17">
+                  <use xlink:href="#workout-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-17&quot;&gt;&lt;use xlink:href=&quot;#workout-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#workouteight-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-18">
+                  <use xlink:href="#workouteight-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-18&quot;&gt;&lt;use xlink:href=&quot;#workouteight-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#workouteleven-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-19">
+                  <use xlink:href="#workouteleven-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-19&quot;&gt;&lt;use xlink:href=&quot;#workouteleven-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#workoutfifthteen-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-20">
+                  <use xlink:href="#workoutfifthteen-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-20&quot;&gt;&lt;use xlink:href=&quot;#workoutfifthteen-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#workoutfive-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-21">
+                  <use xlink:href="#workoutfive-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-21&quot;&gt;&lt;use xlink:href=&quot;#workoutfive-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#workoutfour-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-22">
+                  <use xlink:href="#workoutfour-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-22&quot;&gt;&lt;use xlink:href=&quot;#workoutfour-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#workoutfourteen-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-23">
+                  <use xlink:href="#workoutfourteen-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-23&quot;&gt;&lt;use xlink:href=&quot;#workoutfourteen-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#workoutmachine-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-24">
+                  <use xlink:href="#workoutmachine-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-24&quot;&gt;&lt;use xlink:href=&quot;#workoutmachine-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#workoutnine-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-25">
+                  <use xlink:href="#workoutnine-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-25&quot;&gt;&lt;use xlink:href=&quot;#workoutnine-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#workoutone-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-26">
+                  <use xlink:href="#workoutone-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-26&quot;&gt;&lt;use xlink:href=&quot;#workoutone-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#workoutseven-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-27">
+                  <use xlink:href="#workoutseven-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-27&quot;&gt;&lt;use xlink:href=&quot;#workoutseven-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#workoutseventeen-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-28">
+                  <use xlink:href="#workoutseventeen-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-28&quot;&gt;&lt;use xlink:href=&quot;#workoutseventeen-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#workoutsix-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-29">
+                  <use xlink:href="#workoutsix-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-29&quot;&gt;&lt;use xlink:href=&quot;#workoutsix-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#workoutsixteen-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-30">
+                  <use xlink:href="#workoutsixteen-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-30&quot;&gt;&lt;use xlink:href=&quot;#workoutsixteen-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#workoutthree-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-31">
+                  <use xlink:href="#workoutthree-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-31&quot;&gt;&lt;use xlink:href=&quot;#workoutthree-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#workoutthriteen-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-32">
+                  <use xlink:href="#workoutthriteen-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-32&quot;&gt;&lt;use xlink:href=&quot;#workoutthriteen-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#workouttwelve-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-33">
+                  <use xlink:href="#workouttwelve-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-33&quot;&gt;&lt;use xlink:href=&quot;#workouttwelve-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#workouttwo-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-34">
+                  <use xlink:href="#workouttwo-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-34&quot;&gt;&lt;use xlink:href=&quot;#workouttwo-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#wrkoutten-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-color-35">
+                  <use xlink:href="#wrkoutten-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-color-35&quot;&gt;&lt;use xlink:href=&quot;#wrkoutten-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#logofemale-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-line-36">
+                  <use xlink:href="#logofemale-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-line-36&quot;&gt;&lt;use xlink:href=&quot;#logofemale-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#logomale-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq theme-line-37">
+                  <use xlink:href="#logomale-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg class=&quot;theme-line-37&quot;&gt;&lt;use xlink:href=&quot;#logomale-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="_1l5hckq">
+        <h3 id="styles" class=""><a class="_ovghcs" href="#styles"><strong class="_1dqtju9">❧</strong> CSS Styles and Variables</a></h3>
+        <p class="_14gdf42">You selected the options to generate the SVG Sprite with external color
+          <code
+          class="_1bo7bzx _1oymxsi">css</code>classes.
+            <br/>That means that <span class="_1dqtju9">Orion</span> detected if your icons
+            had different color layers and created a class and stylesheet for you to
+            edit the icons color properties.
+            <br/><strong class="_1dqtju9">Try me!</strong> The color classes below are editable.
+            Make your changes in real time and paste it directly into your project.</p>
+        <style
+        class="_duacj0 _1bo7bzx" contenteditable="true">.theme-color-0 { --layer1: #548aff; --layer2: #62798c; --layer3: #ffceb6;
+          --layer4: #4976f2; --layer5: #7dafff; --layer6: #ffb401; --layer7: #c78640;
+          --layer8: #718799; --layer9: #e0edff; --layer10: #91c0ff; --layer11: #000;}
+          .theme-color-1 { --layer1: #8098ab; --layer2: #ffbfa1; --layer3: #ffceb6;
+          --layer4: #548aff; --layer5: #ffb401; --layer6: #e0edff; --layer7: #c78640;}
+          .theme-color-2 { --layer1: #ffceb6; --layer2: #e0edff; --layer3: #c78640;
+          --layer4: #ffa100; --layer5: #ffb401; --layer6: #548aff;} .theme-color-3
+          { --layer1: #ffceb6; --layer2: #548aff; --layer3: #c78640; --layer4: #4f7ff7;
+          --layer5: #e0edff; --layer6: #8098ab; --layer7: #62798c; --layer8: #718799;
+          --layer9: #ffb401;} .theme-color-4 { --layer1: #8098ab; --layer2: #62798c;
+          --layer3: #548aff; --layer4: #ffb401; --layer5: #d1e4ff; --layer6: #ffceb6;
+          --layer7: #c78640; --layer8: #4f7ff7;} .theme-color-5 { --layer1: #8098ab;
+          --layer2: #62798c; --layer3: #ffceb6; --layer4: #ffb401; --layer5: #d1e4ff;
+          --layer6: #548aff; --layer7: #c78640;} .theme-color-6 { --layer1: #8098ab;
+          --layer2: #ffceb6; --layer3: #ef5e3b; --layer4: #e0edff; --layer5: #ffbfa1;
+          --layer6: #b1712c; --layer7: #c78640; --layer8: #ffb401; --layer9: #ffa100;}
+          .theme-color-7 { --layer1: #ffceb6; --layer2: #ffb401; --layer3: #548aff;
+          --layer4: #b1712c; --layer5: #e0edff; --layer6: #4f7ff7; --layer7: #d14521;
+          --layer8: #ef5e3b;} .theme-color-8 { --layer1: #ffceb6; --layer2: #ffa100;
+          --layer3: #e0edff; --layer4: #ffb401; --layer5: #ef5e3b; --layer6: #b1712c;
+          --layer7: #c78640;} .theme-color-9 { --layer1: #ffceb6; --layer2: #ef5e3b;
+          --layer3: #b1712c; --layer4: #c78640; --layer5: #e0edff; --layer6: #ffb401;}
+          .theme-color-10 { --layer1: #8098ab; --layer2: #e0edff; --layer3: #548aff;
+          --layer4: #ffceb6; --layer5: #c78640; --layer6: #4f7ff7; --layer7: #ffb401;}
+          .theme-color-11 { --layer1: #e0edff; --layer2: #ffc431; --layer3: #62798c;
+          --layer4: #ef5e3b; --layer5: #ffbfa1; --layer6: #b1712c; --layer7: #ffceb6;
+          --layer8: #c78640; --layer9: #718799; --layer10: #8098ab; --layer11: #ffb401;}
+          .theme-color-12 { --layer1: #ffceb6; --layer2: #ffa100; --layer3: #e0edff;
+          --layer4: #548aff; --layer5: #c78640; --layer6: #ffb401; --layer7: #718799;
+          --layer8: #8098ab; --layer9: #62798c;} .theme-color-13 { --layer1: #ffa100;
+          --layer2: #ffbfa1; --layer3: #ffceb6; --layer4: #548aff; --layer5: #c78640;
+          --layer6: #ffb401; --layer7: #e0edff;} .theme-color-14 { --layer1: #ffbfa1;
+          --layer2: #ffa100; --layer3: #c5dafa; --layer4: #ffceb6; --layer5: #c78640;
+          --layer6: #548aff; --layer7: #e0edff; --layer8: #ffb401;} .theme-color-15
+          { --layer1: #548aff; --layer2: #ffceb6; --layer3: #ffa100; --layer4: #c78640;
+          --layer5: #91c0ff; --layer6: #4976f2; --layer7: #7dafff; --layer8: #000;}
+          .theme-color-16 { --layer1: #548aff; --layer2: #ffceb6; --layer3: #b1712c;
+          --layer4: #62798c; --layer5: #4976f2; --layer6: #ffbfa1; --layer7: #ffc431;
+          --layer8: #8098ab; --layer9: #718799; --layer10: #ffe28f; --layer11: #4f7ff7;}
+          .theme-color-17 { --layer1: #ffbfa1; --layer2: #c78640; --layer3: #ffceb6;
+          --layer4: #ffb401; --layer5: #548aff; --layer6: #e0edff;} .theme-color-18
+          { --layer1: #ffbfa1; --layer2: #ffb401; --layer3: #ef5e3b; --layer4: #e0edff;
+          --layer5: #b1712c; --layer6: #c78640; --layer7: #ffceb6;} .theme-color-19
+          { --layer1: #ffbfa1; --layer2: #ef5e3b; --layer3: #b1712c; --layer4: #ffceb6;
+          --layer5: #c78640; --layer6: #e0edff; --layer7: #ffb401;} .theme-color-20
+          { --layer1: #bed3f7; --layer2: #e0edff; --layer3: #000; --layer4: #d1e4ff;
+          --layer5: #548aff; --layer6: #b1712c; --layer7: #ffceb6; --layer8: #c78640;
+          --layer9: #ef5e3b; --layer10: #ffa100; --layer11: #ffb401; --layer12: #718799;
+          --layer13: #91c0ff;} .theme-color-21 { --layer1: #e0edff; --layer2: #ffbfa1;
+          --layer3: #ffceb6; --layer4: #ef5e3b; --layer5: #b1712c; --layer6: #c78640;
+          --layer7: #ffa100;} .theme-color-22 { --layer1: #ffceb6; --layer2: #548aff;
+          --layer3: #ffb401; --layer4: #e0edff; --layer5: #4f7ff7; --layer6: #c78640;}
+          .theme-color-23 { --layer1: #ffceb6; --layer2: #ffa100; --layer3: #ffbfa1;
+          --layer4: #ffd9c7; --layer5: #c78640; --layer6: #548aff; --layer7: #ffb401;
+          --layer8: #e0edff; --layer9: #4f7ff7;} .theme-color-24 { --layer1: #62798c;
+          --layer2: #ffbfa1; --layer3: #718799; --layer4: #ffa100; --layer5: #8098ab;
+          --layer6: #ffceb6; --layer7: #ef5e3b; --layer8: #b1712c; --layer9: #c78640;
+          --layer10: #e0edff; --layer11: #ffb401;} .theme-color-25 { --layer1: #ffbfa1;
+          --layer2: #ffa100; --layer3: #548aff; --layer4: #4f7ff7; --layer5: #ffceb6;
+          --layer6: #ffb401; --layer7: #c78640; --layer8: #e0edff;} .theme-color-26
+          { --layer1: #ffceb6; --layer2: #548aff; --layer3: #b1712c; --layer4: #4f7ff7;
+          --layer5: #e0edff; --layer6: #ffb401; --layer7: #ffbfa1;} .theme-color-27
+          { --layer1: #ffceb6; --layer2: #e0edff; --layer3: #ffb401; --layer4: #548aff;
+          --layer5: #c78640;} .theme-color-28 { --layer1: #ffbfa1; --layer2: #d1e4ff;
+          --layer3: #ffa100; --layer4: #ffceb6; --layer5: #c78640; --layer6: #000;
+          --layer7: #e0edff; --layer8: #548aff; --layer9: #ffb401;} .theme-color-29
+          { --layer1: #ffceb6; --layer2: #ffa100; --layer3: #ef5e3b; --layer4: #b1712c;
+          --layer5: #c78640; --layer6: #e0edff; --layer7: #ffb401;} .theme-color-30
+          { --layer1: #ffceb6; --layer2: #ffa100; --layer3: #e0edff; --layer4: #b1712c;
+          --layer5: #ef5e3b; --layer6: #ffb401; --layer7: #c78640;} .theme-color-31
+          { --layer1: #ffceb6; --layer2: #e0edff; --layer3: #548aff; --layer4: #ffb401;
+          --layer5: #c78640; --layer6: #4f7ff7;} .theme-color-32 { --layer1: #f78e00;
+          --layer2: #ffceb6; --layer3: #ef5e3b; --layer4: #b1712c; --layer5: #e04f2b;
+          --layer6: #e0edff; --layer7: #ffc431; --layer8: #c78640;} .theme-color-33
+          { --layer1: #ffceb6; --layer2: #548aff; --layer3: #b1712c; --layer4: #c78640;
+          --layer5: #ffb401; --layer6: #e0edff;} .theme-color-34 { --layer1: #b1712c;
+          --layer2: #ffceb6; --layer3: #ef5e3b; --layer4: #ffb401; --layer5: #c78640;
+          --layer6: #e0edff; --layer7: #d1e4ff; --layer8: #ffbfa1; --layer9: #ffa100;}
+          .theme-color-35 { --layer1: #b1712c; --layer2: #ffceb6; --layer3: #c78640;
+          --layer4: #e0edff; --layer5: #ef5e3b; --layer6: #ffa100;} .theme-line-36
+          { --layer1: #ffceb6; --layer2: #c78640; --layer3: #e0edff; --layer4: #548aff;
+          --layer5: #ffb401; --layer6: #ffbfa1; --layer7: #d1e4ff; --layer8: #ffa100;}
+          .theme-line-37 { --layer1: #ffceb6; --layer2: #c78640; --layer3: #e0edff;
+          --layer4: #548aff; --layer5: #ffb401; --layer6: #ffbfa1; --layer7: #d1e4ff;
+          --layer8: #ffa100; --layer9: #4f7ff7; --layer10: #000;}</style>
+          <p class="_14gdf42"><strong class="_1oymxsi">Support:</strong> Since our Icons can have several
+            Layers, this technique take advantage of the <a class="_o1cg4g" href="https://drafts.csswg.org/css-variables/">CSS Custom Properties</a>.
+            <br/>This has a <a class="_o1cg4g" href="http://caniuse.com/#search=css%20variables">good browser support</a> except
+            for older IE versions. In those browsers the original color will be used
+            as a fallback.</p>
+      </section>
+      <section class="_1l5hckq">
+        <h3 id="links" class=""><a class="_ovghcs" href="#links"><strong class="_1dqtju9">⊙</strong> Useful links</a></h3>
+        <p class="_14gdf42">You can find a lot of information on the Internet about <code class="_1bo7bzx _1oymxsi">SVG</code>.
+          <br/>We made a little selection for you if you want to learn more.</p>
+        <ul class="_fr5wn _1hgbkkp">
+          <li><a href="https://tympanus.net/codrops/2015/07/16/styling-svg-use-content-css/?utm_source=orioniconlibrary.com&amp;utm_medium=demo"
+            class="_o1cg4g">Styling SVG &lt;use&gt; Content with CSS</a>, by <a href="https://twitter.com/SaraSoueidan"
+            class="_o1cg4g">Sara Soueidan</a>
+          </li>
+          <li><a href="http://codepen.io/AmeliaBR/post/customizable-svg-icons-css-variables?utm_source=orioniconlibrary.com&amp;utm_medium=demo"
+            class="_o1cg4g">Customizable SVG Icons with CSS Variables</a> by <a href="https://twitter.com/AmeliasBrain"
+            class="_o1cg4g">Amelia Bellamy-Royds</a>
+          </li>
+          <li><a href="https://css-tricks.com/a-complete-guide-to-svg-fallbacks/?utm_source=orioniconlibrary.com&amp;utm_medium=demo"
+            class="_o1cg4g">A Complete Guide to SVG Fallbacks</a> by <a href="https://twitter.com/AmeliasBrain"
+            class="_o1cg4g">Amelia Bellamy-Royds</a>
+          </li>
+          <li><a href="https://css-tricks.com/mega-list-svg-information/?utm_source=orioniconlibrary.com&amp;utm_medium=demo"
+            class="_o1cg4g">A Compendium of SVG Information</a> by <a href="https://twitter.com/chriscoyier"
+            class="_o1cg4g">Chris Coyier</a>
+          </li>
+          <li><a href="http://svgpocketguide.com/?utm_source=orioniconlibrary.com&amp;utm_medium=demo"
+            class="_o1cg4g">The Pocket Guide to Writing SVG</a> by <a href="https://twitter.com/jonitrythall"
+            class="_o1cg4g">Joni Trythall</a>
+          </li>
+          <li><a href="https://css-tricks.com/icon-fonts-vs-svg/?utm_source=orioniconlibrary.com&amp;utm_medium=demo"
+            class="_o1cg4g">Inline SVG vs Icon Fonts [CAGEMATCH]</a> by <a href="https://twitter.com/chriscoyier"
+            class="_o1cg4g">Chris Coyier</a>
+          </li>
+          <li><a href="https://sarasoueidan.com/blog/svg-coordinate-systems/?utm_source=orioniconlibrary.com&amp;utm_medium=demo"
+            class="_o1cg4g">Understanding SVG Coordinate Systems and Transformations</a>,
+            the whole serie by <a href="https://twitter.com/SaraSoueidan" class="_o1cg4g">Sara Soueidan</a>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <script>
+      // Text Selection
+      function selectText (element) {
+        var doc = document,
+            text = element,
+            range, 
+            selection;
+        if (doc.body.createTextRange) {
+            range = document.body.createTextRange();
+            range.moveToElementText(text);
+            range.select();
+        } else if (window.getSelection) {
+            selection = window.getSelection();
+            if(selection.toString().length === 0){
+              range = document.createRange();
+              range.selectNodeContents(text);
+              selection.removeAllRanges();
+              selection.addRange(range);
+            }
+        }
+      };
+      
+      var items = document.querySelectorAll('.js-item');
+      [].slice.call(items).forEach(function(elem, i){
+        items[i].addEventListener('click', function(){
+          selectText(this.querySelector('code'))
+        }, false);
+      });
+      
+      var iconsCode = document.querySelectorAll('.js-iconCode');
+      
+      // External file Checkbox
+      var extChbx = document.querySelector('.js-external');
+      var extFilename = extChbx.dataset.name;
+      extChbx.addEventListener('change', function(e) {
+        if (e.target.checked) {
+          [].slice.call(iconsCode).forEach(function(elem, i){
+            iconsCode[i].innerHTML = iconsCode[i].innerHTML.replace('#', extFilename+'#')
+          });
+        } else {
+          [].slice.call(iconsCode).forEach(function(elem, i){
+            iconsCode[i].innerHTML = iconsCode[i].innerHTML.replace(extFilename+'#', '#')
+          });
+        }
+      });
+      
+      // Specific Size
+      var size = document.querySelector('.js-size');
+      var sizeSwitch = document.querySelector('.js-sizeSwitch');
+      
+      sizeSwitch.addEventListener('change', function(e) {
+        if (e.target.checked) {
+          size.disabled = false;
+          size.focus();
+          [].slice.call(iconsCode).forEach(function(elem, i){
+            elem.innerHTML = elem.innerHTML.replace('&lt;svg', '&lt;svg width="'+size.value+'" height="'+size.value+'"')
+          });
+        } else {
+          size.disabled = true;
+          [].slice.call(iconsCode).forEach(function(elem, i){
+            sizeStringHandler(elem)
+          });
+        }
+      }, false);
+      
+      size.addEventListener('input', function(e) {
+        var val = e.target.value;
+        [].slice.call(iconsCode).forEach(function(elem, i){
+          sizeStringHandler(elem, val)
+        });
+      }, false);
+      
+      function sizeStringHandler (elem, value) {
+        var regex = /(\S+)=["']?((?:.(?!["']?\s+(?:\S+)=|[>"']))+.)["']?/g
+        elem.innerHTML = elem.innerHTML.replace(regex, function (match, $1, $2) {
+          if ($1 === 'width' || $1 === 'height') {
+            if (value) {
+              return $1 + '="' + value + '"'
+            } else {
+              return ''
+            }
+          }
+          return match
+        })
+        
+        if (!value) {
+          elem.innerHTML = elem.innerHTML.replace(/  +/g, ' ');
+        }
+      }
+  
+      
+        // ContentEditable
+        document.querySelector("[contenteditable]").addEventListener("paste", function(e) {
+          e.preventDefault();
+          var text = e.clipboardData.getData("text/plain");
+          document.execCommand("insertHTML", false, text);
+        });
+    </script>
+  </body>
+
+</html>

@@ -1,0 +1,128 @@
+@import '../../../scss/theme/theme';
+
+.offer-form {
+background-color:rgba(0,0,0,0.74);
+font-size:16px;
+padding:0px;
+padding-bottom:10px;
+padding-top:10px;
+padding-right:.6rem;
+padding-left:.6rem;
+font-family:lifecraft;
+box-shadow:inset $bgColor1 0px 0px 20px 2px;
+    h1{
+        font-size:38px;
+        color:rgb(255,255,255);
+        letter-spacing:0px;
+        font-family:lifecraft;
+        margin-top:0px;
+        padding-top:0px;
+        padding-right:5px;
+        padding-bottom:0px;
+        padding-left:5px;
+        margin-bottom:0px;
+    }
+    h5 {
+        font-size:25px;
+        margin-top:0px;
+        margin-bottom:0px;
+        font-family:'Indie Flower', cursive;
+        letter-spacing:2px;
+        font-weight:normal;
+        color:#ffffff;
+
+    }
+    h6 {
+        font-size:15px;
+        margin-top:0px;
+        margin-bottom:0px;
+        font-family:'Indie Flower', cursive;
+        letter-spacing:0px;
+        font-weight:normal;
+        color:#ffffff;
+    }
+    p {
+        font-size:18px;
+        margin-top:0px;
+        margin-bottom:0px;
+        font-family:lifecraft;
+        letter-spacing:0px;
+        font-weight:normal;
+        color:#ffffff;
+
+    }
+
+    input {
+        height:36px;
+        font-size:20px;
+        background-color:rgba(0,0,0,0.5);
+        padding:0px;
+        padding-left:8px;
+    }
+    select {
+        background-color:rgba(0,0,0,0.5);
+        height:36px;
+        font-size:20px;
+        padding:0px;
+        padding-left:8px;
+    }
+}
+
+.btn-format {
+    background-color: $bgColor4;
+    color:rgb(255,255,255);
+}
+
+.btn-div {
+    width:150px;
+    margin-top:10px;
+    height:34px;
+    margin-bottom:10px;
+}
+.fp{
+    margin-left: .7rem;
+    margin-right: .7rem;
+}
+
+#upload {
+  opacity: 0;
+}
+
+#upload-label {
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  transform: translateY(-50%);
+}
+
+.image-area {
+  border: 2px dashed rgba(54, 1, 80, 0.7);
+  padding: 1rem;
+  position: relative;
+}
+
+.image-area::before {
+  content: 'Uploaded image result';
+  color: #46015e;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.8rem;
+  z-index: 1;
+}
+
+.image-area img {
+  z-index: 2;
+  position: relative;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.email{
+  text-transform: none
+}

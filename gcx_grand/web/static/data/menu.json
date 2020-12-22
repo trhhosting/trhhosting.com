@@ -1,0 +1,45 @@
+{
+  "RouteMenuSide":{
+    "id":0,
+    "title": "",
+    "subTitle": "",
+    "menuIcons":[
+      {
+        "id": 0,
+        "classFormat": "dropdown-item text-s text-s",
+        "routerLink": "/#/home",
+        "routerLinkActive": "'active-route'",
+        "icon": {
+          "href": "/#/",
+          "classFormat": "theme-line-9",
+          "icon": "/static/icons/gcx_sprite/gcx-sprite.svg#property-1",
+          "title": "Home",
+          "height": 50,
+          "width": 30
+        }
+      }
+    ]
+  },
+  "RouteMenuTop":{
+    "id":0,
+    "title": "",
+    "subTitle": "",
+    "menuIcons":[
+      { "id":0,
+        "classFormat":"dropdown-item text-p",
+        "routerLink":"/#/home",
+        "routerLinkActive":"'active-route'",
+        "icon":{
+          "href":"/#/",
+          "classFormat":"theme-line-12",
+          "icon": "/static/icons/gcx_sprite/gcx-sprite.svg#edit-3",
+          "title": "Application",
+          "height": 40,
+          "width": 40
+        }
+
+      }
+    ]
+
+  }
+}

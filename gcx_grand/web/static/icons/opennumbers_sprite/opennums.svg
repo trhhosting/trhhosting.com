@@ -1,0 +1,94 @@
+<svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2.39 3.81" xmlns:xlink="http://www.w3.org/1999/xlink"
+  shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
+  image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+  id="eight-1">
+    <title>eight</title>
+    <desc>A color styled icon from Orion Icon Library.</desc>
+    <path d="M2.28.96c0 .2-.05.37-.15.51-.1.14-.23.25-.4.32.21.08.37.2.49.36.11.17.17.37.17.6 0 .35-.1.62-.29.79-.2.18-.51.27-.92.27C.39 3.81 0 3.46 0 2.75c0-.24.06-.44.18-.6.11-.16.27-.28.47-.36a.938.938 0 0 1-.39-.32.854.854 0 0 1-.15-.51c0-.31.1-.54.28-.71C.58.08.85 0 1.2 0c.34 0 .61.08.79.25.19.17.29.4.29.71zm-.39 1.79c0-.29-.05-.5-.17-.63-.11-.14-.29-.2-.54-.2-.24 0-.42.06-.52.18-.11.13-.16.35-.16.65 0 .31.05.53.16.65.11.13.28.19.52.19s.42-.07.54-.19c.12-.13.17-.34.17-.65zM1.78.96c0-.25-.05-.44-.15-.56-.1-.12-.25-.18-.45-.18C.99.22.84.28.75.39.66.51.61.7.61.96c0 .25.04.44.14.55.09.11.23.16.43.16.21 0 .36-.05.46-.16.09-.12.14-.3.14-.55z"
+    fill-rule="nonzero" data-name="layer1" fill="#000"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1.28 2.04" xmlns:xlink="http://www.w3.org/1999/xlink"
+  shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
+  image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+  id="zero-1">
+    <title>zero</title>
+    <desc>A color styled icon from Orion Icon Library.</desc>
+    <path d="M1.28 1.01c0 .69-.21 1.03-.65 1.03-.21 0-.36-.09-.47-.26C.05 1.6 0 1.35 0 1.01 0 .69.05.43.16.26A.54.54 0 0 1 .64 0c.21 0 .37.09.48.26.11.17.16.42.16.75zm-.27 0C1.01.7.98.47.92.33S.76.12.63.12C.5.12.41.18.36.32.3.45.27.68.27 1.01c0 .34.03.57.09.71.05.14.15.2.27.2.13 0 .23-.07.29-.21.06-.14.09-.38.09-.7z"
+    fill-rule="nonzero" data-name="layer1" fill="#000"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0.78 1.28" xmlns:xlink="http://www.w3.org/1999/xlink"
+  shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
+  image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+  id="two-1">
+    <title>two</title>
+    <desc>A color styled icon from Orion Icon Library.</desc>
+    <path d="M.78 1.28H0v-.14L.18.98C.29.88.37.8.42.74.48.68.52.62.54.55.56.49.57.41.57.33.57.25.55.19.52.14.48.1.42.08.33.08.3.08.27.08.23.09.2.1.16.11.14.13L.1.28H.04V.04C.16.01.25 0 .33 0c.14 0 .25.03.32.09.07.05.1.14.1.24C.75.4.74.47.71.53S.64.66.58.72C.53.78.43.87.3.98c-.05.05-.11.1-.18.16h.66v.14z"
+    fill-rule="nonzero" data-name="layer1" fill="#000"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1.23 2" xmlns:xlink="http://www.w3.org/1999/xlink"
+  shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
+  image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+  id="three-1">
+    <title>three</title>
+    <desc>A color styled icon from Orion Icon Library.</desc>
+    <path d="M1.23 1.44c0 .17-.06.31-.18.41-.12.1-.29.15-.51.15-.19 0-.36-.02-.52-.06L0 1.53h.1l.06.27c.04.02.09.04.16.05.07.02.14.03.2.03.15 0 .26-.04.33-.11s.11-.18.11-.35c0-.12-.03-.22-.1-.29a.518.518 0 0 0-.31-.11l-.21-.01V.89L.55.88C.66.87.74.84.79.78.85.72.87.62.87.5.87.37.84.27.79.21.73.15.64.12.52.12.46.12.41.13.35.14.3.16.25.18.21.2L.16.44h-.1V.06C.16.04.24.02.31.01.38 0 .45 0 .52 0c.41 0 .62.16.62.48 0 .13-.04.24-.11.32C.95.88.85.93.71.95c.18.02.31.07.39.15.09.08.13.2.13.34z"
+    fill-rule="nonzero" data-name="layer1" fill="#000"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.47 80.97" xmlns:xlink="http://www.w3.org/1999/xlink"
+  shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
+  image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+  id="six-1">
+    <title>six</title>
+    <desc>A color styled icon from Orion Icon Library.</desc>
+    <path d="M51.47 55.31c0 8.19-2.07 14.52-6.2 18.98-4.14 4.45-10.11 6.68-17.92 6.68-8.85 0-15.64-3.45-20.32-10.36C2.35 63.7 0 53.78 0 40.83c0-8.46 1.22-15.79 3.69-21.93C6.17 12.73 9.64 8.05 14.08 4.84 18.54 1.61 23.7 0 29.54 0c5.73 0 11.43.7 17.11 2.07v13.59h-3.87l-2.07-8.07c-1.29-.7-3.04-1.32-5.24-1.85-2.19-.52-4.18-.8-5.93-.8-5.74 0-10.2 2.79-13.39 8.34-3.2 5.54-4.96 13.65-5.27 24.31 6.39-3.37 12.82-5.06 19.24-5.06 6.95 0 12.23 1.97 15.89 5.87 3.63 3.89 5.46 9.54 5.46 16.91zM27.11 76.32c4.76 0 8.19-1.55 10.3-4.62 2.13-3.08 3.18-8.18 3.18-15.27 0-6.42-1.01-11.08-3.04-13.93-2-2.88-5.22-4.3-9.62-4.3-5.36 0-11.06.98-17.11 2.93 0 11.97 1.35 20.83 4.06 26.57 2.71 5.74 6.79 8.62 12.23 8.62z"
+    fill-rule="nonzero" data-name="layer1" fill="#000"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3.14 5.17" xmlns:xlink="http://www.w3.org/1999/xlink"
+  shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
+  image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+  id="five-1">
+    <title>five</title>
+    <desc>A color styled icon from Orion Icon Library.</desc>
+    <path d="M1.39 2.12c.59 0 1.03.12 1.31.36.29.24.44.61.44 1.1 0 .51-.16.91-.47 1.18-.31.28-.76.41-1.34.41-.48 0-.91-.05-1.29-.16L0 3.94h.25l.17.71c.11.06.25.11.4.15.16.04.31.06.45.06.4 0 .69-.1.88-.29.19-.18.29-.5.29-.95 0-.32-.05-.55-.13-.71a.742.742 0 0 0-.38-.36c-.18-.07-.42-.11-.72-.11-.23 0-.45.03-.67.09H.17V0h2.59v.58H.51v1.63c.28-.06.57-.09.88-.09z"
+    fill-rule="nonzero" data-name="layer1" fill="#000"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2.49 3.53" xmlns:xlink="http://www.w3.org/1999/xlink"
+  shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
+  image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+  id="four-1">
+    <title>four</title>
+    <desc>A color styled icon from Orion Icon Library.</desc>
+    <path d="M1.96 2.75v.78h-.45v-.78H0v-.34L1.66 0h.3v2.38h.53v.37h-.53zM1.51.63H1.5L.3 2.38h1.21V.63z"
+    fill-rule="nonzero" data-name="layer1" fill="#000"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1.74 2.74" xmlns:xlink="http://www.w3.org/1999/xlink"
+  shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
+  image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+  id="nine-1">
+    <title>nine</title>
+    <desc>A color styled icon from Orion Icon Library.</desc>
+    <path d="M0 .84C0 .58.08.37.22.22.37.07.59 0 .86 0c.3 0 .53.11.67.33.14.22.21.56.21 1.03 0 .44-.09.78-.27 1.02-.19.24-.44.36-.77.36-.22 0-.41-.03-.59-.07v-.46h.12l.07.28c.05.02.1.04.18.06.07.01.14.02.21.02.21 0 .38-.09.49-.28.12-.18.18-.46.19-.82-.2.11-.41.17-.61.17-.24 0-.42-.07-.56-.21-.13-.14-.2-.34-.2-.59zM.86.16C.53.16.37.39.37.85c0 .2.04.35.12.45.07.1.2.15.37.15.17 0 .34-.04.51-.11 0-.41-.04-.71-.12-.9C1.17.25 1.04.16.86.16z"
+    fill-rule="nonzero" data-name="layer1" fill="#000"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0.43 0.81" xmlns:xlink="http://www.w3.org/1999/xlink"
+  shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
+  image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+  id="one-1">
+    <title>one</title>
+    <desc>A color styled icon from Orion Icon Library.</desc>
+    <path fill-rule="nonzero"
+    d="M.27.77l.16.01v.03H0V.78L.17.77V.11L0 .17V.13L.24 0h.03z" data-name="layer1"
+    fill="#000"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6.48 10.47" xmlns:xlink="http://www.w3.org/1999/xlink"
+  shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
+  image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+  id="seven-1">
+    <title>seven</title>
+    <desc>A color styled icon from Orion Icon Library.</desc>
+    <path fill-rule="nonzero"
+    d="M.51 2.48H0V0h6.48v.6l-4.67 9.87H.8L5.39 1.2H.79z" data-name="layer1"
+    fill="#000"></path>
+  </symbol>
+</svg>

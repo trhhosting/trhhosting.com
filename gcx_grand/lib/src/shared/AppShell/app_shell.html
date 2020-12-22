@@ -1,0 +1,191 @@
+<!--
+ Copyright (c) 2019, the GoConnectX project authors.  Please see the AUTHORS file
+ for details. All rights reserved. Use of this source code is governed by a
+ BSD-style license that can be found in the LICENSE file.
+-->
+<material-drawer temporary #drawer="drawer" [class.custom-width]="customWidth" [attr.end]="end ? '' : null"
+	[attr.overlay]="overlay ? '' : null">
+		<span>
+			<svg width="90%">
+				<use xlink:href="/static/icons/trhhosting/trh_logos_sheet.svg#logo-full"></use>
+			</svg>
+		</span>
+
+	<div *deferredContent class="material-drawer gx-background text-black gcx-tool-bar">
+		<div group class="mat-drawer-spacer"></div>
+		<div group>
+			<material-list-item *ngFor="let i of Side.menuIcons">
+				<a [class]="i.classFormat" [href]="i.routerLink" [routerLinkActive]="'i.routerLinkActive'">
+					<span [class]="i.icon.classFormat">
+						<svg-icons [svgWidth]="i.icon.width" [svgHeight]="i.icon.height" [svgIcon]="i.icon.icon">
+						</svg-icons>
+					</span> {{i.icon.title}}
+				</a>
+			</material-list-item>
+		</div>
+	</div>
+	<section class="md-background">
+		<p> </p>
+	</section>
+</material-drawer>
+
+
+<div class="material-content">
+	<header #navbar1 class="material-header shadow">
+		<div class="material-header-row">
+			<material-button (click)="pageTop()" icon class="material-drawer-button nav-item" (trigger)="drawer.toggle()">
+				<a [class]="Logo.classFormat" [href]="Logo.href" [routerLinkActive]="'Logo.routerLinkActive'">
+				<svg width="50px" height="40px" class="theme-line-9">
+					<use xlink:href="/static/icons/gcx_sprite/gcx-sprite.svg#menu-1"></use>
+				</svg>
+				<i>
+					<svg-icons [svgWidth]="Logo.width" [svgHeight]="Logo.height" [svgIcon]="Logo.icon">
+					</svg-icons>
+				</i>
+				</a>
+			</material-button>
+			<span><a class="navbar-brand text-p rm-small-screen text-s" [routerLink]="RoutePaths.home.toUrl()"
+					[routerLinkActive]="'active-route'">{{Logo.title}}</a></span>
+			<span><a class="navbar-brand text-p rm-standard-screen text-s" [routerLink]="RoutePaths.home.toUrl()"
+					[routerLinkActive]="'active-route'">{{Logo.abr}}</a></span>
+			<div class="material-spacer"></div>
+			<nav class="nav-item rm-small-screen" *ngFor="let i of Top.menuIcons">
+				<a [class]="i.classFormat" [href]="i.routerLink" [routerLinkActive]="'i.routerLinkActive'">
+					<i [class]="i.icon.classFormat">
+						<svg-icons [svgWidth]="i.icon.width" [svgHeight]="i.icon.height" [svgIcon]="i.icon.icon">
+						</svg-icons>
+					</i> {{i.icon.title}}
+				</a>
+			</nav>
+			<nav class="nav-item rm-standard-screen" *ngFor="let i of Top.menuIcons">
+				<a [class]="i.classFormat" [href]="i.routerLink" [routerLinkActive]="'i.routerLinkActive'">
+					<i [class]="i.icon.classFormat">
+						<svg-icons [svgWidth]="i.icon.width" [svgHeight]="i.icon.height" [svgIcon]="i.icon.icon">
+						</svg-icons>
+					</i>
+				</a>
+			</nav>
+		</div>
+	</header>
+	<header hidden #navbar2 class="material-header shadow sticky">
+		<div class="material-header-row">
+			<material-button (click)="pageTop()" icon class="material-drawer-button nav-item" (trigger)="drawer.toggle()">
+				<a [class]="Logo.classFormat" [href]="Logo.href" [routerLinkActive]="'Logo.routerLinkActive'">
+					<svg width="50px" height="40px" class="theme-line-9">
+						<use xlink:href="/static/icons/gcx_sprite/gcx-sprite.svg#menu-1"></use>
+					</svg>
+					<i>
+						<svg-icons [svgWidth]="Logo.width" [svgHeight]="Logo.height" [svgIcon]="Logo.icon">
+						</svg-icons>
+					</i>
+				</a>
+			</material-button>
+			<span><a class="navbar-brand text-p rm-small-screen text-s" [routerLink]="RoutePaths.home.toUrl()"
+					[routerLinkActive]="'active-route'">{{Logo.title}}</a></span>
+			<span><a class="navbar-brand text-p rm-standard-screen text-s" [routerLink]="RoutePaths.home.toUrl()"
+					[routerLinkActive]="'active-route'">{{Logo.abr}}</a></span>
+			<div class="material-spacer"></div>
+			<nav class="nav-item rm-small-screen" *ngFor="let i of Top.menuIcons">
+				<a [class]="i.classFormat" [href]="i.routerLink" [routerLinkActive]="'i.routerLinkActive'">
+					<i [class]="i.icon.classFormat">
+						<svg-icons [svgWidth]="i.icon.width" [svgHeight]="i.icon.height" [svgIcon]="i.icon.icon">
+						</svg-icons>
+					</i> {{i.icon.title}}
+				</a>
+			</nav>
+			<nav class="nav-item rm-standard-screen" *ngFor="let i of Top.menuIcons">
+				<a [class]="i.classFormat" [href]="i.routerLink" [routerLinkActive]="'i.routerLinkActive'">
+					<i [class]="i.icon.classFormat">
+						<svg-icons [svgWidth]="i.icon.width" [svgHeight]="i.icon.height" [svgIcon]="i.icon.icon">
+						</svg-icons>
+					</i>
+				</a>
+			</nav>
+		</div>
+	</header>
+	<router-outlet [routes]="Routes.all"></router-outlet>
+
+</div>
+
+<!--Footer-->
+<footer class="page-footer center-on-small-only  pt-0 footer-widget-container md-background">
+	<!--Footer Links-->
+	<div class="container pt-5 mb-5">
+		<div class="row">
+			<!--First column-->
+			<div class="col-md-6 col-lg-3 col-xl-3 footer-contact-widget">
+				<h3 class="footer-title">{{One.title}}</h3>
+				<p>{{One.subTitle}}</p>
+				<ul>
+					<li *ngFor="let i of One.socialIcons">
+						<a [href]="i.href" target="_blank">
+							<i [class]="i.classFormat">
+								<svg-icons [svgWidth]="i.width" [svgHeight]="i.height" [svgIcon]="i.icon"></svg-icons>
+							</i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!--/.First column-->
+
+			<!--Second column-->
+			<div class="col-md-6 col-lg-3 col-xl-3 recent-widget">
+				<h3 class="footer-title">{{Two.title}}</h3>
+				<ul class="image-list">
+					<li *ngFor="let i of Two.posts">
+						<figure class="overlay">
+							<img class="img-fluid" [src]="i.photo" alt="">
+							<figcaption><a [href]="i.href"><i class="mdi mdi-link-variant from-top icon-xs"></i></a>
+							</figcaption>
+						</figure>
+						<div class="post-content">
+							<h6 class="post-title"> <a [href]="i.href" target="_blank" >{{i.title}}</a> </h6>
+							<div class="meta"><span class="date">{{i.date}}</span></div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!--/.Second column-->
+
+			<!--Third column-->
+			<div class="col-md-6 col-lg-3 col-xl-3 link-widget">
+				<h3 class="footer-title">{{Three.title}}</h3>
+				<p>{{Three.subTitle}}</p>
+				<div class="mt-3"></div>
+				<ul class="icon-list">
+					<li *ngFor="let i of Three.contactInfo">
+						<i [class]="i.classFormat"></i>
+						{{i.lineType}}: {{i.title}}
+					</li>
+				</ul>
+			</div>
+			<!--/.Third column-->
+
+			<!--Fourth column-->
+			<div class="col-md-6 col-lg-3 col-xl-3 footer-contact">
+				<div class="widget">
+					<p>
+					<h5 class="widget-title">{{Four.title}} <br> {{Four.subTitle}}
+					</h5>
+					<ul class="unordered-list">
+						<li *ngFor="let i of Four.links">
+							<p>
+								<a [href]="i.href" target="_blank">{{i.title}}</a>
+								<br><br>
+							</p>
+						</li>
+					</ul>
+					</p>
+				</div>
+			</div>
+			<!--/.Fourth column-->
+
+		</div>
+	</div>
+	<!--/.Footer Links-->
+
+	<!--Copyright-->
+	<footer-brand></footer-brand>
+	<!--/.Copyright-->
+</footer>
+<!--/.Footer-->

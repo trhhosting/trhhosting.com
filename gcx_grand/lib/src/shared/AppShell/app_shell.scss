@@ -1,0 +1,350 @@
+/*
+* Legion Market v0.0.1
+* Copyright 2018, Legion Market
+* www.legionmarket.com
+* Free to use under the GPLv3 license.
+*/
+/* Add a black background color to the top navigation */
+@import 'package:angular_components/app_layout/mixins';
+
+@import '../../scss/theme/theme';
+@import '../../scss/theme/icons_shell';
+
+:host {
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.controls {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+.md-background{
+  background-color: $primary;
+
+}
+.gx-boarder {
+  display: inline;
+  color: $primary;
+  border: currentColor;
+}
+.gx-background{
+  background-color: $primaryLightColor;
+}
+.gx-draw  {
+  z-index: -1;
+  // background-color: $logoBackGround;
+}
+.text-p{
+  color: $secondaryTextColor
+}
+.text-s{
+  color: $secondaryTextColor;
+}
+a{
+  text{
+    color: $secondaryTextColor;
+  }
+}
+
+.gcx-tool-bar{
+  display: block;
+  height: 100%;
+}
+.material-header{
+  background: $primaryDarkColor;
+  .dropdown-item:hover, .dropdown-item:focus {
+    color: $secondaryTextColor;
+    text-decoration: none;
+    background-color: $secondaryDarkColor;
+  }
+}
+.material-list-item{
+  background-color: $secondaryTextColor;
+  text-align: justify-all;
+}
+.custom-width {
+  @include mat-drawer-width(38%);
+  @include mat-temporary-drawer-width(38%);
+}
+.material-drawer{
+  .dropdown-item:hover, .dropdown-item:focus {
+    color: #F3F3F3;
+    text-decoration: none;
+    background-color: $primaryDarkColor;
+  }
+
+}
+.footer{
+  background: $primaryDarkColor;
+  .text-p{
+    color: $primaryTextColor;
+  }
+
+}
+
+
+
+//use to remove from view of small screen
+@media screen and (max-width: 600px) {
+  .rm-small-screen {
+    display: none;
+  }
+}
+//use to remove from view of standard screen
+@media screen and (min-width: 601px){
+  .rm-standard-screen{
+    display: none;
+  }
+
+}
+
+/*
+#6E005D
+#5D6E00
+#3D4800
+#819416
+#005D6E
+#003D48
+#168194
+*/
+
+.gx-not-login{
+  display: none;
+}
+$transition: all 0.3s ease-in-out;
+
+
+
+.page-footer {
+  background: $primaryDarkColor;
+  .footer-title {
+    position: relative;
+    color: $primaryTextColor;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+  }
+  p {
+    color: $secondaryTextColor !important;
+    line-height: 24px;
+    margin: 0;
+  }
+  .icon-list {
+    list-style: none;
+    padding: 0;
+    li {
+      color: $secondaryTextColor;
+      a {
+        color: $secondaryTextColor;
+        &:hover {
+          color: $primaryTextColor;
+        }
+      }
+      i {
+        padding-right: 5px;
+        vertical-align: -1px;
+      }
+    }
+  }
+  .newsletter-wrapper {
+    .form-group {
+      margin-bottom: 20px;
+      input {
+        width: 30vh !important;
+        display: inline-block;
+        color: $primaryTextColor;
+        padding: 12px 0;
+      }
+    }
+  }
+  .widget {
+    margin-top: 10px;
+    .widget-title {
+      margin-bottom: 20px;
+      font-size: 18px;
+      color: $primaryTextColor;
+    }
+    .unordered-list {
+      list-style: none;
+      padding: 0;
+      li {
+        a {
+          color: $secondaryTextColor;
+          &:hover {
+            color: $info;
+          }
+        }
+      }
+    }
+  }
+  .image-list {
+    padding: 0;
+    margin: 0;
+    li {
+      margin-bottom: 15px;
+      .overlay {
+        float: left;
+        width: 70px;
+        height: 60px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        figcaption {
+          position: absolute;
+          background: rgba(0,0,0,0.6);
+          top: 0;
+          left: 0;
+          margin: 0;
+          width: 100%;
+          opacity: 0;
+          transition: all 0.3s ease-in-out;
+          i {
+            color: $primaryTextColor;
+            font-size: 18px;
+          }
+        }
+        .from-top {
+          position: absolute;
+          top: 50%;
+          left: 0;
+          width: 100%;
+          -webkit-transform: translateY(-80%);
+          -ms-transform: translateY(-80%);
+          transform: translateY(-80%);
+          transition: all 0.3s ease-in-out;
+        }
+        &:hover {
+          figcaption {
+            opacity: 1;
+            transition: all 0.3s ease-in-out;
+            .from-top {
+              -webkit-transform: translateY(-50%);
+              -ms-transform: translateY(-50%);
+              transform: translateY(-50%);
+              transition: all 0.3s ease-in-out;
+            }
+          }
+        }
+      }
+    }
+    .post-content {
+      margin-left: 85px;
+      margin-bottom: 0;
+      .post-title {
+        margin-bottom: 5px;
+        font-weight: 400;
+        font-size: 15px;
+        margin: 0;
+        a {
+          color: $secondaryTextColor;
+          &:hover {
+            color: $secondaryDarkColor;
+          }
+        }
+      }
+      .meta {
+        color: $primaryTextColor;
+        span {
+          text-transform: uppercase;
+          font-size: 12px;
+          line-height: 18px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+.footer-contact-widget{
+  p {
+    color: $primaryTextColor;
+    line-height: 24px;
+    padding: 5px 0;
+    span {
+      font-weight: 700;
+    }
+  }
+  ul {
+    margin: 20px 0;
+    padding: 0;
+    li {
+      float: left;
+      list-style: none;
+      a {
+        .mdi{
+          color: #fff;
+          width: 40px;
+          height: 40px;
+          margin-right: 8px;
+          display: block;
+          background: #FFF;
+          text-align: center;
+          line-height: 40px;
+          border-radius: 2px;
+          &:hover {
+            transition: $transition;
+          }
+        }
+      }
+    }
+  }
+}
+.footer-copyright{
+  line-height: 2vh;
+  background: black;
+  color: #F3F3F3;
+  p{
+    margin: 10px 0;
+  }
+  .footer-links {
+    ul {
+      padding-left: 0;
+      float: right;
+      margin: 10px 0;
+      li {
+        list-style: none;
+        float: left;
+        a {
+          color: #999;
+          margin-right: 15px;
+          transition: $transition;
+          .fa {
+            padding-right: 4px;
+          }
+          &:hover {
+            color: #fff;
+            opacity: 0.7;
+            transition: $transition;
+          }
+        }
+      }
+    }
+  }
+}
+
+.draw-icon {
+  --layer2: #000;
+  --layer1: #FFf;
+}
+.bar-icon {
+  --layer1: #000;
+  --layer2: #FFF;
+}
+.title-icon {
+  --layer1: black;
+  --layer2: black;
+}
+
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+

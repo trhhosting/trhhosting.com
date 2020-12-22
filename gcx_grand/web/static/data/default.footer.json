@@ -1,0 +1,130 @@
+{
+  "ColumnOne":{
+    "id":0,
+    "title":"",
+    "subTitle":"",
+    "socialIcons":[
+      {
+        "href":"",
+        "classFormat":"",
+        "icon":"",
+        "title":"",
+        "height": 0,
+        "width": 0
+      },
+      {
+        "href":"",
+        "classFormat":"",
+        "icon":"",
+        "title":"",
+        "height": 0,
+        "width": 0
+      },
+      {
+        "href":"",
+        "classFormat":"",
+        "icon":"",
+        "title":"",
+        "height": 0,
+        "width": 0
+      },
+      {
+        "href":"",
+        "classFormat":"",
+        "icon":"",
+        "title":"",
+        "height": 0,
+        "width": 0
+      }
+    ]
+  },
+  "ColumnTwo":{
+    "id":0,
+    "title":"",
+    "subTitle":"",
+    "posts":[
+      {
+        "id":"",
+        "title":"",
+        "date":"",
+        "href":"",
+        "classFormat":"",
+        "photo":""
+      },
+      {
+        "id":"",
+        "title":"",
+        "date":"",
+        "href":"",
+        "classFormat":"",
+        "photo":""
+      },
+      {
+        "id":"",
+        "title":"",
+        "date":"",
+        "href":"",
+        "classFormat":"",
+        "photo":""
+      }
+    ]
+  },
+  "ColumnThree":{
+    "id":0,
+    "title":"",
+    "subTitle":"",
+    "contactInfo":[
+      {
+        "href":"",
+        "classFormat":"",
+        "title":"",
+        "lineType":""
+      },
+      {
+        "href":"",
+        "classFormat":"",
+        "title":"",
+        "lineType":""
+      },
+      {
+        "href":"",
+        "classFormat":"",
+        "title":"",
+        "lineType":""
+      }
+    ]
+  },
+  "ColumnFour":{
+    "id":0,
+    "title":"",
+    "subTitle":"",
+    "links": [
+      {
+        "href":"",
+        "classFormat":"",
+        "title":""
+      },
+      {
+        "href":"",
+        "classFormat":"",
+        "title":""
+      },
+      {
+        "href":"",
+        "classFormat":"",
+        "title":""
+      },
+      {
+        "href":"",
+        "classFormat":"",
+        "title":""
+      },
+      {
+        "href":"",
+        "classFormat":"",
+        "title":""
+      }
+    ]
+  }
+}
+

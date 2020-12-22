@@ -1,0 +1,351 @@
+<div  class="offer-form">
+    <h3 #title class="text-center text-white">
+        Apply Now
+    </h3>
+    <div class="fp">
+        <p class="text-justify text-white text-center">
+            Just fill out this quick form and click Submit Application
+        </p>
+    </div>
+    <div >
+        <div #appstart>
+            <div #application class="form-group">
+                <div class="form-row">
+                    <div class="col">
+                        <p><strong>Full Name</strong><span class="text-danger">*</span></p>
+                        <input #name class="form-control" type="text"
+                             name="" placeholder="ie: John Doe">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-row">
+                    <div class="col-md-6">
+                        <p><strong>Date of Birth</strong>&nbsp;<span class="text-danger">*</span></p>
+                        <input #dob class="form-control"
+                            type="date"  name="">
+                    </div>
+                    <div class="col">
+                        <p><strong>Gender</strong>&nbsp;<span class="text-danger">*</span></p>
+                        <input #gender class="form-control"
+                            type="text" placeholder="ie: Male, Female, Other" name="gender">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <p><strong>Current or Last&nbsp;Occupation</strong><span class="text-danger">*</span></p>
+                <input #occupation class="form-control"
+                    type="text" name="" placeholder="ie: Landscaping, Programming, Nursing ">
+            </div>
+            <div class="form-group">
+                <p><strong>High School and Year&nbsp;Graduated</strong></p>
+                <input #highschool class="form-control" type="text" name=""
+                    placeholder="Hartford High, 2000">
+            </div>
+            <div class="form-group">
+                <p><strong>Collage and Year Graduated&nbsp;</strong></p>
+                <input #college class="form-control" type="text" name=""
+                    placeholder="University of Hartford, 2004">
+            </div>
+            <div class="form-group">
+                <p><strong>Interests&nbsp;</strong><span class="text-danger">*</span></p><input #interest class="form-control" type="text"
+                    name="" placeholder="Baseball and making money">
+            </div>        
+        </div>
+        <div #address hidden>
+            <div #address1 class="form-group">
+                <h4 class="text-white text-center">Address</h4>
+
+                <p><strong>Address&nbsp;</strong><span class="text-danger">*</span></p>
+                <p>Address Line 1</p>
+                <div class="form-row">
+                    <div class="col-md-3">
+                        <input #streetnumber  class="form-control" type="number"  name="" placeholder="123">
+                        <p>Street Number</p>
+                    </div>
+                    <div class="col"
+                    ><input #streetname class="form-control" type="text"  name="" placeholder="Main St">
+                        <p>Street Name</p>
+                    </div>
+                </div>
+                <br>
+                <p>Address Line 2</p>
+                <div class="form-row">
+                    <div class="col">
+                        <input #address class="form-control" type="text"  name=""
+                            placeholder="Unit 12, Attn John Doe">
+                        <p>Apartment/Suite/Floor/Room/Attention Informaiton</p>
+                    </div>
+                </div>
+                <br>
+                <div class="form-row">
+                    <div class="col">
+                    <input class="form-control" #phonenumber type="tel" name="" placeholder="202-555-1212">
+                    <p><strong>Main Phone Number&nbsp;</strong><span class="text-danger">*</span></p>
+                    </div>
+                    <div class="col">
+                    <input class="form-control" #cellphone type="tel" name="" placeholder="888-555-1212">
+                    <p>Cell Phone Number</p>
+                    </div>
+                </div>
+                <br>
+                <div class="form-row">
+                    <div class="col">
+                        <p>P.O. Box</p>
+                        <input #postofficebox class="form-control" type="text" name="" placeholder="P.O. Box ">
+                    </div>
+                </div>
+        </div>
+        <div #address2 class="form-group">
+            <div class="form-row">
+                <div class="col">
+                    <input #towncity class="form-control" type="text"  name="" placeholder="Ex. Widsor">
+                    <p><strong>City&nbsp;</strong><span class="text-danger">*</span></p>
+                </div>
+                <div class="col">
+                    <input #stateprovince class="form-control" type="text"  name="" placeholder="Ex. CT">
+                    <p><strong>State&nbsp;</strong><span class="text-danger">*</span></p>
+                </div>
+                <div class="col">
+                    <input #postalcode class="form-control" type="text"  name="" placeholder="Ex. 06120">
+                    <p><strong>Zip Code&nbsp;</strong><span class="text-danger">*</span></p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div #networks class="form-group" hidden>
+            <br>
+            <h4 class="text-white text-center">Social Networks</h4>
+            <div class="form-row">
+                <div class="col">
+                <span>
+                    <input #email class="form-control" type="email" name="email" placeholder="your email address">
+                    <p>Email Address</p>
+                </span>
+                </div>
+                <br>
+            </div>
+            <div class="form-row">
+                <br>
+                <div class="col">
+                <span>
+                    <input #website class="form-control" type="text" name="website" placeholder="your website">
+                    <p>Website</p>
+                </span>
+                </div>
+            </div>
+            <div class="form-row">
+                <br>
+                <div class="col">
+                <span>
+                    <input #twitter class="form-control" type="text" name="twitter" placeholder="your twitter account">
+                    <p>Twitter</p>
+                </span>
+                </div>
+            </div>
+            <div class="form-row">
+                <br>
+                <div class="col">
+                <span>
+                    <input #facebook class="form-control"  type="text" name="facebook" placeholder="your facebook account">
+                    <p>Facebook</p>
+                </span>
+                </div>
+            </div>
+            <div class="form-row">
+                <br>
+                <div class="col">
+                <span>
+                    <input #github  class="form-control" ype="text" name="github" placeholder="your github account">
+                    <p>Github</p>
+                </span>
+                </div>
+            </div>
+            <div class="form-row">
+                <br>
+                <div class="col">
+                <span>
+                    <input #telegram class="form-control"  type="text" name="telegram" placeholder="your telegram account">
+                    <p>Telegram</p>
+                </span>
+                </div>
+            </div>
+        </div>
+        <div #workhistory class="form-group" hidden>
+                <h4 class="text-white text-center">Work History</h4>
+                <div class="row">
+                    <div class="col">
+                        <input #company1 class="form-control" type="text" name="company" placeholder="ie: Burger King">
+                        <p><strong>Company&nbsp;</strong><span class="text-danger">*</span></p>
+                    </div>
+                    <div class="col">
+                        <input #positiontitle1 class="form-control" type="text" name="position-title" placeholder="ie: Line Cook">
+                        <p><strong>Position Title&nbsp;</strong><span class="text-danger">*</span></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input #description1 class="form-control" type="text" name="description" placeholder="ie: worked part-time and liked the job">
+                        <p><strong>Description&nbsp;</strong><span class="text-danger">*</span></p>
+                    </div>
+                    <div class="col">
+                        <input #datesofemployment1 class="form-control" type="text" name="dates-of-employment" placeholder="ie: 2019 - 2020">
+                        <p><strong>Dates of Employment&nbsp;</strong><span class="text-danger">*</span></p>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col">
+                        <input #company2 class="form-control" type="text" name="company" placeholder="ie: Burger King">
+                        <p>Company</p>
+                    </div>
+                    <div class="col">
+                        <input #positiontitle2 class="form-control" type="text" name="position-title" placeholder="ie: Line Cook">
+                        <p>Position Title</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input #description2 class="form-control" type="text" name="description" placeholder="ie: worked part-time and liked the job">
+                        <p>Description</p>
+                    </div>
+                    <div class="col">
+                        <input #datesofemployment2 class="form-control" type="text" name="dates-of-employment" placeholder="ie: 2019 - 2020">
+                        <p>Dates of Employment</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input #company3 class="form-control" type="text" name="company" placeholder="ie: Burger King">
+                        <p>Company</p>
+                    </div>
+                    <div class="col">
+                        <input #positiontitle3 class="form-control" type="text" name="position-title" placeholder="ie: Line Cook">
+                        <p>Position Title</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input #description3 class="form-control" type="text" name="description" placeholder="ie: worked part-time and liked the job">
+                        <p>Description</p>
+                    </div>
+                    <div class="col">
+                        <input #datesofemployment3 class="form-control" type="text" name="dates-of-employment" placeholder="ie: 2019 - 2020">
+                        <p>Dates of Employment</p>
+                    </div>
+                </div>
+        </div>
+        <div #reference class="form-group" hidden>
+            <h4 class="text-white text-center">References</h4>
+            <p class="text-white text-center">Please list three professional references <br></p>
+            <div class="row">
+                <div class="col">
+                    <div class="col">
+                        <input #refname1 class="form-control" type="text" name="refname1" placeholder="ie: Jamie Scoot">
+                        <p>Full Name</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col">
+                        <input #refnumber1 class="form-control" type="tel" name="refnumber1" placeholder="860-242-1234">
+                        <p>Phone Number</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="col">
+                        <input #refemail1 class="form-control email" type="email" name="refemail1" placeholder="ref@example.com">                                              <p><strong>Email Address&nbsp;</strong><span class="text-danger">*</span></p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col">
+                        <input #refrelation1 class="form-control" type="text" name="refrelation1" placeholder="Supervisor at Burger King">
+                        <p>Relation</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <div class="col">
+                        <input #refname2 class="form-control" type="text" name="refname2" placeholder="ie: Jamie Scoot">
+                        <p>Full Name</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col">
+                        <input #refnumber2 class="form-control" type="tel" name="refnumber2" placeholder="860-242-1234">
+                        <p>Phone Number</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="col">
+                        <input #refemail2 class="form-control" type="email" name="refemail2" placeholder="ref@example.com">
+                        <p>Email Address</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col">
+                        <input #refrelation2 class="form-control" type="text" name="refrelation2" placeholder="Supervisor at Burger King">
+                        <p>Relation</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <div class="col">
+                        <input #refname3 class="form-control" type="text" name="refname3" placeholder="ie: Jamie Scoot">
+                        <p>Full Name</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col">
+                        <input #refnumber3 class="form-control" type="tel" name="refnumber3" placeholder="860-242-1234">
+                        <p>Phone Number</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="col">
+                        <input #refemail3 class="form-control" type="email" name="refemail3" placeholder="ref@example.com">
+                        <p>Email Address</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col">
+                        <input #refrelation3 class="form-control" type="text" name="refrelation3" placeholder="Supervisor at Burger King">
+                        <p>Relation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group mx-auto mx-sm-auto mx-md-auto mx-lg-auto mx-xl-auto">
+        <div #submitsend hidden>
+        <br>
+        <p class="text-justify">I certify that my answers are true and complete to the best of my knowledge. If this application
+            leads to employment, I understand that false or misleading information in my application or interview may result in
+            my release. <br></p>
+        <div class="text-center">
+            <a href="/#/received-application" (click)="send()" class="btn btn-grad">Submit Application</a>
+        </div>
+        </div>
+        <div #submitnav class="row">
+            <div class="col">
+                <div #prev class="text-center">
+                    <button (click)="prePart()" class="btn gcx-btn-primary">Back</button>
+                </div>
+            </div>
+            <div class="col">
+                <div #next class="text-center">
+                    <button (click)="nextPart()" class="btn gcx-btn-secondary">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

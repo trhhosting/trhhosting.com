@@ -1,0 +1,101 @@
+/* Coolors Exported Palette - coolors.co/f2d7ee-d3bcc0-a5668b-69306d-0e103d */
+
+/* RGB */
+.body { background-color: #1D216D; }
+.colorMain { color: #1D216D; }
+.bgColor0 { background-color: #1D216D; }
+.bgColor1 { background-color: #6D1D21; }
+.bgColor2 { background-color: #47080B; }
+.bgColor3 { background-color: #933D42; }
+.bgColor4 { background-color: #216D1D; }
+.bgColor5 { background-color: #0B4708; }
+.bgColor6 { background-color: #42933D; }
+.fontColor0 { color: #1D216D; }
+.fontColor1 { color: #6D1D21; }
+.fontColor2 { color: #47080B; }
+.fontColor3 { color: #933D42; }
+.fontColor4 { color: #216D1D; }
+.fontColor5 { color: #0B4708; }
+.fontColor6 { color: #42933D; }
+
+
+$body:   #1D216D;
+$colorMain: #1D216D;
+$bgColor0:  #1D216D;
+$bgColor1:  #6D1D21;
+$bgColor2:  #47080B;
+$bgColor3:  #933D42;
+$bgColor4:  #216D1D;
+$bgColor5:  #0B4708;
+$bgColor6:  #42933D;
+$fontColor0: #1D216D;
+$fontColor1: #6D1D21;
+$fontColor2: #47080B;
+$fontColor3: #933D42;
+$fontColor4: #216D1D;
+$fontColor5: #0B4708;
+$fontColor6: #42933D;;
+$color1: $bgColor1;
+$color2: $bgColor2;
+$color3: $bgColor3;
+$color4: $bgColor4;
+$color5: $bgColor5;
+
+/* HSL */
+$_color1: $bgColor1;
+$_color2: $bgColor2;
+$_color3: $bgColor3;
+$_color4: $bgColor4;
+$_color5: $bgColor5;
+
+$theme-colors: (
+);
+
+/*! `Custom` Bootstrap 4 theme */
+
+$enable-grid-classes:false;
+$default:       $body !default;
+$primary: $colorMain, !default;
+$secondary: $bgColor1, !default;
+$success: $bgColor2, !default;
+$info: $fontColor3, !default;
+$warning: $bgColor4, !default;
+$danger: $bgColor5, !default;
+$light: $bgColor6, !default;
+$dark: $color5, !default;
+$enable-gradients:true;
+$spacer:0.7rem;
+$border-width:0;
+$btn-border-radius:1.35rem;
+
+$primaryColor: $colorMain;
+$primaryLightColor: $color1;
+$primaryDarkColor: $bgColor2;
+$secondaryColor: $bgColor0;
+$secondaryLightColor: $color2;
+$secondaryDarkColor: $color4;
+$primaryTextColor: #000;
+$secondaryTextColor: #fff;
+
+$preset: $primary;
+
+$gx-lv1: $bgColor4;
+$gx-lv2: $bgColor5;
+$gx-lv3: #000;
+
+/* buttons */
+$btnColor:#000;
+/* drawIcon */
+$layerOne: #000;
+$layerTwo: #000;
+$logoBackGround: #FFF;
+
+$btn-grad: $bgColor0;
+$btn-grad: -webkit-linear-gradient(legacy-direction(to right), $bgColor0 0%, $bgColor4 100%);
+$btn-grad: -webkit-gradient(linear, left top, right top, from($bgColor0), to($bgColor4));
+$btn-grad: -webkit-linear-gradient(left, $bgColor0 0%, $bgColor4 100%);
+$btn-grad: -o-linear-gradient(left, $bgColor0 0%, $bgColor4 100%);
+$btn-grad: linear-gradient(to right, $bgColor0 0%, $bgColor4 100%);
+
+$primaryHomePageText: #000;
+$secondaryHomePageText: #FFF;

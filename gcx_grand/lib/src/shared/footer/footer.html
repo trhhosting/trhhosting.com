@@ -1,0 +1,30 @@
+<footer class="footer bg-dark">
+	<div class="container">
+		<div class="row">
+			<nav class="footer-nav text-white">
+				<ul>
+
+					<li>
+						<a [href]="company.domains.baseDomain" target="_blank">{{company.name}}</a>
+					</li>
+					<li>
+						<a [href]="company.domains.contact" target="_blank">Contact</a>
+					</li>
+					<li>
+						<a [href]="company.domains.blog" target="_blank">Blog</a>
+					</li>
+					<li class="d-none d-md-block d-lg-none">
+						<a [href]="company.domains.license" target="_blank">licenses</a>
+					</li>
+
+				</ul>
+			</nav>
+			<div class="credits ml-auto">
+          <span class="copyright">
+            © {{copyright}}, made with love by {{name}}
+          </span>
+			</div>
+		</div>
+	</div>
+</footer>
+

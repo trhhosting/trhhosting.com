@@ -1,0 +1,67 @@
+/*
+* Legion Market v0.0.1
+* Copyright 2018, Legion Market
+* www.legionmarket.com
+* Free to use under the GPLv3 license.
+*/
+@import "colors";
+.gcx-btn-action{
+  color: whitesmoke;
+  background-color: green;
+}
+.gcx-btn-action-2{
+  color: whitesmoke;
+  background-color: orange;
+}
+.gcx-btn-action{
+  color: whitesmoke;
+  background-color: green;
+}
+.gcx-btn-primary{
+  color: whitesmoke;
+  background-color: $primary;
+}
+.gcx-btn-secondary{
+  color: whitesmoke;
+  background-color: $secondary;
+}
+
+
+.gxc-btn-common {
+  padding: 10px 20px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #fff !important;
+  background-color: $secondaryDarkColor;
+  border-radius: 2px;
+  box-shadow: 0 2px 2.7px 0.1px rgba(0,0,0,0.24) !important;
+  &:hover {
+    box-shadow: 0 4px 4.7px 0.3px rgba(0,0,0,0.24) !important;
+  }
+  &:focus {
+    box-shadow: 0 4px 4.7px 0.3px rgba(0,0,0,0.24) !important;
+  }
+  &:active {
+    box-shadow: 0 4px 4.7px 0.3px rgba(0,0,0,0.24) !important;
+  }
+}
+.gcx-btn-border {
+  font-weight: 500;
+  padding: 9px 20px;
+  background: #fff;
+  border: 1px solid transparent;
+  box-shadow: 0 2px 2.7px 0.1px rgba(0,0,0,0.24) !important;
+  &:hover {
+    background-color: #eee !important;
+  }
+  &:focus {
+    background-color: #eee !important;
+  }
+  &:active {
+    background-color: #eee !important;
+  }
+}
+.gcx-btn-round {
+  color: #fff !important;
+}
+

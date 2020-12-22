@@ -1,0 +1,387 @@
+<!doctype>
+<html lang="en">
+  
+  <head>
+    <title>SVG Sprite Demo | Orion Icon Library</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    />
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"
+    />
+    <style>
+      html {
+          box-sizing: border-box;
+        }
+        body {
+          margin: 0;
+          padding: 0;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 1.125rem;
+        }
+        ._1bo7bzx{font-family:Menlo, mono;font-size:.85em;}._1oymxsi{color:#ff4d63;}._1tt2u3t{-webkit-box-pack:justify;-ms-flex-pack:justify;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;background-color:#121418;-webkit-justify-content:space-between;justify-content:space-between;height:66px;padding:0 28px;color:white;}._dl5j6p{font-weight:300;max-width:33%;font-size:1em;}._1iurgbx{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}._1l5hckq{padding:1em 3em;}._kp2n83{font-size:.7em;text-align:center;}._o1cg4g{color:#0092FF;text-decoration:none;}._o1cg4g:hover{text-decoration:underline;}._14gdf42{line-height:1.5;}._ovghcs{color:inherit;text-decoration:none;}._ovghcs:hover:after{content:"#";color:#0092FF;margin-left:2px;opacity:.3;-webkit-transition:opacity .3s;-moz-transition:opacity .3s;transition:opacity .3s;}._ovghcs:active:after{opacity:1;}._1dqtju9{color:#007aff;}._fr5wn{padding-left:24px;border-left:1px solid rgba(0,0,0,0.1);margin-left:12px;margin-bottom:48px;}._1bmg5vo{color:#202020;tab-ssize:4px;overflow-x:auto;padding:1.5em;line-height:1.5;background:rgba(0,0,0,0.05);font-size:.9em;}._jro6t0{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;}._53480w{display:none;}._53480w:checked + label span{-webkit-transform:translateX(52px);-ms-transform:translateX(52px);transform:translateX(52px);}._53480w:checked + label:before{color:inherit;}._53480w:checked + label:after{color:#007aff;}._53480w:checked ~ .externalCheckboxHelper:after{content:"External SVG Sprite";}._1uuc6xn{cursor:pointer;width:90px;height:40px;display:block;background-color:#f7f7f7;color:#8c8c8c;border-radius:32px;margin:12px 24px;position:relative;}._1uuc6xn:before{content:"‹a›";position:absolute;right:-webkit-calc(100% + 4px);right:-moz-calc(100% + 4px);right:calc(100% + 4px);top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);color:#007aff;}._1uuc6xn:after{content:"‹b›";position:absolute;left:-webkit-calc(100% + 4px);left:-moz-calc(100% + 4px);left:calc(100% + 4px);top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);}._10r524x{background-color:#4a4a4a;border-radius:50%;height:36px;left:0px;-webkit-transform:translateX(2px);-ms-transform:translateX(2px);transform:translateX(2px);position:absolute;top:2px;-webkit-transition:-webkit-transform .2s ease,transform .2s ease;-moz-transition:transform .2s ease;transition:-ms-transform .2s ease,-webkit-transform .2s ease,transform .2s ease;width:36px;z-index:1;}._qjqtm8:after{content:"Inline SVG Sprite";}._jcgzno{padding:.3em .5em;outline:0px;margin-left:12px;}._jcgzno:disabled{opacity:0.3;}._1r58n10{overflow:auto;padding:40px;margin:0px;list-style:none;padding-bottom:40px;}._fnhcyz{width:100%;float:left;-moz-box-sizing:border-box;box-sizing:border-box;display:block;-webkit-transition:opacity 250ms, box-shadow 250ms;-moz-transition:opacity 250ms, box-shadow 250ms;transition:opacity 250ms, box-shadow 250ms;cursor:pointer;position:relative;}@media (min-width: 767px){._fnhcyz{width:50%;}}@media (min-width: 1023px){._fnhcyz{width:33.333%;}}@media (min-width: 1199px){._fnhcyz{width:20%;}}._fnhcyz:after{content:"";position:absolute;z-index:-1;top:0px;right:0px;bottom:0px;left:0px;opacity:0;box-shadow:0 .5em 3em rgba(0,0,0,.1);-webkit-transition:opacity .3s;-moz-transition:opacity .3s;transition:opacity .3s;}._fnhcyz:hover:after{opacity:1;z-index:1;}._fnhcyz:before{content:"";padding-top:100%;display:block;}._fnhcyz:hover .orion-sprite__id{opacity:1;}._fnhcyz:hover .orion-sprite__code{opacity:1;}._1dclzhk{-webkit-box-direction:normal;-webkit-box-orient:vertical;-webkit-box-pack:justify;-ms-flex-pack:justify;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;-webkit-justify-content:space-between;justify-content:space-between;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;position:absolute;top:0px;right:0px;bottom:0px;left:0px;padding:.5em 1em;}._19wnp26{width:100%;font-size:.7em;text-align:center;opacity:0;color:#777;-webkit-transition:opacity 250ms;-moz-transition:opacity 250ms;transition:opacity 250ms;}._1u0lyeu{width:64px;height:64px;}._190hxbq{width:100%;height:100%;}._1mcpc5v{font-size:.7em;padding:.5em 1em;width:100%;z-index:2;border-radius:2px;opacity:.3;-webkit-transition:opacity .3s;-moz-transition:opacity .3s;transition:opacity .3s;}._1hgbkkp{list-style:none;margin:0px;padding:0px;padding-left:1em;line-height:1.5em;}._19kenml{-webkit-box-align:start;-ms-flex-align:start;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-align-items:flex-start;align-items:flex-start;color:#fff;}._15372er{display:inline-block;vertical-align:middle;width:32px;height:32px;}._ksd372{display:inline-block;vertical-align:middle;width:80px;height:25px;margin-left:10px;}
+    </style>
+  </head>
+  
+  <body>
+    <svg width="0" height="0" class="hidden">
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2132 2126" xmlns:xlink="http://www.w3.org/1999/xlink"
+      shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
+      image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+      id="logo-1">
+        <title>logo</title>
+        <desc>A line styled icon from Orion Icon Library.</desc>
+        <path d="M1905 1625l-102-101c267-336 246-824-62-1133C1430 81 939 62 603 333L501 232c392-327 975-308 1341 58 364 364 385 943 63 1335zm-204-202l-102-101c157-222 137-531-61-728-198-199-509-219-732-59L705 434c279-215 680-196 934 59 253 253 274 651 62 930zm-205-204l-106-105c48-104 30-231-55-317-86-86-215-104-319-54L910 638c164-104 384-85 526 58 142 141 162 359 60 523z"
+        fill="#3c3" stroke="#3c3" stroke-width="2" data-name="layer1" stroke-linejoin="round"
+        stroke-linecap="round"></path>
+        <path d="M1625 1899l-101-102c-336 267-824 246-1133-62C81 1424 62 933 333 597L232 495c-327 392-308 975 58 1341 364 364 943 385 1335 63zm-202-204l-101-102c-222 157-531 137-728-60-199-199-219-510-59-733L434 699c-215 279-196 680 59 934 253 253 651 274 930 62zm-204-205l-105-106c-104 49-231 30-317-55-86-86-104-215-54-319L638 904c-104 165-85 384 58 527 141 141 359 161 523 59z"
+        fill="#039" stroke="#039" stroke-width="2" data-name="layer2" stroke-linejoin="round"
+        stroke-linecap="round"></path>
+        <path d="M792 966l464-94-109 447-355-353zm343 259zm0-1zM887 978zm0 0zm0 0zm0 0zm0 0zm0 0zm0 0zm0 0l248 246-248-246zm248 246v1-1zM887 978zm0 0zm0 0l227-47-227 47zm-95-12zm355 353L792 966l355 353zM792 966zm322-35l98-20-77 314 77-314-98 20zm0 0l-227 47 227-47zm-227 47l227-47-227 47zm0 0z"
+        fill="#039" data-name="layer2"></path>
+        <path d="M792 966l464-94-109 447-355-353zm343 259zm0-1zM887 978zm0 0zm0 0zm0 0l248 246-248-246zm248 246v1-1zM887 978l227-47-227 47zm-95-12zm355 353L792 966l355 353zM792 966zm322-35l98-20-77 314 77-314-98 20zm0 0l-227 47m0 0l227-47m-227 47z"
+        fill="none" stroke="#039" stroke-width="2" data-name="stroke" stroke-linejoin="round"
+        stroke-linecap="round"></path>
+        <path d="M883 998l309-63-73 298-236-235zm228 172zm0 0zm-165-165zm0 0zm0 0zm0 0zm0 0zm0 0zm0 0zm0 0l165 165-165-165zm165 165zm-165-165zm0 0zm0 0l151-31-151 31zm-63-7h-1 1zm236 235L883 998l236 235zM882 998h1-1zm215-24l65-13-50 209 50-209-65 13zm0 0l-151 31 151-31zm-151 31l151-31-151 31zm0 0z"
+        fill="#3c3" data-name="layer1"></path>
+        <path d="M883 998l309-63-73 298-236-235zm228 172zm0 0zm-165-165zm0 0zm0 0zm0 0l165 165-165-165zm165 165zm-165-165l151-31-151 31zm-63-7h-1 1zm236 235L883 998l236 235zM882 998h1-1zm215-24l65-13-50 209 50-209-65 13zm0 0l-151 31m0 0l151-31m-151 31z"
+        fill="none" stroke="#3c3" stroke-width="2" data-name="stroke" stroke-linejoin="round"
+        stroke-linecap="round"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 972.37 995.79"
+      xmlns:xlink="http://www.w3.org/1999/xlink" aria-labelledby="title" aria-describedby="desc"
+      shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
+      image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+      id="logotext-1">
+        <title>logotext</title>
+        <desc>A line styled icon from Orion Icon Library.</desc>
+        <path d="M815.16 637.61l-39.88-39.58c104.63-131.68 96.6-323.23-24.5-444.33C629.07 32 436.21 24.49 304.46 130.8l-39.88-39.58c153.89-128.3 382.35-120.87 525.96 22.73 142.89 142.89 150.94 369.81 24.62 523.66zm-79.85-79.24l-39.9-39.59c61.59-87.17 53.69-208.2-23.91-285.8-78-78.01-199.91-85.57-287.17-22.92l-39.9-39.6c109.51-84.38 266.8-76.82 366.6 22.99 99.3 99.3 107.29 255.48 24.28 364.92zm-80.58-79.97l-41.51-41.19c19.06-40.81 11.86-90.75-21.67-124.28-33.73-33.73-84.08-40.81-125.03-21.31l-41.51-41.19c64.47-40.84 150.59-33.38 206.51 22.54 55.61 55.61 63.29 141.08 23.21 205.43z"
+        fill="#3c3" stroke="#3c3" stroke-width="2" data-name="layer1" stroke-linejoin="round"
+        stroke-linecap="round"></path>
+        <path d="M705.5 744.97l-39.59-39.89c-131.68 104.64-323.23 96.6-444.32-24.49C99.88 558.88 92.37 366.01 198.68 234.27l-39.58-39.88C30.81 348.28 38.23 576.74 181.83 720.34c142.89 142.9 369.81 150.95 523.67 24.63zm-79.25-79.85l-39.59-39.9c-87.17 61.58-208.2 53.69-285.8-23.91-78.01-78.01-85.57-199.91-22.92-287.18l-39.6-39.9c-84.37 109.52-76.81 266.81 22.99 366.61 99.3 99.3 255.49 107.29 364.92 24.28zm-79.97-80.58l-41.19-41.51c-40.81 19.05-90.75 11.85-124.27-21.67-33.74-33.74-40.82-84.08-21.32-125.04l-41.19-41.5c-40.84 64.47-33.38 150.58 22.54 206.5 55.61 55.61 141.08 63.3 205.43 23.22z"
+        fill="#039" stroke="#039" stroke-width="2" data-name="layer2" stroke-linejoin="round"
+        stroke-linecap="round"></path>
+        <path d="M378.58 379.24l182.03-37.23-42.72 175.62-139.31-138.39zm134.7 101.3zm-.09-.08zm-97.35-96.82l-.01-.01-.04.01.04-.01.01.01zm0 0l-.01-.01-.04.01h.05zm-.01-.01l-.02-.02.02.02zm0 0l.01.01-.01-.01zm.01.01l-.01-.01.01.01zm-.01-.01l-.02-.02.02.02zm0 0l.01.01-.01-.01zm.01.01l97.35 96.82-97.35-96.82zm97.35 96.82l.09.08-.09-.08zm-97.35-96.83l.01-.01-.01.01zm.01-.01l-.01.01.01-.01zm0 0l89.18-18.24-89.18 18.24zm-37.28-4.36l-.03-.04.03.04zM517.78 517.7L378.57 379.26 517.78 517.7zM378.51 379.26l.07-.02-.07.02zm126.52-13.88l38.23-7.81-29.9 122.92 29.9-122.92-38.23 7.81zm0 0l-89.18 18.24-.01.01h-.01l89.2-18.25zm-89.19 18.25l.01-.01 89.18-18.24-89.19 18.25zm-.01 0l-.04.01.04-.01-.02-.02.02.02z"
+        fill="#039" data-name="layer2"></path>
+        <path d="M378.58 379.24l182.03-37.23-42.72 175.62-139.31-138.39zm134.7 101.3zm-.09-.08zm-97.35-96.82l-.01-.01-.04.01.04-.01.01.01zm0 0l-.01-.01-.04.01m.04-.01l-.02-.02.02.02zm0 0l.01.01m0 0l-.01-.01m0 0l-.02-.02.02.02zm0 0l.01.01m0 0l97.35 96.82-97.35-96.82zm97.35 96.82l.09.08-.09-.08zm-97.35-96.83l.01-.01-.01.01m.01-.01l-.01.01m.01-.01l89.18-18.24-89.18 18.24zm-37.28-4.36l-.03-.04.03.04zM517.78 517.7L378.57 379.26 517.78 517.7zM378.51 379.26l.07-.02-.07.02zm126.52-13.88l38.23-7.81-29.9 122.92 29.9-122.92-38.23 7.81zm0 0l-89.18 18.24-.01.01h-.01m.01 0l.01-.01 89.18-18.24m-89.2 18.25l-.04.01.04-.01-.02-.02.02.02z"
+        fill="none" stroke="#039" stroke-width="2" data-name="stroke" stroke-linejoin="round"
+        stroke-linecap="round"></path>
+        <path d="M414.21 391.61l121.35-24.82-28.48 117.07-92.87-92.25zm89.8 67.53zm-.06-.06zm-64.91-64.54v-.01l-.03.01.03-.01v.01zm0 0v-.01l-.03.01h.03zm0-.01l-.01-.01.01.01zm0 0v.01-.01zm0 .01v-.01.01zm0-.01l-.01-.01.01.01zm0 0v.01-.01zm0 .01l64.91 64.54-64.91-64.54zm64.91 64.54l.06.06-.06-.06zm-64.9-64.55zm0 0zm0 0l59.46-12.16-59.46 12.16zm-24.85-2.91l-.02-.03.02.03zm92.81 92.29l-92.81-92.29 92.81 92.29zm-92.85-92.29l.05-.01-.05.01zm84.35-9.25l25.49-5.21-19.94 81.95L524 377.16l-25.49 5.21zm0 0l-59.46 12.16h-.01l59.47-12.16zm-59.46 12.16l59.46-12.16-59.46 12.16zm-.01 0l-.03.01.03-.01-.01-.01.01.01z"
+        fill="#3c3" data-name="layer1"></path>
+        <path d="M414.21 391.61l121.35-24.82-28.48 117.07-92.87-92.25zm89.8 67.53zm-.06-.06zm-64.91-64.54v-.01l-.03.01.03-.01v.01zm0 0v-.01l-.03.01m.03-.01l-.01-.01.01.01zm0 0v.01m0 0v-.01m0 0l-.01-.01.01.01zm0 0v.01m0 0l64.91 64.54-64.91-64.54zm64.91 64.54l.06.06-.06-.06zm-64.9-64.55l59.46-12.16-59.46 12.16zm-24.85-2.91l-.02-.03.02.03zm92.81 92.29l-92.81-92.29 92.81 92.29zm-92.85-92.29l.05-.01-.05.01zm84.35-9.25l25.49-5.21-19.94 81.95L524 377.16l-25.49 5.21zm0 0l-59.46 12.16h-.01m.01 0l59.46-12.16m-59.47 12.16l-.03.01.03-.01-.01-.01.01.01z"
+        fill="none" stroke="#3c3" stroke-width="2" data-name="stroke" stroke-linejoin="round"
+        stroke-linecap="round"></path>
+        <path d="M83.14 862.54h4.3v61.25h-3.59c-3.14-19.38-7.74-33.77-13.76-43.19-6.05-9.39-13.68-14.11-22.88-14.11-9.78 0-16.89 4.75-21.3 14.23-4.42 9.46-6.62 24.85-6.62 46.15 0 21.64 2.42 37.88 7.27 48.72 4.85 10.84 12.09 16.24 21.79 16.24 6.54 0 12.1-2.73 16.62-8.2 4.52-5.43 6.78-12.12 6.78-20.04v-9.83c0-6.29-1.2-10.37-3.59-12.35-2.4-1.95-9.27-3.11-20.6-3.48v-3.96h59v3.96c-9.07.78-14.52 2.16-16.37 4.14-1.82 1.95-2.75 5.84-2.75 11.69v42.03h-3.43c-1.23-6.51-2.26-10.81-3.08-12.88-.82-2.08-1.82-3.14-3-3.14-.35 0-3.73 2.67-10.07 8.01-6.35 5.34-13.03 8.01-20 8.01-5.37 0-10.62-1.45-15.8-4.34-5.15-2.86-10.08-7.13-14.73-12.78-5.51-6.63-9.76-14.26-12.78-22.9C1.53 947.1 0 938.21 0 929.07c0-7.98 1.25-15.93 3.79-23.88 2.53-7.94 6.1-15.2 10.73-21.76 4.96-6.95 10.19-12.16 15.74-15.65 5.56-3.49 11.5-5.24 17.76-5.24 4.06 0 7.8.88 11.26 2.6 3.45 1.76 7.02 4.59 10.67 8.52.6.62 1.34 1.44 2.26 2.48 2.24 2.51 3.87 3.77 4.93 3.77 1.23 0 2.32-1.35 3.27-4.12.96-2.76 1.88-7.19 2.73-13.25zm60.5 50.13c-6.02 0-10.52 3.27-13.51 9.77-2.97 6.5-4.47 16.3-4.47 29.43 0 13.07 1.5 22.87 4.47 29.4 2.99 6.54 7.49 9.81 13.51 9.81 6.07 0 10.62-3.27 13.62-9.81 3.02-6.53 4.52-16.33 4.52-29.4 0-13.19-1.5-23.02-4.52-29.49-3-6.47-7.55-9.71-13.62-9.71zm.05-3.77c3.19 0 6.24.63 9.21 1.89 2.94 1.25 5.69 3.14 8.25 5.65 4.63 4.68 8.23 10.11 10.82 16.4 2.59 6.25 3.87 12.59 3.87 19.03 0 6.5-1.31 12.94-3.93 19.29-2.58 6.34-6.18 11.72-10.76 16.15-2.45 2.45-5.17 4.3-8.17 5.59-3.02 1.28-6.1 1.94-9.29 1.94-2.5 0-4.98-.44-7.43-1.28-2.46-.85-4.83-2.11-7.11-3.77-5.15-3.87-9.4-9.33-12.72-16.4-3.33-7.04-4.99-14.23-4.99-21.52 0-11.21 3.24-21.2 9.72-29.9 6.51-8.7 14.01-13.07 22.53-13.07zm256.8-46.36h3.92v56.35h-3.43c-2.51-16.43-7.3-29.28-14.39-38.51-7.08-9.27-15.61-13.89-25.63-13.89-9.21 0-15.99 4.84-20.32 14.55-4.33 9.67-6.51 24.81-6.51 45.36 0 22.99 2.48 39.64 7.46 49.88 4.96 10.24 13 15.36 24.06 15.36 10.59 0 19.12-4.24 25.6-12.69 6.51-8.48 10.03-20.01 10.54-34.62h3.6c-.74 16.21-4.69 28.84-11.8 37.89-7.13 9.04-16.69 13.57-28.73 13.57-5.53 0-10.63-1.04-15.31-3.14-4.69-2.08-9.18-5.31-13.49-9.65-6.7-6.88-11.9-15.05-15.63-24.53-3.73-9.49-5.59-19.29-5.59-29.4 0-8.04 1.26-15.99 3.79-23.88 2.53-7.88 6.1-15.14 10.73-21.76 4.96-6.95 10.22-12.16 15.77-15.65 5.56-3.49 11.5-5.24 17.76-5.24 3.68 0 7.52.94 11.5 2.85 4 1.89 7.74 4.53 11.25 7.89.54.56 1.31 1.35 2.31 2.42 2.62 2.79 4.55 4.21 5.83 4.21 1.39 0 2.65-1.48 3.79-4.4 1.14-2.95 2.13-7.29 2.92-12.97zm49.06 50.13c-6.03 0-10.52 3.27-13.52 9.77-2.96 6.5-4.46 16.3-4.46 29.43 0 13.07 1.5 22.87 4.46 29.4 3 6.54 7.49 9.81 13.52 9.81 6.07 0 10.62-3.27 13.62-9.81 3.02-6.53 4.52-16.33 4.52-29.4 0-13.19-1.5-23.02-4.52-29.49-3-6.47-7.55-9.71-13.62-9.71zm.05-3.77c3.19 0 6.24.63 9.21 1.89 2.94 1.25 5.69 3.14 8.25 5.65 4.63 4.68 8.23 10.11 10.82 16.4 2.58 6.25 3.86 12.59 3.86 19.03 0 6.5-1.3 12.94-3.92 19.29-2.59 6.34-6.18 11.72-10.76 16.15-2.45 2.45-5.17 4.3-8.17 5.59-3.03 1.28-6.1 1.94-9.29 1.94-2.51 0-4.99-.44-7.44-1.28-2.45-.85-4.82-2.11-7.11-3.77-5.14-3.87-9.39-9.33-12.72-16.4-3.32-7.04-4.98-14.23-4.98-21.52 0-11.21 3.24-21.2 9.72-29.9 6.51-8.7 14-13.07 22.53-13.07zm109.45 31.85v38.11c0 3.67.46 6.03 1.39 7.06.93 1.04 3.02 1.57 6.27 1.57h5.25v3.96h-37.59v-3.96h4.55c3.21 0 5.28-.53 6.18-1.6.9-1.07 1.37-3.42 1.37-7.03v-47.69c0-5.4-.85-9.48-2.56-12.19-1.69-2.7-4.17-4.05-7.39-4.05-6.21 0-11.33 4.09-15.31 12.28-3.97 8.2-5.96 19.07-5.96 32.58v19.07c0 3.67.46 6.03 1.39 7.06.92 1.04 2.99 1.57 6.18 1.57h4.69v3.96h-37.43v-3.96h4.71c3.32 0 5.48-.5 6.43-1.5.95-1.04 1.44-3.4 1.44-7.13v-49.98c0-5.53-.7-8.99-2.09-10.37-1.42-1.38-4.66-2.07-9.7-2.07h-1.77v-3.96l26.15-.91v23.37c2.01-7.85 5.09-13.85 9.21-18.06 4.14-4.18 9.01-6.28 14.65-6.28 6.7 0 11.69 2.48 14.98 7.47 3.3 5 4.96 12.57 4.96 22.68zm85.78 0v38.11c0 3.67.46 6.03 1.39 7.06.93 1.04 3.02 1.57 6.26 1.57h5.26v3.96h-37.59v-3.96h4.55c3.21 0 5.28-.53 6.18-1.6.9-1.07 1.37-3.42 1.37-7.03v-47.69c0-5.4-.85-9.48-2.56-12.19-1.69-2.7-4.17-4.05-7.39-4.05-6.21 0-11.33 4.09-15.31 12.28-3.97 8.2-5.96 19.07-5.96 32.58v19.07c0 3.67.46 6.03 1.39 7.06.92 1.04 2.99 1.57 6.18 1.57h4.69v3.96h-37.43v-3.96h4.71c3.32 0 5.48-.5 6.43-1.5.95-1.04 1.44-3.4 1.44-7.13v-49.98c0-5.53-.71-8.99-2.09-10.37-1.42-1.38-4.66-2.07-9.7-2.07h-1.77v-3.96l26.15-.91v23.37c2.01-7.85 5.09-13.85 9.21-18.06 4.14-4.18 9.01-6.28 14.65-6.28 6.7 0 11.69 2.48 14.98 7.47 3.3 5 4.96 12.57 4.96 22.68zm78.26 9.61h-45.6v4.91c0 11.71 1.69 20.48 5.07 26.32 3.38 5.81 8.5 8.73 15.36 8.73 5.53 0 10.16-2.01 13.89-6.06 3.74-4.05 6.13-9.71 7.2-16.93h3.43c-.9 8.48-3.73 15.17-8.5 20.1-4.74 4.93-10.73 7.41-17.98 7.41-8.99 0-16.64-4.14-22.99-12.4-6.35-8.3-9.54-18.22-9.54-29.81 0-11.38 3.27-21.46 9.78-30.29 6.52-8.82 13.79-13.25 21.8-13.25 7.62 0 14.05 3.8 19.34 11.43 5.31 7.64 8.22 17.59 8.74 29.84zm-28.6-3.58c6.07 0 9.86-.72 11.41-2.16 1.55-1.45 2.32-4.56 2.32-9.33 0-7.42-1.17-13.04-3.54-16.87-2.37-3.83-5.83-5.75-10.35-5.75-5.42 0-9.57 2.64-12.4 7.95-2.86 5.31-4.28 12.94-4.28 22.96v3.2h16.84zm93.46 19.04h3.43c-.73 8.95-3.48 16.02-8.2 21.2-4.74 5.22-10.78 7.82-18.11 7.82-9.1 0-16.84-4.14-23.24-12.47-6.4-8.29-9.61-18.4-9.61-30.31 0-11.9 3.32-22.05 9.99-30.41 6.68-8.38 14.58-12.56 23.65-12.56 6.37 0 11.68 2.32 15.91 6.94 4.22 4.65 6.34 10.43 6.34 17.37 0 4.78-.98 8.64-2.91 11.59-1.94 2.96-4.44 4.43-7.55 4.43-2.64 0-4.87-1-6.64-3.04-1.77-2.01-2.67-4.56-2.67-7.64 0-3.01.71-5.5 2.15-7.47 1.44-1.95 3.62-3.49 6.62-4.59.41-.19.95-.41 1.58-.66 1.5-.47 2.23-1.23 2.23-2.2 0-2.51-1.52-5.02-4.6-7.47-3.05-2.46-6.48-3.68-10.33-3.68-6.4 0-11.27 3.24-14.65 9.74-3.38 6.5-5.07 15.96-5.07 28.36 0 13.48 1.66 23.44 4.96 29.88 3.3 6.44 8.44 9.67 15.47 9.67 5.56 0 10.27-2.26 14.2-6.75 3.89-4.49 6.26-10.4 7.05-17.75zm29.77-87.26h4.58v33.92h20.92v6.03H822.3v52.81c0 6.5.68 11.05 2.07 13.63 1.39 2.58 3.76 3.86 7.08 3.86 4.22 0 7.49-2.1 9.86-6.31 2.37-4.21 3.55-10.02 3.55-17.43v-4.34h3.43v5.53c0 8.92-1.8 15.8-5.4 20.61-3.59 4.8-8.71 7.22-15.36 7.22-6.24 0-10.73-2.1-13.51-6.34-2.75-4.21-4.14-11.22-4.14-20.96v-48.28H795.5v-4.74c7-1.23 12.36-4.74 16.07-10.62 3.67-5.84 5.74-14.04 6.15-24.59zm30.59-11.88h60.78v3.96c-.41 0-1.09.03-1.99.09-10.84.32-16.29 2.36-16.29 6.16 0 1.1.24 2.26.68 3.49.46 1.25 1.39 3.01 2.75 5.34l18.93 31.85 13.4-18.69c2.24-3.05 3.93-6.06 5.1-9.02 1.17-2.95 1.77-5.59 1.77-7.91 0-3.86-1.17-6.63-3.49-8.26-2.31-1.67-6.73-2.67-13.29-3.05l-.05-3.96h53.44v3.96h-.33c-6.53 0-12.96 2.29-19.26 6.91-6.29 4.59-12.88 11.78-19.74 21.52l-15.4 21.89 29.42 47.84c4.8 7.79 8.88 12.91 12.26 15.3 3.38 2.39 7.58 3.58 12.56 3.58.27 0 .71-.03 1.33-.09.6-.06 1.09-.1 1.48-.1v3.96h-60.8v-3.96h3.26c6.65 0 11.17-.5 13.57-1.5 2.4-1.04 3.6-2.8 3.6-5.31 0-1.16-.25-2.39-.74-3.71-.46-1.32-1.36-3.11-2.7-5.31l-23.07-37.54-17 24.57c-1.9 2.7-3.4 5.47-4.46 8.29-1.07 2.83-1.58 5.41-1.58 7.73 0 4.24 1.49 7.44 4.54 9.64 3.03 2.23 7.47 3.33 13.33 3.33.38 0 .95-.03 1.71-.09s1.39-.1 1.88-.1v3.96h-58.86v-3.96h.32c6.38 0 12.83-2.57 19.34-7.69 6.51-5.12 13.68-13.29 21.5-24.5l17.37-24.47-26.94-44.73c-3.89-6.38-7.6-10.56-11.16-12.51-3.57-1.98-8.64-2.95-15.18-2.95h-1.99v-3.96z"
+        fill-rule="nonzero" data-name="layer3" fill="#000"></path>
+        <g fill="none" stroke-width="11.62" stroke-linecap="round" stroke-linejoin="round">
+          <path data-name="layer2" stroke="#3c3" d="M297.35 929.36l-112.94-.52"
+          stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path>
+          <path data-name="layer1" stroke="#039" d="M253.74 979.25l43.61-49.89-43.27-50.29"
+          stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path>
+        </g>
+      </symbol>
+    </svg>
+    <div class="orion-sprite">
+      <svg width="0" height="0" style="display:block">
+        <defs>
+          <linearGradient id="orion_logo_a" gradientUnits="userSpaceOnUse" x1="13.183"
+          y1="62.808" x2="79.541" y2="62.808">
+            <stop offset="0" stop-color="#FF4581"></stop>
+            <stop offset="1" stop-color="#FF4D63"></stop>
+          </linearGradient>
+          <linearGradient id="orion_logo_b" gradientUnits="userSpaceOnUse" x1="13.177"
+          y1="29.193" x2="79.535" y2="29.193">
+            <stop offset="0" stop-color="#FF4581"></stop>
+            <stop offset="1" stop-color="#FF4D63"></stop>
+          </linearGradient>
+          <linearGradient id="orion_logo_c" gradientUnits="userSpaceOnUse" x1="13.182"
+          y1="33.549" x2="79.533" y2="33.549">
+            <stop offset="0" stop-color="#FF4581"></stop>
+            <stop offset="1" stop-color="#FF4D63"></stop>
+          </linearGradient>
+          <linearGradient id="orion_logo_d" gradientUnits="userSpaceOnUse" x1="13.186"
+          y1="58.453" x2="79.534" y2="58.453">
+            <stop offset="0" stop-color="#FF4581"></stop>
+            <stop offset="1" stop-color="#FF4D63"></stop>
+          </linearGradient>
+          <linearGradient id="orion_logo_e" gradientUnits="userSpaceOnUse" x1="14.32"
+          y1="77.671" x2="79.601" y2="12.39">
+            <stop offset="0" stop-color="#6757FF"></stop>
+            <stop offset="1" stop-color="#0092FF"></stop>
+          </linearGradient>
+          <linearGradient id="orion_logo_f" gradientUnits="userSpaceOnUse" x1="14.33"
+          y1="77.675" x2="79.611" y2="12.394">
+            <stop offset="0" stop-color="#6757FF"></stop>
+            <stop offset="1" stop-color="#0092FF"></stop>
+          </linearGradient>
+          <linearGradient id="orion_logo_g" gradientUnits="userSpaceOnUse" x1="24.694"
+          y1="88.035" x2="89.969" y2="22.76">
+            <stop offset="0" stop-color="#6757FF"></stop>
+            <stop offset="1" stop-color="#0092FF"></stop>
+          </linearGradient>
+          <linearGradient id="orion_logo_h" gradientUnits="userSpaceOnUse" x1="22.838"
+          y1="69.61" x2="69.095" y2="22.453">
+            <stop offset="0" stop-color="#AB2BFF"></stop>
+            <stop offset="1" stop-color="#863CFF"></stop>
+          </linearGradient>
+        </defs>
+      </svg>
+      <header class="_1tt2u3t"><a href="https://orioniconlibrary.com/?utm_source=sprite_demo" class="_19kenml"><svg viewBox="0 0 92 92" class="_15372er"><g><ellipse fill="currentColor" cx="46" cy="46" rx="46" ry="46"></ellipse><path fill="url(#orion_logo_a)" d="M26.2 55.4c-.9 1.5-1.6 3.1-2.2 4.6-2.4 5.7-2.3 9.1-2 10.1.3.1.7.1 1.4.1 3.2 0 7.9-1.4 13.3-4.4-4.7-2.1-8.4-5.8-10.5-10.4z"></path><path fill="url(#orion_logo_b)" d="M65.8 36.6c.8-1.5 1.6-3.1 2.2-4.6 2.4-5.7 2.3-9.1 2-10.1-.3-.1-.7-.1-1.4-.1-3.2 0-7.9 1.4-13.3 4.4 4.6 2.1 8.4 5.8 10.5 10.4z"></path><path fill="url(#orion_logo_c)" d="M55.3 13.1c-3-.8-6.1-1.3-9.3-1.3-18.9 0-34.2 15.3-34.2 34.2 0 3.2.5 6.3 1.3 9.3 3.4-8 9.3-16.7 17.4-24.8 8-8.1 16.8-14 24.8-17.4z"></path><path fill="url(#orion_logo_d)" d="M61.5 61.5c-8 8-16.8 14-24.8 17.4 2.9.8 6.1 1.3 9.3 1.3 18.9 0 34.2-15.3 34.2-34.2 0-3.2-.5-6.3-1.3-9.3-3.4 8-9.3 16.8-17.4 24.8z"></path><path fill="url(#orion_logo_e)" d="M78.9 36.7c4.1-9.8 4.4-18.5-.4-23.2-2.4-2.4-5.8-3.5-9.8-3.5-4 0-8.6 1.1-13.4 3.1 11.4 3.2 20.4 12.2 23.6 23.6z"></path><path fill="url(#orion_logo_f)" d="M13.1 55.3c-4.1 9.8-4.4 18.5.4 23.2 2.4 2.4 5.8 3.5 9.8 3.5 4 0 8.6-1.1 13.4-3.1-11.4-3.2-20.4-12.2-23.6-23.6z"></path><path fill="url(#orion_logo_g)" d="M65.8 36.6c-3 5.6-7.4 11.3-12.7 16.5-5.7 5.7-11.4 9.9-16.5 12.7 2.8 1.4 6 2.1 9.4 2.1 12.1 0 21.9-9.8 21.9-21.9 0-3.4-.7-6.5-2.1-9.4z"></path><path fill="url(#orion_logo_h)" d="M78.9 36.7c-3.2-11.4-12.2-20.4-23.6-23.6-8 3.4-16.7 9.3-24.8 17.4-8 8-14 16.8-17.4 24.8 3.2 11.4 12.2 20.4 23.6 23.6 8-3.4 16.7-9.3 24.8-17.4 8.1-8 14-16.8 17.4-24.8zM46 67.9c-3.4 0-6.5-.8-9.4-2.1-5.4 3-10.1 4.4-13.3 4.4-.7 0-1.1-.1-1.4-.1-.2-1.1-.4-4.4 2-10.1.6-1.5 1.4-3 2.2-4.6-1.4-2.8-2.1-6-2.1-9.4 0-12.1 9.8-21.9 21.9-21.9 3.4 0 6.5.8 9.4 2.1 5.4-3 10.1-4.4 13.3-4.4.7 0 1.1.1 1.4.1.2 1 .4 4.4-2 10.1-.6 1.5-1.4 3-2.2 4.6 1.4 2.8 2.1 6 2.1 9.4 0 12.1-9.8 21.9-21.9 21.9z"></path></g></svg><svg viewBox="0 0 128.4 39.8" class="_ksd372"><g fill="currentColor"><path d="M56 13h6v26h-6zm-42 4.8a8 8 0 1 1-8 8 8 8 0 0 1 8-8m0-6a14 14 0 1 0 14 14 14 14 0 0 0-14-14zm68.5 6a8 8 0 1 1-8 8 8 8 0 0 1 8-8m0-6a14 14 0 1 0 14 14 14 14 0 0 0-14-14zm-31.5.3a14 14 0 0 0-16.9 13.7V39h6V25.8A8 8 0 0 1 51 18.3z"></path><circle cx="59" cy="4" r="4"></circle><path d="M128.4 25.8c0-7.7-5.3-14-13-14s-13 6.3-13 14V39h6V25.8c0-4.4 2.6-8 7-8s7 3.6 7 8V39h6z"></path></g></svg></a>
+        <h1
+        class="_dl5j6p _1iurgbx">GoConnectXlogo</h1>
+      </header>
+      <section class="_1l5hckq">
+        <p class="_kp2n83">SVG Icons Sprite generated by <a class="_o1cg4g" href="https://orioniconlibrary.com/?utm_source=sprite_demo">Orion Icon Library</a>
+        </p>
+        <h2 class="">Let&#x27;s use your SVG Sprite!</h2>
+        <p class="_14gdf42">Congratulations, your SVG Sprite from <strong>GoConnectXlogo</strong> Collection
+          from <a class="_o1cg4g" href="https://orioniconlibrary.com">Orion Icon Library</a> was
+          created successfully!
+          <br/>In the downloaded folder, you will find the file called <code class="_1bo7bzx _1oymxsi">GoConnectXlogo-svg-sprite.svg</code> which
+          contains your SVG Sprite <a class="_o1cg4g" href="GoConnectXlogo-svg-sprite.svg"
+          download="GoConnectXlogo-svg-sprite.svg">[Open]</a>. Please find below
+          different techniques on how to use your Icons in your Web Project.</p>
+        <br/>
+        <h3 id="inline-sprite" class=""><a class="_ovghcs" href="#inline-sprite"><strong class="_1dqtju9">‹a›</strong> Inline SVG Sprite</a></h3>
+        <div class="_fr5wn">
+          <p class="_14gdf42">The first technique consists in including the content of the <code class="_1bo7bzx _1oymxsi">GoConnectXlogo-svg-sprite.svg</code> in
+            your <code class="_1bo7bzx _1oymxsi">HTML</code> like in the example below:</p>
+          <pre
+          class="_1bmg5vo"><code class="_1bo7bzx">&lt;body&gt;
+  &lt;svg width=&quot;0&quot; height=&quot;0&quot; class=&quot;hidden&quot; style=&quot;display:none&quot;&gt;
+    &lt;symbol id=&quot;myIcon-1&quot;&gt;
+      &lt;path d=&quot;...&quot;&gt;&lt;/path&gt;
+      &lt;path d=&quot;...&quot; stroke=&quot;...&quot;&gt;&lt;/path&gt;
+    &lt;/symbol&gt;
+    &lt;symbol id=&quot;myIcon-2&quot;&gt;
+      &lt;circle rx=&quot;...&quot;&gt;&lt;/circle&gt;
+      &lt;path d=&quot;...&quot;&gt;&lt;/path&gt;
+    &lt;/symbol&gt;
+    &lt;symbol&gt;...&lt;/symbol&gt;
+  &lt;/svg&gt;
+  &lt;section&gt;Here we will call the Icons references to show them!&lt;/section&gt;
+&lt;/body&gt;</code>
+            </pre>
+            <p class="_14gdf42">Then you can call whenever you want any of the SVG Icons from the sprite,
+              referencing them with the <code class="_1bo7bzx _1oymxsi">&lt;use&gt;</code> element,
+              like:</p><pre class="_1bmg5vo"><code class="_1bo7bzx">&lt;body&gt;
+  &lt;svg width=&quot;0&quot; height=&quot;0&quot; class=&quot;hidden&quot; style=&quot;display:none&quot;&gt;The SVG Sprite&lt;/svg&gt;
+  &lt;section&gt;
+    &lt;svg&gt;
+      &lt;use xlink:href=&quot;#myIcon-1&quot;&gt;&lt;/use&gt;
+    &lt;/svg&gt;
+    &lt;svg&gt;
+      &lt;use xlink:href=&quot;#myIcon-2&quot;&gt;&lt;/use&gt;
+    &lt;/svg&gt;
+  &lt;/section&gt;
+&lt;/body&gt;</code></pre>
+            <p class="_14gdf42"><strong class="_1dqtju9">Pros:</strong> Easy to implement, cross-browser
+              support, unique HTTP request.
+              <br/><strong class="_1oymxsi">Cons:</strong> Adds extra markup in the HTML document,
+              SVG Sprite cannot be cached.
+              <br/><strong>Tips:</strong> Put the SVG Sprite markup before calling them (
+              <a
+              class="_o1cg4g" href="https://gist.github.com/rhawbert/05c7a758cb22d2a1ed24">bug</a>in Safari).</p>
+        </div>
+        <h3 id="external-sprite" class=""><a class="_ovghcs" href="#external-sprite"><strong class="_1dqtju9">‹b›</strong> SVG Sprite in an external file</a></h3>
+        <div class="_fr5wn">
+          <p class="_14gdf42">The second technique consists in referencing the Icons from the SVG sprite
+            as an external file. This allows to display different parts of the SVG
+            Sprite by specifying the <a class="_o1cg4g" href="https://www.w3.org/TR/SVG/linking.html#LinksIntoSVG">fragment identifier</a> at
+            the end of the URL.</p>
+          <p class="_14gdf42">In the <code class="_1bo7bzx _1oymxsi">HTML</code> markup you include your
+            Icons using <code class="_1bo7bzx _1oymxsi">&lt;use&gt;</code> to reference
+            the <code class="_1bo7bzx _1oymxsi">GoConnectXlogo-svg-sprite.svg</code> file
+            with the specific <code class="_1bo7bzx _1oymxsi">#fragment</code> ID of
+            each Icon you need. Below an example:</p><pre class="_1bmg5vo"><code class="_1bo7bzx">&lt;body&gt;
+  &lt;section&gt;
+    &lt;svg&gt;
+      &lt;use xlink:href=&quot;GoConnectXlogo-svg-sprite.svg#myIcon-1&quot;&gt;&lt;/use&gt;
+    &lt;/svg&gt;
+    &lt;svg&gt;
+      &lt;use xlink:href=&quot;GoConnectXlogo-svg-sprite.svg#myIcon-2&quot;&gt;&lt;/use&gt;
+    &lt;/svg&gt;
+  &lt;/section&gt;
+&lt;/body&gt;</code></pre>
+          <p class="_14gdf42"><strong class="_1dqtju9">Pros:</strong> Less cluttered markup. External
+            file is cachable, which helps with page load speed.
+            <br/><strong class="_1oymxsi">Cons:</strong> The browser support is good except
+            for older Internet Explorer versions (IE&lt;9).
+            <br/><strong>Tips:</strong> In case you need to support IE older versions, you
+            can use the great <a class="_o1cg4g" href="https://jonathantneal.github.io/svg4everybody/">svg4everybody</a> plugin.</p>
+        </div>
+        <h3 id="icons" class=""><a class="_ovghcs" href="#icons"><strong class="_1dqtju9">➜</strong> Icons Reference</a></h3>
+        <p class="_14gdf42">Use one of the techniques described before to call the SVG Sprite.
+          <br/>Then select the Icons you need below to easily copy the <code class="_1bo7bzx _1oymxsi">&lt;use&gt;</code> reference
+          and paste it in your Project.</p>
+        <div class="_fr5wn _jro6t0">
+          <p class="_14gdf42" style="margin-right:48px"><strong class="_1dqtju9">Hint</strong> Select the technique you want to
+            use with the switch button.
+            <br/>The use code reference will update with the correct url below the icons
+            <br/>
+            <input type="checkbox" data-name="GoConnectXlogo-svg-sprite.svg" id="externalCheckbox"
+            class="_53480w js-external" />
+            <label class="_1uuc6xn" for="externalCheckbox"><span class="_10r524x"></span>
+            </label><small class="_kp2n83 _1dqtju9 _qjqtm8 externalCheckboxHelper"></small>
+          </p>
+          <p class="_14gdf42"><strong class="_1oymxsi">Plus</strong> You can set a specific size for
+            your Icons instances.
+            <br/>This is useful if you need a fixed size and will not style with <code class="_1bo7bzx _1oymxsi">css</code>.
+            <br/>
+            <label class="_kp2n83" style="cursor:pointer">
+              <input type="checkbox" class="js-sizeSwitch" />Ok, I want to specify the size</label>
+            <input type="number" class="js-size _jcgzno"
+            min="0" max="1024" step="1" disabled="" value="64" />
+          </p>
+        </div>
+        <ul class="_1r58n10 js-list">
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#logo-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#logo-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#logo-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#logotext-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#logotext-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#logotext-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="_1l5hckq">
+        <h3 id="links" class=""><a class="_ovghcs" href="#links"><strong class="_1dqtju9">⊙</strong> Useful links</a></h3>
+        <p class="_14gdf42">You can find a lot of information on the Internet about <code class="_1bo7bzx _1oymxsi">SVG</code>.
+          <br/>We made a little selection for you if you want to learn more.</p>
+        <ul class="_fr5wn _1hgbkkp">
+          <li><a href="https://tympanus.net/codrops/2015/07/16/styling-svg-use-content-css/?utm_source=orioniconlibrary.com&amp;utm_medium=demo"
+            class="_o1cg4g">Styling SVG &lt;use&gt; Content with CSS</a>, by <a href="https://twitter.com/SaraSoueidan"
+            class="_o1cg4g">Sara Soueidan</a>
+          </li>
+          <li><a href="http://codepen.io/AmeliaBR/post/customizable-svg-icons-css-variables?utm_source=orioniconlibrary.com&amp;utm_medium=demo"
+            class="_o1cg4g">Customizable SVG Icons with CSS Variables</a> by <a href="https://twitter.com/AmeliasBrain"
+            class="_o1cg4g">Amelia Bellamy-Royds</a>
+          </li>
+          <li><a href="https://css-tricks.com/a-complete-guide-to-svg-fallbacks/?utm_source=orioniconlibrary.com&amp;utm_medium=demo"
+            class="_o1cg4g">A Complete Guide to SVG Fallbacks</a> by <a href="https://twitter.com/AmeliasBrain"
+            class="_o1cg4g">Amelia Bellamy-Royds</a>
+          </li>
+          <li><a href="https://css-tricks.com/mega-list-svg-information/?utm_source=orioniconlibrary.com&amp;utm_medium=demo"
+            class="_o1cg4g">A Compendium of SVG Information</a> by <a href="https://twitter.com/chriscoyier"
+            class="_o1cg4g">Chris Coyier</a>
+          </li>
+          <li><a href="http://svgpocketguide.com/?utm_source=orioniconlibrary.com&amp;utm_medium=demo"
+            class="_o1cg4g">The Pocket Guide to Writing SVG</a> by <a href="https://twitter.com/jonitrythall"
+            class="_o1cg4g">Joni Trythall</a>
+          </li>
+          <li><a href="https://css-tricks.com/icon-fonts-vs-svg/?utm_source=orioniconlibrary.com&amp;utm_medium=demo"
+            class="_o1cg4g">Inline SVG vs Icon Fonts [CAGEMATCH]</a> by <a href="https://twitter.com/chriscoyier"
+            class="_o1cg4g">Chris Coyier</a>
+          </li>
+          <li><a href="https://sarasoueidan.com/blog/svg-coordinate-systems/?utm_source=orioniconlibrary.com&amp;utm_medium=demo"
+            class="_o1cg4g">Understanding SVG Coordinate Systems and Transformations</a>,
+            the whole serie by <a href="https://twitter.com/SaraSoueidan" class="_o1cg4g">Sara Soueidan</a>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <script>
+      // Text Selection
+      function selectText (element) {
+        var doc = document,
+            text = element,
+            range, 
+            selection;
+        if (doc.body.createTextRange) {
+            range = document.body.createTextRange();
+            range.moveToElementText(text);
+            range.select();
+        } else if (window.getSelection) {
+            selection = window.getSelection();
+            if(selection.toString().length === 0){
+              range = document.createRange();
+              range.selectNodeContents(text);
+              selection.removeAllRanges();
+              selection.addRange(range);
+            }
+        }
+      };
+      
+      var items = document.querySelectorAll('.js-item');
+      [].slice.call(items).forEach(function(elem, i){
+        items[i].addEventListener('click', function(){
+          selectText(this.querySelector('code'))
+        }, false);
+      });
+      
+      var iconsCode = document.querySelectorAll('.js-iconCode');
+      
+      // External file Checkbox
+      var extChbx = document.querySelector('.js-external');
+      var extFilename = extChbx.dataset.name;
+      extChbx.addEventListener('change', function(e) {
+        if (e.target.checked) {
+          [].slice.call(iconsCode).forEach(function(elem, i){
+            iconsCode[i].innerHTML = iconsCode[i].innerHTML.replace('#', extFilename+'#')
+          });
+        } else {
+          [].slice.call(iconsCode).forEach(function(elem, i){
+            iconsCode[i].innerHTML = iconsCode[i].innerHTML.replace(extFilename+'#', '#')
+          });
+        }
+      });
+      
+      // Specific Size
+      var size = document.querySelector('.js-size');
+      var sizeSwitch = document.querySelector('.js-sizeSwitch');
+      
+      sizeSwitch.addEventListener('change', function(e) {
+        if (e.target.checked) {
+          size.disabled = false;
+          size.focus();
+          [].slice.call(iconsCode).forEach(function(elem, i){
+            elem.innerHTML = elem.innerHTML.replace('&lt;svg', '&lt;svg width="'+size.value+'" height="'+size.value+'"')
+          });
+        } else {
+          size.disabled = true;
+          [].slice.call(iconsCode).forEach(function(elem, i){
+            sizeStringHandler(elem)
+          });
+        }
+      }, false);
+      
+      size.addEventListener('input', function(e) {
+        var val = e.target.value;
+        [].slice.call(iconsCode).forEach(function(elem, i){
+          sizeStringHandler(elem, val)
+        });
+      }, false);
+      
+      function sizeStringHandler (elem, value) {
+        var regex = /(\S+)=["']?((?:.(?!["']?\s+(?:\S+)=|[>"']))+.)["']?/g
+        elem.innerHTML = elem.innerHTML.replace(regex, function (match, $1, $2) {
+          if ($1 === 'width' || $1 === 'height') {
+            if (value) {
+              return $1 + '="' + value + '"'
+            } else {
+              return ''
+            }
+          }
+          return match
+        })
+        
+        if (!value) {
+          elem.innerHTML = elem.innerHTML.replace(/  +/g, ' ');
+        }
+      }
+    </script>
+  </body>
+
+</html>

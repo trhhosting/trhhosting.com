@@ -1,0 +1,87 @@
+UserHash string `form:"user_hash"json:"user_hash"`
+type WorkApplicant struct {	
+	Name string `form:"name"json:"name"`
+	Gender string `form:"gender"json:"gender"`
+	PhoneNumber string `form:"phone_number"json:"phone_number"`
+	CellPhone string `form:"cell_phone"json:"cell_phone"`
+	DOB string `form:"dob"json:"dob"`
+	Occupation string `form:"occupation"json:"occupation"`
+	HighSchool string `form:"high_school"json:"high_school"`
+	College string `json:"college"form:"college"`
+	Interest string `json:"interest"form:"interest"`
+	Resume string `json:"resume"form:"resume"`
+}
+	Address struct{
+		StreetNumber int `form:"street_number"json:"street_number"`
+		StreetName string `form:"street_name"json:"street_name"`
+		PostOfficeBox string `form:"post_office_box"json:"post_office_box"`
+		TownCity string `form:"town_city"json:"town_city"`
+		StateProvince string `form:"state_province"json:"state_province"`
+		PostalCode string `form:"postal_code"json:"postal_code"`
+		CountryCode string `form:"country_code"json:"country_code"`
+	} `form:"address"json:"address"`
+
+	Networks struct{
+		EMail string `json:"e_mail"form:"e_mail"`
+		Website string `json:"website"form:"website"`
+		Twitter string `json:"twitter"form:"twitter"`
+		Facebook string `json:"facebook"form:"facebook"`
+		Github string `json:"github"form:"github"`
+		Telegram string `json:"telegram"form:"telegram"`
+	} `json:"networks"form:"networks"`
+
+	Reference []struct{
+		Name string `form:"name"json:"name"`
+		Number string `form:"number"json:"number"`
+		Email string `form:"email"json:"email"`
+		Relation string `form:"relation"json:"relation"`
+	} `form:"reference"json:"reference"`
+	WorkHistory []struct{
+		Company string `form:"company"json:"company"`
+		PositionTitle string `form:"position_title"json:"position_title"`
+		Description string `form:"description"json:"description"`
+		DatesOfEmployment string `form:"dates_of_employment"json:"dates_of_employment"`
+	} `form:"work_history"json:"work_history"`
+
+type WorkApplicant struct {
+	UserHash string `form:"user_hash"json:"user_hash"`
+	Name string `form:"name"json:"name"`
+	Gender string `form:"gender"json:"gender"`
+	Address struct{
+		StreetNumber int `form:"street_number"json:"street_number"`
+		StreetName string `form:"street_name"json:"street_name"`
+		PostOfficeBox string `form:"post_office_box"json:"post_office_box"`
+		TownCity string `form:"town_city"json:"town_city"`
+		StateProvince string `form:"state_province"json:"state_province"`
+		PostalCode string `form:"postal_code"json:"postal_code"`
+		CountryCode string `form:"country_code"json:"country_code"`
+	} `form:"address"json:"address"`
+	PhoneNumber string `form:"phone_number"json:"phone_number"`
+	CellPhone string `form:"cell_phone"json:"cell_phone"`
+	DOB string `form:"dob"json:"dob"`
+	Occupation string `form:"occupation"json:"occupation"`
+	Reference []struct{
+		Name string `form:"name"json:"name"`
+		Number string `form:"number"json:"number"`
+		Email string `form:"email"json:"email"`
+		Relation string `form:"relation"json:"relation"`
+	} `form:"reference"json:"reference"`
+	WorkHistory []struct{
+		Company string `form:"company"json:"company"`
+		PositionTitle string `form:"position_title"json:"position_title"`
+		Description string `form:"description"json:"description"`
+		DatesOfEmployment string `form:"dates_of_employment"json:"dates_of_employment"`
+	} `form:"work_history"json:"work_history"`
+	HighSchool string `form:"high_school"json:"high_school"`
+	College string `json:"college"form:"college"`
+	Networks struct{
+		EMail string `json:"e_mail"form:"e_mail"`
+		Website string `json:"website"form:"website"`
+		Twitter string `json:"twitter"form:"twitter"`
+		Facebook string `json:"facebook"form:"facebook"`
+		Github string `json:"github"form:"github"`
+		Telegram string `json:"telegram"form:"telegram"`
+	} `json:"networks"form:"networks"`
+	Interest string `json:"interest"form:"interest"`
+	Resume string `json:"resume"form:"resume"`
+}

@@ -1,0 +1,126 @@
+// Font Family
+// @import url('https://fonts.googleapis.com/css?family=Lato:400|Josefin+Sans:700');
+/*
+Lato-BlackItalic
+Lato-Black
+Lato-BoldItalic
+Lato-Bold
+Lato-HairlineItalic
+Lato-Hairline
+Lato-Italic
+Lato-LightItalic
+Lato-Light
+Lato-Regular
+
+Roboto-Black
+Roboto-BlackItalic
+Roboto-Bold
+Roboto-BoldItalic
+Roboto-Italic
+Roboto-Light
+Roboto-LightItalic
+Roboto-Medium
+Roboto-MediumItalic
+Roboto-Regular
+Roboto-Thin
+Roboto-ThinItalic
+*/
+
+
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url('/packages/gcx_grand_scss/font/josefin_sana/Lato-Bold.woff2') format('woff2'), /* Modern Browsers */
+    url('/packages/gcx_grand_scss/font/josefin_sana/Lato-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'Lato-HairlineItalic';
+    src: url('/packages/gcx_grand_scss/font/josefin_sana/Lato-HairlineItalic.woff2') format('woff2'), /* Modern Browsers */
+    url('/packages/gcx_grand_scss/font/josefin_sana/Lato-HairlineItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'Lato-Hairline';
+    src: url('/packages/gcx_grand_scss/font/josefin_sana/Lato-Hairline.woff2') format('woff2'), /* Modern Browsers */
+    url('/packages/gcx_grand_scss/font/josefin_sana/Lato-Hairline.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'Lato-Italic';
+    src: url('/packages/gcx_grand_scss/font/josefin_sana/Lato-Italic.woff2') format('woff2'), /* Modern Browsers */
+    url('/packages/gcx_grand_scss/font/josefin_sana/Lato-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'Lato-LightItalic';
+    src: url('/packages/gcx_grand_scss/font/josefin_sana/Lato-LightItalic.woff2') format('woff2'), /* Modern Browsers */
+    url('/packages/gcx_grand_scss/font/josefin_sana/Lato-LightItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'Lato-Light';
+    src: url('/packages/gcx_grand_scss/font/josefin_sana/Lato-Light.woff2') format('woff2'), /* Modern Browsers */
+    url('/packages/gcx_grand_scss/font/josefin_sana/Lato-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('/packages/gcx_grand_scss/font/josefin_sana/Lato-Regular.woff2') format('woff2'), /* Modern Browsers */
+    url('/packages/gcx_grand_scss/font/josefin_sana/Lato-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url('/packages/gcx_grand_scss/font/roboto/Roboto-Black.woff2') format('woff2'), /* Modern Browsers */
+    url('/packages/gcx_grand_scss/font/roboto/Roboto-Black.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'Roboto-BlackItalic';
+    src: url('/packages/gcx_grand_scss/font/roboto/Roboto-BlackItalic.woff2') format('woff2'), /* Modern Browsers */
+    url('/packages/gcx_grand_scss/font/roboto/Roboto-BlackItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('/packages/gcx_grand_scss/font/roboto/Roboto-Bold.woff2') format('woff2'), /* Modern Browsers */
+    url('/packages/gcx_grand_scss/font/roboto/Roboto-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'Roboto-BoldItalic';
+    src: url('/packages/gcx_grand_scss/font/roboto/Roboto-BoldItalic.woff2') format('woff2'), /* Modern Browsers */
+    url('/packages/gcx_grand_scss/font/roboto/Roboto-BoldItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'Roboto-Italic';
+    src: url('/packages/gcx_grand_scss/font/roboto/Roboto-Italic.woff2') format('woff2'), /* Modern Browsers */
+    url('/packages/gcx_grand_scss/font/roboto/Roboto-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('/packages/gcx_grand_scss/font/roboto/Roboto-Light.woff2') format('woff2'), /* Modern Browsers */
+    url('/packages/gcx_grand_scss/font/roboto/Roboto-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'Roboto-LightItalic';
+    src: url('/packages/gcx_grand_scss/font/roboto/Roboto-LightItalic.woff2') format('woff2'), /* Modern Browsers */
+    url('/packages/gcx_grand_scss/font/roboto/Roboto-LightItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('/packages/gcx_grand_scss/font/roboto/Roboto-Medium.woff2') format('woff2'), /* Modern Browsers */
+    url('/packages/gcx_grand_scss/font/roboto/Roboto-Medium.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'Roboto-MediumItalic';
+    src: url('/packages/gcx_grand_scss/font/roboto/Roboto-MediumItalic.woff2') format('woff2'), /* Modern Browsers */
+    url('/packages/gcx_grand_scss/font/roboto/Roboto-MediumItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('/packages/gcx_grand_scss/font/roboto/Roboto-Regular.woff2') format('woff2'), /* Modern Browsers */
+    url('/packages/gcx_grand_scss/font/roboto/Roboto-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url('/packages/gcx_grand_scss/font/roboto/Roboto-Thin.woff2') format('woff2'), /* Modern Browsers */
+    url('/packages/gcx_grand_scss/font/roboto/Roboto-Thin.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'Roboto-ThinItalic';
+    src: url('/packages/gcx_grand_scss/font/roboto/Roboto-ThinItalic.woff2') format('woff2'), /* Modern Browsers */
+    url('/packages/gcx_grand_scss/font/roboto/Roboto-ThinItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+}

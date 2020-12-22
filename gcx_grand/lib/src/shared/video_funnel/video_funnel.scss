@@ -1,0 +1,19 @@
+/*
+* Legion Market v1
+* Copyright 2018, Legion Market
+* www.legionmarket.com
+* Free to use under the GPLv3 license.
+*/
+
+
+
+video {
+  display: inline-flex;
+  height: 225px;
+  padding: 5px;
+  position: static;
+  border-color: transparent;
+  @media (min-width: 1151px) {
+    height: 350px;
+  }
+}

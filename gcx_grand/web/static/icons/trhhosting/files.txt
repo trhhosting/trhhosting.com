@@ -1,0 +1,10 @@
+logo
+logo-full
+<svg width="90%">
+    <!-- TODO: replace with company logo -->
+    <use xlink:href="/static/icons/trhhosting/trh_logos_sheet.svg#logo"></use>
+</svg>
+<svg width="90%">
+    <!-- TODO: replace with company logo -->
+    <use xlink:href="/static/icons/trhhosting/trh_logos_sheet.svg#logo-full"></use>
+</svg>

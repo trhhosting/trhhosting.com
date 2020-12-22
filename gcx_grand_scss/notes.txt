@@ -1,0 +1,18 @@
+#!/bin/bash
+woff2_compress Lato-BlackItalic.ttf
+woff2_compress Lato-Black.ttf
+woff2_compress Lato-BoldItalic.ttf
+woff2_compress Lato-Bold.ttf
+woff2_compress Lato-HairlineItalic.ttf
+woff2_compress Lato-Hairline.ttf
+woff2_compress Lato-Italic.ttf
+woff2_compress Lato-LightItalic.ttf
+woff2_compress Lato-Light.ttf
+woff2_compress Lato-Regular.ttf
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('/packages/gcx_grand_scss/src/font/quicksand/Quicksand-Regular.woff2') format('woff2'), /* Modern Browsers */
+    url('/packages/gcx_grand_scss/src/font/quicksand/Quicksand-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+

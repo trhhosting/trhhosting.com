@@ -1,0 +1,380 @@
+
+    .theme-flat-0 {
+      --layer1: #5d9cec;
+      --layer2: #4a89dc;
+      --layer3: #e6e9ed;
+      --layer4: #3679ce;
+      --layer5: #ccd1d9;}
+    
+    .theme-flat-1 {
+      --layer1: #545c66;
+      --layer2: #aab2bd;
+      --layer3: #656d78;}
+    
+    .theme-flat-2 {
+      --layer1: #545c66;
+      --layer2: #aab2bd;
+      --layer3: #656d78;
+      --layer4: #434a54;}
+    
+    .theme-flat-3 {
+      --layer1: #e6e9ed;
+      --layer2: #4a89dc;
+      --layer3: #5d9cec;
+      --layer4: #eac6bb;
+      --layer5: #d3b1a9;
+      --layer6: #ccd1d9;}
+    
+    .theme-flat-4 {
+      --layer1: #ac92ec;
+      --layer2: #967adc;
+      --layer3: #965353;
+      --layer4: #eac6bb;
+      --layer5: #d3b1a9;
+      --layer6: #e6e9ed;
+      --layer7: #ccd1d9;}
+    
+    .theme-flat-5 {
+      --layer1: #8cc152;
+      --layer2: #a0d468;
+      --layer3: #656d78;
+      --layer4: #e6e9ed;
+      --layer5: #ccd1d9;
+      --layer6: #4a89dc;
+      --layer7: #5d9cec;}
+    
+    .theme-flat-6 {
+      --layer1: #545c66;
+      --layer2: #656d78;
+      --layer3: #5d9cec;
+      --layer4: #4a89dc;
+      --layer5: #e6e9ed;
+      --layer6: #000;}
+    
+    .theme-flat-7 {
+      --layer1: #4a89dc;
+      --layer2: #656d78;
+      --layer3: #5d9cec;}
+    
+    .theme-flat-8 {
+      --layer1: #e6e9ed;
+      --layer2: #434a54;
+      --layer3: #aab2bd;
+      --layer4: #545c66;
+      --layer5: #656d78;
+      --layer6: #353b44;}
+    
+    .theme-flat-9 {
+      --layer1: #e6e9ed;
+      --layer2: #656d78;
+      --layer3: #545c66;
+      --layer4: #ccd1d9;
+      --layer5: #5d9cec;}
+    
+    .theme-flat-10 {
+      --layer1: #ccd1d9;
+      --layer2: #656d78;
+      --layer3: #5d9cec;
+      --layer4: #e6e9ed;
+      --layer5: #4a89dc;}
+    
+    .theme-flat-11 {
+      --layer1: #545c66;
+      --layer2: #aab2bd;
+      --layer3: #5d9cec;
+      --layer4: #656d78;
+      --layer5: #ccd1d9;}
+    
+    .theme-flat-12 {
+      --layer1: #e6e9ed;
+      --layer2: #545c66;
+      --layer3: #656d78;}
+    
+    .theme-flat-13 {
+      --layer1: #5d9cec;
+      --layer2: #656d78;
+      --layer3: #545c66;
+      --layer4: #4a89dc;
+      --layer5: #e6e9ed;
+      --layer6: #ffce54;}
+    
+    .theme-flat-14 {
+      --layer1: #5d9cec;
+      --layer2: #ccd1d9;
+      --layer3: #656d78;
+      --layer4: #e6e9ed;
+      --layer5: #4a89dc;
+      --layer6: #545c66;}
+    
+    .theme-flat-15 {
+      --layer1: #5d9cec;
+      --layer2: #545c66;
+      --layer3: #656d78;
+      --layer4: #e6e9ed;
+      --layer5: #4a89dc;
+      --layer6: #ccd1d9;}
+    
+    .theme-flat-16 {
+      --layer1: #656d78;
+      --layer2: #e6e9ed;
+      --layer3: #fff;
+      --layer4: #aab2bd;
+      --layer5: #545c66;
+      --layer6: #4a89dc;
+      --layer7: #5d9cec;
+      --layer8: #ccd1d9;}
+    
+    .theme-flat-17 {
+      --layer1: #e6e9ed;
+      --layer2: #656d78;
+      --layer3: #4a89dc;
+      --layer4: #5d9cec;
+      --layer5: #ccd1d9;}
+    
+    .theme-flat-18 {
+      --layer1: #ccd1d9;
+      --layer2: #545c66;
+      --layer3: #aab2bd;
+      --layer4: #656d78;
+      --layer5: #e6e9ed;}
+    
+    .theme-flat-19 {
+      --layer1: #e6e9ed;
+      --layer2: #ccd1d9;}
+    
+    .theme-flat-20 {
+      --layer1: #545c66;
+      --layer2: #8cc152;
+      --layer3: #4a89dc;
+      --layer4: #a0d468;
+      --layer5: #5d9cec;
+      --layer6: #656d78;
+      --layer7: #e6e9ed;}
+    
+    .theme-flat-21 {
+      --layer1: #ccd1d9;
+      --layer2: #656d78;
+      --layer3: #4a89dc;
+      --layer4: #5d9cec;
+      --layer5: #e6e9ed;
+      --layer6: #545c66;}
+    
+    .theme-flat-22 {
+      --layer1: #656d78;
+      --layer2: #5d9cec;
+      --layer3: #ccd1d9;
+      --layer4: #ffce54;
+      --layer5: #fc6e51;}
+    
+    .theme-flat-23 {
+      --layer1: #aab2bd;
+      --layer2: #ccd1d9;
+      --layer3: #656d78;
+      --layer4: #545c66;}
+    
+    .theme-flat-24 {
+      --layer1: #656d78;
+      --layer2: #ffce54;
+      --layer3: #edab37;
+      --layer4: #f6bb42;}
+    
+    .theme-flat-25 {
+      --layer1: #545c66;
+      --layer2: #656d78;
+      --layer3: #434a54;}
+    
+    .theme-flat-26 {
+      --layer1: #f6bb42;
+      --layer2: #ffce54;
+      --layer3: #656d78;
+      --layer4: #e6e9ed;
+      --layer5: #4a89dc;
+      --layer6: #5d9cec;}
+    
+    .theme-flat-27 {
+      --layer1: #4a89dc;
+      --layer2: #5d9cec;
+      --layer3: #f6bb42;
+      --layer4: #ffce54;
+      --layer5: #edab37;}
+    
+    .theme-flat-28 {
+      --layer1: #ccd1d9;
+      --layer2: #5d9cec;
+      --layer3: #e6e9ed;
+      --layer4: #656d78;}
+    
+    .theme-flat-29 {
+      --layer1: #656d78;
+      --layer2: #4a89dc;
+      --layer3: #ccd1d9;
+      --layer4: #ffce54;
+      --layer5: #edab37;
+      --layer6: #5d9cec;
+      --layer7: #e6e9ed;
+      --layer8: #545c66;
+      --layer9: #000;}
+    
+    .theme-flat-30 {
+      --layer1: #ccd1d9;
+      --layer2: #e6e9ed;
+      --layer3: #ed5565;
+      --layer4: #fff;
+      --layer5: #da4453;
+      --layer6: #000;
+      --layer7: #5d9cec;
+      --layer8: #656d78;}
+    
+    .theme-flat-31 {
+      --layer1: #ccd1d9;
+      --layer2: #e6e9ed;
+      --layer3: #5d9cec;
+      --layer4: #656d78;
+      --layer5: #4a89dc;}
+    
+    .theme-flat-32 {
+      --layer1: #e6e9ed;
+      --layer2: #ccd1d9;
+      --layer3: #fff;
+      --layer4: #da4453;
+      --layer5: #656d78;
+      --layer6: #ed5565;
+      --layer7: #545c66;
+      --layer8: #4a89dc;
+      --layer9: #5d9cec;}
+    
+    .theme-flat-33 {
+      --layer1: #656d78;
+      --layer2: #ffce54;
+      --layer3: #e6e9ed;
+      --layer4: #5d9cec;
+      --layer5: #8cc152;
+      --layer6: #ccd1d9;
+      --layer7: #000;}
+    
+    .theme-flat-34 {
+      --layer1: #656d78;
+      --layer2: #a0d468;
+      --layer3: #ac92ec;
+      --layer4: #ccd1d9;
+      --layer5: #e6e9ed;
+      --layer6: #545c66;}
+    
+    .theme-flat-35 {
+      --layer1: #a0d468;
+      --layer2: #5d9cec;
+      --layer3: #545c66;
+      --layer4: #965353;
+      --layer5: #8cc152;
+      --layer6: #87bcf4;
+      --layer7: #ccd1d9;
+      --layer8: #656d78;
+      --layer9: #e6e9ed;}
+    
+    .theme-flat-36 {
+      --layer1: #ffce54;
+      --layer2: #a0d468;
+      --layer3: #8cc152;
+      --layer4: #844747;
+      --layer5: #e6e9ed;
+      --layer6: #ccd1d9;
+      --layer7: #773e3e;
+      --layer8: #965353;
+      --layer9: #545c66;
+      --layer10: #656d78;
+      --layer11: #4a89dc;
+      --layer12: #5d9cec;}
+    
+    .theme-flat-37 {
+      --layer1: #ccd1d9;
+      --layer2: #e6e9ed;
+      --layer3: #656d78;
+      --layer4: #5d9cec;}
+    
+    .theme-flat-38 {
+      --layer1: #545c66;
+      --layer2: #ffce54;
+      --layer3: #656d78;
+      --layer4: #4a89dc;
+      --layer5: #5d9cec;
+      --layer6: #e6e9ed;}
+    
+    .theme-flat-39 {
+      --layer1: #844747;
+      --layer2: #f7c292;
+      --layer3: #ffd2a6;
+      --layer4: #545c66;
+      --layer5: #ccd1d9;
+      --layer6: #656d78;
+      --layer7: #e6e9ed;}
+    
+    .theme-flat-40 {
+      --layer1: #656d78;
+      --layer2: #545c66;
+      --layer3: #3679ce;
+      --layer4: #e6e9ed;
+      --layer5: #4a89dc;
+      --layer6: #5d9cec;}
+    
+    .theme-flat-41 {
+      --layer1: #656d78;
+      --layer2: #4a89dc;
+      --layer3: #da4453;
+      --layer4: #ed5565;
+      --layer5: #ccd1d9;
+      --layer6: #5d9cec;
+      --layer7: #e6e9ed;}
+    
+    .theme-flat-42 {
+      --layer1: #656d78;
+      --layer2: #4a89dc;
+      --layer3: #ccd1d9;
+      --layer4: #5d9cec;
+      --layer5: #e6e9ed;
+      --layer6: #545c66;}
+    
+    .theme-flat-43 {
+      --layer1: #656d78;
+      --layer2: #8cc152;
+      --layer3: #a0d468;
+      --layer4: #ccd1d9;}
+    
+    .theme-flat-44 {
+      --layer1: #aab2bd;
+      --layer2: #545c66;
+      --layer3: #ccd1d9;
+      --layer4: #656d78;
+      --layer5: #ed5565;}
+    
+    .theme-flat-45 {
+      --layer1: #545c66;
+      --layer2: #656d78;
+      --layer3: #5d9cec;
+      --layer4: #87bcf4;}
+    
+    .theme-flat-46 {
+      --layer1: #545c66;
+      --layer2: #656d78;
+      --layer3: #ccd1d9;
+      --layer4: #5d9cec;}
+    
+    .theme-flat-47 {
+      --layer1: #a0d468;
+      --layer2: #5d9cec;
+      --layer3: #8cc152;
+      --layer4: #e6e9ed;
+      --layer5: #81b53e;
+      --layer6: #656d78;
+      --layer7: #ccd1d9;}
+    
+    .theme-flat-48 {
+      --layer1: #e6e9ed;
+      --layer2: #545c66;
+      --layer3: #656d78;
+      --layer4: #ccd1d9;
+      --layer5: #aab2bd;}
+    
+    .theme-flat-49 {
+      --layer1: #545c66;
+      --layer2: #656d78;}
+    

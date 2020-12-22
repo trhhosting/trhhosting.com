@@ -1,0 +1,37 @@
+/*
+* Legion Market v
+* Copyright 2018, Legion Market
+* www.legionmarket.com
+* Free to use under the GPLv3 license.
+*/
+@import "buttons";
+@import "colors";
+@import "footer";
+@import "icons";
+@import "icons_shell";
+@import "pricing";
+@import "theme";
+
+.btn-grad {
+  border: none;
+  border-radius: 4px;
+  padding: 11px;
+  box-shadow: none;
+  margin-top: 26px;
+  text-shadow: none;
+  outline: none;
+  background: $bgColor0;
+  background: -webkit-linear-gradient(legacy-direction(to right), $bgColor0 0%, $bgColor4 100%);
+  background: -webkit-gradient(linear, left top, right top, from($bgColor0), to($bgColor4));
+  background: -webkit-linear-gradient(left, $bgColor0 0%, $bgColor4 100%);
+  background: -o-linear-gradient(left, $bgColor0 0%, $bgColor4 100%);
+  background: linear-gradient(to right, $bgColor0 0%, $bgColor4 100%);
+  &:hover {
+    background: $bgColor4;
+    background: -webkit-linear-gradient(legacy-direction(to right), $bgColor4 0%, $bgColor0 100%);
+    background: -webkit-gradient(linear, left top, right top, from($bgColor4), to($bgColor0));
+    background: -webkit-linear-gradient(left, $bgColor4 0%, $bgColor0 100%);
+    background: -o-linear-gradient(left, $bgColor4 0%, $bgColor0 100%);
+    background: linear-gradient(to right, $bgColor4 0%, $bgColor0 100%);
+  }
+}

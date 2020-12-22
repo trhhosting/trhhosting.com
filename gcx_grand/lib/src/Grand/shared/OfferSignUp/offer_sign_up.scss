@@ -1,0 +1,88 @@
+@import '../../../scss/theme/theme';
+
+.offer-form {
+background-color:rgba(0,0,0,0.74);
+font-size:16px;
+padding:0px;
+padding-bottom:10px;
+padding-top:10px;
+padding-right:0px;
+padding-left:0px;
+font-family:lifecraft;
+box-shadow:inset $bgColor1 0px 0px 20px 2px;
+    h1{
+        font-size:38px;
+        color:rgb(255,255,255);
+        letter-spacing:0px;
+        font-family:lifecraft;
+        margin-top:0px;
+        padding-top:0px;
+        padding-right:5px;
+        padding-bottom:0px;
+        padding-left:5px;
+        margin-bottom:0px;
+    }
+    h5 {
+        font-size:25px;
+        margin-top:0px;
+        margin-bottom:0px;
+        font-family:'Indie Flower', cursive;
+        letter-spacing:2px;
+        font-weight:normal;
+        color:#ffffff;
+
+    }
+    h6 {
+        font-size:15px;
+        margin-top:0px;
+        margin-bottom:0px;
+        font-family:'Indie Flower', cursive;
+        letter-spacing:0px;
+        font-weight:normal;
+        color:#ffffff;
+    }
+    p {
+        font-size:18px;
+        margin-top:0px;
+        margin-bottom:0px;
+        font-family:lifecraft;
+        letter-spacing:0px;
+        font-weight:normal;
+        color:#ffffff;
+
+    }
+
+    input {
+        height:36px;
+        font-size:20px;
+        background-color:rgba(0,0,0,0.5);
+        padding:0px;
+        padding-left:8px;
+    }
+    select {
+        background-color:rgba(0,0,0,0.5);
+        height:36px;
+        font-size:20px;
+        padding:0px;
+        padding-left:8px;
+    }
+}
+
+.btn-format {
+    background-color: $bgColor4;
+    color:rgb(255,255,255);
+}
+
+.btn-div {
+    width:150px;
+    margin-top:10px;
+    height:34px;
+    margin-bottom:10px;
+}
+.fp{
+    margin-left: .7rem;
+    margin-right: .7rem;
+}
+.email{
+  text-transform: none
+}

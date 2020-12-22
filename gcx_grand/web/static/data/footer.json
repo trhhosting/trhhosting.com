@@ -1,0 +1,116 @@
+{
+  "ColumnOne":{
+    "id":0,
+    "title":"About",
+    "subTitle":"Allow us to show you how to work smarter, not harder.  Technology automation for everyone.",
+    "socialIcons":[
+      {
+        "href":"https://t.me/joinchat/Iue7DBtJsAVkvNEw5b_x3Q",
+        "classFormat":"mdi",
+        "icon":"/static/icons/social-media/company-logs-svg-sprite.svg#030telegram-1",
+        "title":"",
+        "height": 34,
+        "width": 34
+      },
+      {
+        "href":"https://twitter.com/AskforitPro",
+        "classFormat":"mdi",
+        "icon":"/static/icons/social-media/company-logs-svg-sprite.svg#011twitter-1",
+        "title":"",
+        "height": 34,
+        "width": 34
+      }
+    ]
+  },
+  "ColumnTwo":{
+    "id":0,
+    "title":"Our Recently added Niches",
+    "subTitle":"new ones added every month",
+    "posts":[
+      {
+        "id":0,
+        "title":"Personal Gyms",
+        "date":"2020-Aug-25",
+        "href":"#",
+        "classFormat":"post-title",
+        "photo":"/assets/img/footer-images/workout-2928385_640.jpg"
+      },
+      {
+        "id":1,
+        "title":"Yoga Studios",
+        "date":"2020-Aug-25",
+        "href":"#",
+        "classFormat":"post-title",
+        "photo":"/assets/img/footer-images/yoga-3053488_640.jpg"
+      },
+      {
+        "id":2,
+        "title":"Chiropractors",
+        "date":"2020-Aug-25",
+        "href":"#",
+        "classFormat":"post-title",
+        "photo":"/assets/img/footer-images/pexels-karolina-grabowska-4506109.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Real Estate Agents",
+        "date": "2020-Aug-25",
+        "href": "#",
+        "classFormat": "post-title",
+        "photo": "/assets/img/footer-images/pexels-gustavo-fring-4173195.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Real Estate Agents",
+        "date": "2020-Aug-25",
+        "href": "#",
+        "classFormat": "post-title",
+        "photo": "/assets/img/footer-images/beautiful-1427841_640.jpg"
+      }
+    ]
+  },
+  "ColumnThree":{
+    "id":0,
+    "title":"Contact",
+    "subTitle":"",
+    "contactInfo":[
+      {
+        "href":"#",
+        "classFormat":"mdi mdi-map-marker",
+        "title":"Hartford, CT. 06144",
+        "lineType":"address"
+      },
+      {
+        "href":"#",
+        "classFormat":"mdi mdi-map-marker",
+        "title":"P.O. Box 12",
+        "lineType":"address"
+      },
+      {
+        "href":"#",
+        "classFormat":"mdi mdi-email",
+        "title":"info@askforitpro.com",
+        "lineType":"email"
+      },
+      {
+        "href":"#",
+        "classFormat":"mdi mdi-cellphone-iphone",
+        "title":"860-947-404(Seven)",
+        "lineType":"support"
+      }
+    ]
+  },
+  "ColumnFour":{
+    "id":0,
+    "title":"Useful Links",
+    "subTitle":"",
+    "links": [
+      {
+        "href":"https://www.pexels.com",
+        "classFormat":"none",
+        "title":"Photos provided by Pexels"
+      }
+    ]
+  }
+}
+

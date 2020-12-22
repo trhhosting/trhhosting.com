@@ -1,0 +1,328 @@
+
+@import '../../../scss/theme/theme';
+
+/* ==========================================================================
+   Countdown Style Start
+   ========================================================================== */
+   .bg-wraper {
+	    position: fixed;
+	    top: 0;
+	    height: 100%;
+	    min-height: 700px;
+	    width: 100%;
+	}
+	.countdown-timer{
+	    color: $primaryColor;
+	    position: absolute;
+	    margin: 0 auto;
+	    top: 28%;
+	    text-align: center;
+	    width: 100%;
+		.heading-count{
+			padding: 10px 68px;
+			text-align: center;
+			h2{
+				font-size: 42px;
+				color: $primaryTextColor;
+				line-height: 30px;
+				margin-bottom: 15px;
+			}
+		}
+		p{
+			font-size: 14px;
+			color: $primaryTextColor;
+			line-height: 22px;
+		}
+		.button-group{
+			margin-top: 30px;
+		}
+		.btn{
+			margin: 10px;
+		}
+	}
+	.time-count div{
+		text-align: center;
+	}
+	.time-entry{
+		display: inline-block;
+		margin: 15px;
+		padding: 20px;
+		border-radius: 0px;
+		text-align: center;
+		font-weight: 400;
+		color: $primary;
+		font-size: 15px;
+		line-height: 22px;
+		span{
+			font-size: 45px;
+			font-family: 'Montserrat', sans-serif;
+			line-height: 45px;
+			font-weight: 700;
+			display: block;
+			color: $primaryTextColor;
+			margin-bottom: 10px;
+		}
+	}	
+	.time-entry:first-child{
+		border-left: none;
+	}
+	.countdown{
+	  width: 100%;
+	  margin: 25px auto;
+	  display: inline-block;
+	  .time-count{
+	    padding: 0;
+	    position: relative;
+	    display: inline-block;
+	    text-align: center;
+	    .time-entry{
+	      position: relative;
+	      display: inline-block;
+	      width: 130px;
+	      height: 115px;
+	      border-radius: 4px;
+	      font-size: 14px;
+	      text-align: center;
+	      background: rgba(255, 255, 255, 0.25);
+	      border: 1px solid rgba(255, 255, 255, 0.5);
+	      box-shadow: 0 5px 50px -10px #000;
+	      span {
+	        font-size: 45px;
+	      	font-weight: 700;
+	        color: #fff;
+	        font-family: 'Montserrat', sans-serif;
+	        display: block;
+	        width: 100%;
+	      }
+	    }
+	  }
+	}
+
+	.line-right{
+		margin: 30px 0;
+		.time-count{
+		    position: relative;
+		    display: inline-block;
+		    text-align: center;
+	    .time-entry{
+	      position: relative;
+	      display: inline-block;
+	      width: 130px;
+	      height: 115px;
+	      border-radius: 4px;
+	      font-size: 14px;
+	      text-align: center;
+	      background: $preset;
+	      box-shadow: 0 5px 50px -10px #fff;
+	      span {
+	        font-size: 45px;
+	      	font-weight: 700;
+	      	font-family: 'Montserrat', sans-serif;
+	        color: #fff;
+	        display: block;
+	        width: 100%;
+	      }
+	    }
+	  }
+	}
+
+	.subscribe-form{
+		h4{
+			font-size: 18px;
+			margin-bottom: 30px;
+			font-weight: 500;
+		}
+		.form-inline{
+			position: relative;
+			.btn{
+				position: absolute;
+			    right: 0;
+			    top: 0;
+			    text-transform: uppercase;
+			    font-size: 16px;
+			    border: 0;
+			    margin: 0;
+			    width: 200px;
+			    height: 55px;
+			    border-top-left-radius: 0;
+			    border-bottom-left-radius: 0;
+			}
+		}
+		.form-control{
+		    -webkit-box-shadow: none;
+		    -moz-box-shadow: none;
+		    box-shadow: none;
+		    outline: 0;
+		    height: 55px;
+		    padding: 15px 25px;
+		    border-width: 1px;
+		    border-color: #fff;
+		    border-style: solid;
+		    -webkit-border-radius: 5px;
+		    -moz-border-radius: 5px;
+		    border-radius: 5px;
+		    width: 100%;
+		    color: #fff;
+		}
+	}
+
+	.social{
+		display: flexbox;
+		background-color: whitesmoke;
+		width: 15em;
+		a{	
+		 	display: inline-block;
+		    color: #fff;
+		    margin-right: 5px;
+		    width: 35px;
+		    line-height: 35px;
+		    font-size: 20px;
+		    text-align: center;
+			transition: all 0.3s ease-in-out 0s;
+		    -moz-transition: all 0.3s ease-in-out 0s;
+		    -webkit-transition: all 0.3s ease-in-out 0s;
+		    -o-transition: all 0.3s ease-in-out 0s;
+		}
+		.facebook:hover{
+			color: #3B5998;
+		}
+		.twitter:hover{
+			color: #00aced;
+		}
+		.instagram:hover{
+			color: #fb3958;
+		}
+		.foursqare:hover{
+			color: #25a0ca;
+		}
+		.google:hover{
+			color: #d34836;
+		}
+	}
+
+.gcx-lead-background {
+	background: $primaryLightColor;
+}
+
+.testimonials-clean {
+  color: #313437;
+  background-color: #eef4f7;
+}
+
+.testimonials-clean p {
+  color: #7d8285;
+}
+
+.testimonials-clean h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+@media (max-width:767px) {
+  .testimonials-clean h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.testimonials-clean .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.testimonials-clean .intro p {
+  margin-bottom: 0;
+}
+
+.testimonials-clean .people {
+  padding: 50px 0 20px;
+}
+
+.testimonials-clean .item {
+  margin-bottom: 32px;
+}
+
+@media (min-width:768px) {
+  .testimonials-clean .item {
+    height: 220px;
+  }
+}
+
+.testimonials-clean .item .box {
+  padding: 30px;
+  background-color: #fff;
+  position: relative;
+}
+
+.testimonials-clean .item .box:after {
+  content: '';
+  position: absolute;
+  left: 30px;
+  bottom: -24px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-width: 12px 15px;
+  border-top-color: #fff;
+}
+
+.testimonials-clean .item .author {
+  margin-top: 28px;
+  padding-left: 25px;
+}
+
+.testimonials-clean .item .name {
+  font-weight: bold;
+  margin-bottom: 2px;
+  color: inherit;
+}
+
+.testimonials-clean .item .title {
+  font-size: 13px;
+  color: #9da9ae;
+}
+
+.testimonials-clean .item .description {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.testimonials-clean .item img {
+  max-width: 40px;
+  float: left;
+  margin-right: 12px;
+  margin-top: -5px;
+}
+
+.brand-group{
+	padding-top: 1em;
+	padding-bottom: 1rem;
+}
+.brand-font{
+	font-size: x-large;
+	padding-bottom: 1rem;
+}
+.brand-logos{
+	padding-bottom: 1.5rem;
+	img{
+		display: box;
+		height: 50px;
+		width: 60px;
+		padding: 5px 10px 5px 10px;
+	}
+	svg{
+		display: box;
+		height: 50px;
+		width: 60px;
+		padding: 5px 10px 5px 10px;
+	
+	}
+}
+.testimonials-title{
+	padding-top: 1rem;
+	padding-bottom: 0rem;
+}

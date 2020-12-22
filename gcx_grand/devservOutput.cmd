@@ -1,0 +1,1 @@
+webdev serve web:80 --hostname=192.168.1.114 --live-reload -v -o web:dev

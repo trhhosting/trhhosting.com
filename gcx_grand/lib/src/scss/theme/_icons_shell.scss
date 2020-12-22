@@ -1,0 +1,411 @@
+/*
+* Legion Market v
+* Copyright 2018, Legion Market
+* www.legionmarket.com
+* Free to use under the GPLv3 license.
+*/
+
+
+$gxlv1: #000;
+$gxlv2: #3c4;
+$gxlv3: #fff;
+
+
+/*
+  #6e005d
+  #9f3c8a
+  #3f0033
+  #5d6e00
+  #8d9c38
+  #314300
+  #ffffff
+  #ffffff
+*/
+
+//Icons
+
+.theme-line-0 {
+  --layer1: #000;
+}
+.theme-line-9 {
+  --layer2: #33cc33;
+  --layer1: #42933D;
+;
+}
+.theme-line-39 {
+  --layer3: #3c4;
+  --layer2: #fff;
+  --layer1: #3c4;
+}
+.theme-line-64 {
+  --layer1: #3c4;
+  --layer2: #fff;
+}
+.theme-line-144 {
+  --layer2: #fff;
+  --layer3: #3c4;
+  --layer1: #3c4;
+}
+.theme-line-417 {
+  --layer2: #fff;
+}
+.theme-line-826 {
+  --layer1: #3c4;
+  --layer3: #3c4;
+  --layer2: #fff;
+}
+.theme-line-833 {
+  --layer3: #3c4;
+  --layer1: #003399;
+  --layer2: #fff;
+}
+
+.theme-color-955 {
+  --layer1: #73a1fb;
+}
+.theme-color-956 {
+  --layer1: #fece00;
+}
+.theme-color-957 {
+  --layer2: #171715;
+  --layer1: #ffac35;
+}
+.theme-color-958 {
+  --layer1: #aac148;
+}
+.theme-color-959 {
+  --layer1: #282828;
+}
+.theme-color-960 {
+  --layer4: #63bc5e;
+  --layer3: #f14038;
+  --layer2: #fcd901;
+  --layer1: #3e8efb;
+}
+.theme-color-961 {
+  --layer1: #292929;
+}
+.theme-color-962 {
+  --layer1: #2b2b2b;
+}
+.theme-color-963 {
+  --layer2: #333;
+  --layer1: #39f;
+}
+.theme-color-964 {
+  --layer1: #01cb3e;
+}
+.theme-color-965 {
+  --layer4: #e43532;
+  --layer3: #0063da;
+  --layer2: #f6b000;
+  --layer1: #87b900;
+}
+.theme-color-966 {
+  --layer1: #e65300;
+}
+.theme-color-967 {
+  --layer1: #74bb44;
+}
+.theme-color-968 {
+  --layer1: #475993;
+}
+.theme-color-970 {
+  --layer1: #2169a8;
+}
+.theme-color-971 {
+  --layer1: #cc377e;
+}
+.theme-color-972 {
+  --layer1: #1587ea;
+}
+.theme-color-973 {
+  --layer1: #28a9e0;
+}
+.theme-color-975 {
+  --layer1: #0067ff;
+}
+.theme-color-976 {
+  --layer1: #205081;
+}
+.theme-color-977 {
+  --layer1: #f06a35;
+}
+.theme-color-978 {
+  --layer1: #563d7c;
+}
+.theme-color-979 {
+  --layer1: #1b9af9;
+}
+.theme-color-980 {
+  --layer1: #f70;
+}
+.theme-color-981 {
+  --layer2: #f49f22;
+  --layer1: #84bc33;
+}
+.theme-color-982 {
+  --layer2: #005de1;
+  --layer1: #ff007e;
+}
+.theme-color-983 {
+  --layer1: #5b9a68;
+}
+.theme-color-984 {
+  --layer1: #ff4175;
+}
+.theme-color-985 {
+  --layer1: #2d2d2d;
+}
+.theme-color-986 {
+  --layer2: #2d2d2d;
+  --layer1: #000;
+}
+.theme-color-987 {
+  --layer1: #f34a38;
+}
+.theme-color-988 {
+  --layer1: #f77f00;
+}
+.theme-color-989 {
+  --layer1: #4679a4;
+}
+.theme-color-990 {
+  --layer1: #3c80cb;
+}
+.theme-color-991 {
+  --layer1: #e31b23;
+}
+.theme-color-993 {
+  --layer4: #7ac143;
+  --layer3: #f9a541;
+  --layer2: #f44321;
+  --layer1: #5091cd;
+}
+.theme-color-994 {
+  --layer1: #f58220;
+}
+.theme-color-995 {
+  --layer2: #f7931e;
+  --layer1: #b2b2b2;
+}
+.theme-color-996 {
+  --layer1: #fd1c2e;
+}
+.theme-color-997 {
+  --layer2: #0085cc;
+  --layer1: #002987;
+}
+.theme-color-998 {
+  --layer2: #002987;
+  --layer1: #0085cc;
+}
+.theme-color-1000 {
+  --layer1: #c41e32;
+}
+.theme-color-1001 {
+  --layer1: #f26322;
+}
+.theme-color-1002 {
+  --layer1: #222a30;
+}
+.theme-color-1003 {
+  --layer1: #0077b7;
+}
+.theme-color-1004 {
+  --layer1: #f60;
+}
+.theme-color-1005 {
+  --layer1: #fc490b;
+}
+.theme-color-1006 {
+  --layer1: #09f;
+}
+.theme-color-1007 {
+  --layer1: #bf2994;
+}
+.theme-color-1009 {
+  --layer1: #459649;
+}
+.theme-color-1010 {
+  --layer1: #9f1121;
+}
+.theme-color-1013 {
+  --layer3: #2a71e9;
+  --layer2: #fccd48;
+  --layer1: #0ba25e;
+}
+.theme-color-1014 {
+  --layer1: #fec128;
+}
+.theme-color-1015 {
+  --layer1: #2d7bc8;
+}
+.theme-color-1016 {
+  --layer1: #005eac;
+}
+.theme-color-1017 {
+  --layer1: #ff8900;
+}
+.theme-color-1018 {
+  --layer1: #d8611f;
+}
+.theme-color-1019 {
+  --layer1: #00d95f;
+}
+.theme-color-1020 {
+  --layer4: #376db6;
+  --layer3: #1e5397;
+  --layer2: #4ca2da;
+  --layer1: #91d8f4;
+}
+.theme-color-1021 {
+  --layer2: #bcbbbc;
+  --layer1: #f48023;
+}
+.theme-color-1022 {
+  --layer1: #0674c9;
+}
+.theme-color-1023 {
+  --layer1: #2a445d;
+}
+.theme-color-1024 {
+  --layer1: #6441a4;
+}
+.theme-color-1025 {
+  --layer1: #4f80ff;
+}
+.theme-color-1026 {
+  --layer1: #ea4733;
+  --layer2: #f08a33;
+}
+.theme-color-1027 {
+  --layer2: #000;
+  --layer1: #f4982b;
+}
+.theme-color-1028 {
+  --layer1: #ff4403;
+}
+.theme-color-1029 {
+  --layer1: #03a9f4;
+}
+.theme-color-1030 {
+  --layer1: #518fe1;
+}
+.theme-color-1031 {
+  --layer4: #000a12;
+  --layer3: #000;
+  --layer2: #00af87;
+  --layer1: #ee643d;
+}
+.theme-color-1032 {
+  --layer1: #231f20;
+}
+.theme-color-1033 {
+  --layer3: #ff1340;
+  --layer2: #a0afaa;
+  --layer1: #00aeff;
+}
+.theme-color-1034 {
+  --layer1: #cd679a;
+}
+.theme-color-1036 {
+  --layer1: #00aaf2;
+}
+.theme-color-1037 {
+  --layer1: #00aeff;
+}
+.theme-color-1038 {
+  --layer1: #69b4e5;
+}
+.theme-color-1039 {
+  --layer1: #04b086;
+}
+.theme-color-1040 {
+  --layer1: #5181b8;
+}
+.theme-color-1041 {
+  --layer1: #2dc100;
+}
+.theme-color-1042 {
+  --layer3: #e6162d;
+  --layer2: #f93;
+  --layer1: #000;
+}
+.theme-color-1043 {
+  --layer2: #d80000;
+  --layer1: #181a1c;
+}
+.theme-color-1045 {
+  --layer1: #00adef;
+}
+.theme-color-1046 {
+  --layer1: #00769d;
+}
+.theme-color-1048 {
+  --layer2: #005a5f;
+  --layer1: #d4d600;
+}
+.theme-color-1049 {
+  --layer1: #7c019a;
+}
+.theme-color-1051 {
+  --layer1: #dc0000;
+}
+.theme-color-1052 {
+  --layer2: #000;
+  --layer1: #f61c0d;
+}
+.theme-color-1053 {
+  --layer1: #f61c0d;
+}
+.theme-color-1055 {
+  --layer1: #86c180;
+}
+.theme-color-1056 {
+  --layer1: #7ad06d;
+}
+.theme-color-1057 {
+  --layer1: #050505;
+}
+.theme-color-1058 {
+  --layer1: #0088c3;
+}
+.theme-color-1059 {
+  --layer1: #cf2217;
+}
+.theme-color-1060 {
+  --layer1: #2950a1;
+}
+.theme-color-1061 {
+  --layer2: #00a4c3;
+  --layer1: #ff4b30;
+}
+.theme-color-1062 {
+  --layer1: #eb4427;
+}
+.theme-color-1063 {
+  --layer1: #00ce62;
+}
+.theme-color-1064 {
+  --layer1: #ffb140;
+  --layer2: #ff5445;
+  --layer3: #fc2b82;
+  --layer4: #8e40b7;
+}
+.theme-color-1065 {
+  --layer1: #0090e1;
+}
+.theme-color-1068 {
+  --layer1: #00aef0;
+}
+.theme-color-1069 {
+  --layer1: #ffba00;
+}
+.theme-color-1200 {
+  --layer1: #000;
+  --stroke: #3c3;
+  --layer2: #fff;
+  --layer3: #039;
+  --layer4: #3c3;
+}

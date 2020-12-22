@@ -1,0 +1,50 @@
+/*
+* Legion Market v
+* Copyright 2018, Legion Market
+* www.legionmarket.com
+* Free to use under the GPLv3 license.
+*/
+
+//@import "package:gcx_grand_scss/src/scss/";
+
+
+// Preset Color Styles
+@import "package:gcx_grand_scss/src/scss/colors/presets";
+@import "package:app/src/scss/theme/colors";
+// Global Styles
+@import "package:gcx_grand_scss/src/scss/global";
+@import "package:app/src/scss/theme/backgrounds";
+
+// Navbar
+@import "package:gcx_grand_scss/src/scss/navbar";
+
+// About US Area
+@import "package:gcx_grand_scss/src/scss/about";
+
+// Schedule Area
+@import "package:gcx_grand_scss/src/scss/schedule";
+
+// Service Area
+@import "package:gcx_grand_scss/src/scss/service";
+
+// Portfolio Area
+@import "package:gcx_grand_scss/src/scss/portfolio";
+
+// Team Area
+@import "package:gcx_grand_scss/src/scss/team";
+
+// Blog Area
+@import "package:gcx_grand_scss/src/scss/blog";
+
+// Contact Area
+@import "package:gcx_grand_scss/src/scss/contact";
+
+// Contact Area
+@import "package:gcx_grand_scss/src/scss/footer";
+
+// Shortcode
+@import "package:gcx_grand_scss/src/scss/shortcode";
+
+
+@import "package:app/src/scss/theme/pricing";
+@import "package:app/src/scss/theme/style";

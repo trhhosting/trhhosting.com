@@ -1,0 +1,24 @@
+natscluster:
+  certfile: "/Source/golang/src/sc.tpnfc.us/GoConnectX/gcxDB/lib/src/config/out/DevBox00a.crt"
+  keyfile: "/Source/golang/src/sc.tpnfc.us/GoConnectX/gcxDB/lib/src/config/out/DevBox00a.key"
+  cacert: "/Source/golang/src/sc.tpnfc.us/GoConnectX/gcxDB/lib/src/config/out/nats-ca.crt"
+  address: "tls://192.168.1.140"
+  port: "443"
+cockroachdatastore:
+#  adapter: "postgres"
+#  host: "149.28.39.239"
+#  host: "api.tlm.pw"
+  adapter: "unsecured"
+  host: "192.168.1.66"
+  port: 26257
+  name: "api"
+  user: "api_user"
+  password: ""
+  sslmode: "verify-ca"
+  sslcert: "/Source/cockroachCerts/cert/client.api_user.crt"
+  sslkey: "/Source/cockroachCerts/cert/client.api_user.key"
+  sslrootcert: "/Source/cockroachCerts/cert/ca.crt"
+  root: "root"
+  rootcert: "/Source/cockroachCerts/cert/client.root.crt"
+  rootkey: "/Source/cockroachCerts/cert/client.root.key"
+...
