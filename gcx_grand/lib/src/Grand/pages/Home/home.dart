@@ -2,7 +2,6 @@ import 'dart:html';
 import 'package:angular/angular.dart';
 import '../../shared/Offer/offer.dart';
 import '../../shared/OfferSignUp/offer_sign_up.dart';
-import '../../shared/JobApplication/job_application.dart';
 import 'package:logic/logic.dart';
 
 @Component(
@@ -17,7 +16,6 @@ import 'package:logic/logic.dart';
     coreDirectives,
     Offer,
     OfferSignUp,
-    JobApplication,
   ],
 )
 class Home implements OnInit {
@@ -36,13 +34,6 @@ class Home implements OnInit {
     hash = await getData("hash");
     // print(hash);
     em = await getData("email");
-    if(em == null){
-      application.hidden = true;
-      print("hello World");
-    } else {
-      application.hidden = false;
-      emailstart.hidden = true;
-    }
     }
   void top(){
     window.scrollTo(0,0);

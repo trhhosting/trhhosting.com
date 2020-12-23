@@ -1,10 +1,10 @@
 <div class="offer-form" >
     <h3 class="text-center text-white">
-        Apply Now
+        Hurry up Get Your free site Now!!
     </h3>
     <div class="fp">
     <p class="text-justify text-white text-center">
-        Just fill out this quick form and click Submit Application
+        Just fill out this quick form and click I want my website
     </p>
     </div>
     <div class="form-group" style="margin-right:24px;margin-left:24px;margin-bottom:16px;">
@@ -23,22 +23,50 @@
             autofocus="" autocomplete="on">
     </div>
     <div class="form-group" style="margin-right:24px;margin-left:24px;">
-        <select #timezone class="form-control form-control-sm"
-            name="location" required="" autofocus="">
-            <option value="" selected="">Time Zone</option>
-            <option value="America/Puerto_Rico">Puerto Rico (Atlantic)</option>
-            <option value="America/New_York">New York (Eastern)</option>
-            <option value="America/Chicago">Chicago (Central)</option>
-            <option value="America/Denver">Denver (Mountain)</option>
-            <option value="America/Phoenix">Phoenix (MST)</option>
-            <option value="America/Los_Angeles">Los Angeles (Pacific)</option>
-            <option value="America/Anchorage">Anchorage (Alaska)</option>
-            <option value="Pacific/Honolulu">Honolulu (Hawaii)</option>        
+        <select #typeofsite class="form-control form-control-sm" name="typeofsite" required="" autofocus="">
+            <option value="" selected="">Type Of Site</option>
+            <option value="Agency">Agency</option>
+            <option value="App">App</option>
+            <option value="Blockchain">Blockchain</option>
+            <option value="Business">Business</option>
+            <option value="Conference">Conference</option>
+            <option value="Corporate">Corporate</option>
+            <option value="Creative">Creative</option>
+            <option value="Crypto">Crypto</option>
+            <option value="Delivery">Delivery</option>
+            <option value="Directory">Directory</option>
+            <option value="Doctor">Doctor</option>
+            <option value="Education">Education</option>
+            <option value="Event">Event</option>
+            <option value="Food">Food</option>
+            <option value="Hospital">Hospital</option>
+            <option value="ICO">ICO</option>
+            <option value="Launch">Launch</option>
+            <option value="Marketing">Marketing</option>
+            <option value="Medical">Medical</option>
+            <option value="Personal">Personal</option>
+            <option value="Portfolio">Portfolio</option>
+            <option value="Product">Product</option>
+            <option value="Profile">Profile</option>
+            <option value="Resume">Resume</option>
+            <option value="Saas">Saas</option>
+            <option value="Service">Service</option>
+            <option value="Software">Software</option>
+            <option value="Startup">Startup</option>
+            <option value="Tour">Tour</option>
+            <option value="Travel">Travel</option>
+            <option value="Video">Video</option>
+            <option value="Webapp">Webapp</option>
         </select>
+    </div>
+    <div class="form-group" style="margin-right:24px;margin-left:24px;">
+        <textarea #notes rows="4" cols="50" #phone 
+            class="form-control form-control-sm text-lowercase" type="text" required="" placeholder="Explain: what you want your site to do for you or your buisness." minlength="3"
+            autofocus="" autocomplete="on"></textarea>
     </div>
     <div class="form-group mx-auto mx-sm-auto mx-md-auto mx-lg-auto mx-xl-auto">
         <div class="text-center">
-            <a (click)="send()" href="/#/home/?email_submitted" class="btn btn-grad">Start Application</a>
+            <button (click)="send()" class="btn btn-grad">I Want My Website</button>
         </div>
     </div>
 </div>

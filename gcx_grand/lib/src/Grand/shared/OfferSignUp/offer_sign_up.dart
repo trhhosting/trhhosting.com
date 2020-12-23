@@ -1,7 +1,7 @@
 import 'package:angular/angular.dart';
 import 'package:logic/logic.dart';
 import '../../../../logic/email.dart';
-import 'package:http/http.dart' as http;
+import '../../../../logic/trh.dart';
 import 'dart:convert';
 
 import 'dart:html';
@@ -23,13 +23,23 @@ class OfferSignUp implements OnInit {
   InputElement email;
   @ViewChild('phone')
   InputElement phonenumber;
-  @ViewChild('timezone')
-  SelectElement timezone;
+  @ViewChild('typeofsite')
+  SelectElement typeofsite;
+  @ViewChild('notes')
+  TextAreaElement notes;
+
 
   @override
-  void ngOnInit(){
+  void ngOnInit() async{
+    if (await getData("name") != null){
+        name.value = await getData("name");
+        phonenumber.value = await getData("phone");
+        email.value = await getData("email");
+        notes.value = await getData("notes");
+    }
+
   }
-  EmailSignUp x = EmailSignUp();
+  WordPressSignUp x = WordPressSignUp();
   void send() async{
     // js.context.callMethod("run_locker");
     if (!validateEmailForm()){
@@ -38,12 +48,16 @@ class OfferSignUp implements OnInit {
     x.email = nullValue(email.value);
     x.name = nullValue(name.value);
     x.phone = nullValue(phonenumber.value);
-    x.timezone = nullValue(timezone.value);
+    x.typeofsite = nullValue(typeofsite.value);
+    x.notes = nullValue(notes.value);
     await setData("name", name.value);
     await setData("phone", phonenumber.value);
     await setData("email", email.value);
+    await setData("notes", notes.value);
     String data = json.encode(x.toJson());
-    sendJsonStart(data);
+    websiteRequest("trh free wordpress", data);
+    window.location.href = "/#/received-application";
+    window.scrollTo(0,0);
   }
   bool validateEmailForm(){
     if (!validateInputFieldFullName(name)){
@@ -66,20 +80,6 @@ class OfferSignUp implements OnInit {
     };
     return true;
   }
-    void sendJsonStart(String data) async{
-    String domain = "";
-    domain = window.location.href;
-    domain = domain.replaceAll(window.location.protocol, "");
-    domain = domain.replaceAll("/", "");
-    domain = domain.replaceAll("#", "_");
-    var url = '/api/data/application/start/$domain';
-    var headers = <String,String>{}; 
-    headers = {'Content-Type':'application/json'};
-    // await http.post(url,headers: headers, body: data);
-    var response = await http.post(url,headers: headers, body: data);
-    print(response.body);
-    }
-
 
 }
 
